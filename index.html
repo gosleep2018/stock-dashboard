@@ -152,7 +152,9 @@ function openKModal(t){
     + t + "&interval=D&range=3M&hidesidetoolbar=0&hidetoptoolbar=0"
     + "&symboledit=0&saveimage=0&theme=dark&style=1"
     + "&timezone=Asia%2FShanghai&locale=zh_CN&withdateranges=1";
-  document.getElementById('km-title').textContent = t + ' — 日K线（近3个月）';
+  document.getElementById('km-title').innerHTML =
+    `<a href="https://www.tradingview.com/chart/?symbol=${t}" target="_blank"
+      style="color:#60a5fa;text-decoration:none">${t} 🔗</a> — 日K线（近3个月）`;
   document.getElementById('km-iframe').src = src;
   document.getElementById('kmodal').classList.add('open');
   document.body.style.overflow = 'hidden';
@@ -186,7 +188,7 @@ function cardHTML(s, idx, ctx){
     <div class="flex items-start gap-3">
       <div class="flex-1 min-w-0">
         <div class="flex items-center gap-1.5 flex-wrap">
-          <a href="https://www.tradingview.com/symbols/${s.t}/" target="_blank"
+          <a href="https://www.tradingview.com/chart/?symbol=${s.t}" target="_blank"
             onclick="event.stopPropagation()"
             class="text-base font-bold hover:text-blue-400" style="text-decoration:none;transition:color .15s">${s.t} 🔗</a>
           <span class="text-base font-bold">$${s.p}</span>
@@ -244,7 +246,7 @@ function simpleRow(item){
   return `<div class="card p-3 flex items-center justify-between gap-3" id="CARD-pool-${item.t}">
     <div class="flex-1">
       <div class="flex gap-2 items-center">
-        <a href="https://www.tradingview.com/symbols/${item.t}/" target="_blank"
+        <a href="https://www.tradingview.com/chart/?symbol=${item.t}" target="_blank"
           class="font-bold hover:text-blue-400" style="text-decoration:none">${item.t} 🔗</a>
         <span class="text-xs text-slate-500">今日无筛选数据</span>
       </div>
