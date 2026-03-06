@@ -390,10 +390,52 @@ function switchPool(p){
   renderPool();
 }
 
-// 卡片 id 规则：scr0...scrN，pool0...poolN
-// card DOM id：card-scr-TICKER，card-pool-TICKER
-// 注意：重命名 card id 为 ctx+ticker 便于精准定位
-renderAll();
+// ═══ 动态加载数据 ═══
+const BASE = 'https://raw.githubusercontent.com/gosleep2018/stock-dashboard/main/';
+
+// 将后端 JSON 格式合并到前端 D 对象
+function mergeReport(report){
+  D[report.date] = report;
+}
+
+async function loadDates(){
+  try{
+    const r = await fetch(BASE+'data/dates.json?t='+Date.now());
+    return await r.json();
+  }catch{ return [curDate]; }
+}
+
+async function loadReport(date){
+  if(D[date]) return; // 已缓存
+  try{
+    const r = await fetch(BASE+`data/${date}.json?t=`+Date.now());
+    const data = await r.json();
+    mergeReport(data);
+  }catch(e){ console.warn('加载失败:',date,e); }
+}
+
+async function init(){
+  // 显示加载状态
+  document.getElementById('slist').innerHTML = '<div class="card p-8 text-center text-slate-400">⏳ 加载数据中...</div>';
+  
+  const dates = await loadDates();
+  if(dates.length > 0){
+    curDate = dates[0];
+    await loadReport(curDate);
+    // 预加载其余日期
+    dates.slice(1).forEach(d => loadReport(d));
+  }
+  renderAll();
+}
+
+// 覆盖 switchDate 以支持动态加载
+const _origSwitchDate = switchDate;
+async function switchDate(d){
+  await loadReport(d);
+  curDate = d; renderAll();
+}
+
+init();
 </script>
 </body>
 </html>
