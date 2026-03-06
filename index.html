@@ -22,8 +22,7 @@ body{background:#0f172a;color:#e2e8f0;font-family:-apple-system,'PingFang SC',sa
 .bb{background:#450a0a;color:#f87171;font-size:11px;padding:1px 6px;border-radius:4px}
 .bc{background:#92400e;color:#fbbf24;font-size:11px;padding:1px 6px;border-radius:4px}
 .bs{background:#1e3a5f;color:#60a5fa;font-size:11px;padding:1px 6px;border-radius:4px}
-input[type=text]{background:#0f172a;border:1px solid #334155;border-radius:8px;color:#e2e8f0;padding:8px 12px;width:100%;outline:none}
-input[type=text]:focus{border-color:#3b82f6}
+
 .kw{width:130px;height:65px;flex-shrink:0;border-radius:8px;overflow:hidden;background:#0f172a}
 .kw iframe{width:100%;height:100%;border:none;pointer-events:none}
 </style>
@@ -61,15 +60,7 @@ input[type=text]:focus{border-color:#3b82f6}
       <button id="ptopp" onclick="switchPool('opportunity')" class="pti text-xs px-3 py-1.5">⚡ 机会</button>
       <button id="pthold" onclick="switchPool('holding')" class="pti text-xs px-3 py-1.5">💼 持仓</button>
     </div>
-    <div class="card p-3 mb-3">
-      <div class="text-xs text-slate-400 mb-2">➕ 手动添加股票到当前池子</div>
-      <div class="flex gap-2">
-        <input id="addInput" type="text" placeholder="输入股票代码，如 TSLA" maxlength="10"
-          onkeydown="if(event.key==='Enter')manualAdd()" style="flex:1;text-transform:uppercase">
-        <button onclick="manualAdd()" class="px-4 py-2 rounded-lg text-sm font-medium" style="background:#1e3a5f;color:#60a5fa;border:none;cursor:pointer;white-space:nowrap">添加</button>
-      </div>
-      <div id="addMsg" class="text-xs mt-1.5 hidden"></div>
-    </div>
+
     <div id="plist" class="space-y-2"></div>
   </div>
 </div>
@@ -361,27 +352,7 @@ function confirmAdd(pool){
 function closeModal(){ document.getElementById('modal').classList.add('hidden'); }
 document.getElementById('modal').addEventListener('click', e=>{ if(e.target===document.getElementById('modal')) closeModal(); });
 
-// ── 手动添加 ──
-function manualAdd(){
-  const inp = document.getElementById('addInput');
-  const t = inp.value.trim().toUpperCase();
-  if(!t){ showMsg('请输入股票代码','red'); return; }
-  if(inPool(t)){ showMsg(`${t} 已在${PN[poolOf(t)]}池`,'yellow'); return; }
-  if(!WL[curPool]) WL[curPool] = [];
-  WL[curPool].push({t, note:''});
-  saveWL();
-  inp.value = '';
-  showMsg(`✅ ${t} 已加入${PN[curPool]}池`,'green');
-  renderPool();
-  updateScrCard(t);
-}
-function showMsg(text,color){
-  const m = document.getElementById('addMsg');
-  m.style.color = {green:'#4ade80',red:'#f87171',yellow:'#fbbf24'}[color]||'#94a3b8';
-  m.textContent = text;
-  m.classList.remove('hidden');
-  setTimeout(()=>m.classList.add('hidden'), 3000);
-}
+
 
 // ── 展开/收起 ──
 function tog(id){
