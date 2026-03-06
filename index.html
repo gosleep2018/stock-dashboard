@@ -19,7 +19,7 @@ body{background:#0f172a;color:#e2e8f0;font-family:-apple-system,'PingFang SC',sa
 .bc{background:#92400e;color:#fbbf24;font-size:11px;padding:1px 6px;border-radius:4px}
 .bs{background:#1e3a5f;color:#60a5fa;font-size:11px;padding:1px 6px;border-radius:4px}
 
-.kw{width:130px;height:65px;flex-shrink:0;border-radius:8px;overflow:hidden;background:#0f172a;cursor:pointer;position:relative}
+.kw{width:140px;height:90px;flex-shrink:0;border-radius:8px;overflow:hidden;background:#0f172a;cursor:pointer;position:relative}
 .kw iframe{width:100%;height:100%;border:none;pointer-events:none}.kw:hover{outline:2px solid #3b82f6}
 
 #kmodal{display:none;position:fixed;inset:0;z-index:100;background:rgba(0,0,0,.85);align-items:center;justify-content:center}
@@ -119,20 +119,41 @@ async function loadReport(date){
 
 // ═══ K线 ═══
 function kline(t){
-  const base = "https://s.tradingview.com/widgetembed/";
-  // 小图：简洁版
-  const ps = `?symbol=${t}&interval=D&range=1M&hidesidetoolbar=1&hidetoptoolbar=1&symboledit=0&saveimage=0&theme=dark&style=1&timezone=Etc%2FUTC&locale=zh_CN&withdateranges=0`;
-  return `<div class="kw" onclick="event.stopPropagation();openKModal('${t}')" title="点击放大">
-    <iframe src="${base}${ps}" scrolling="no" frameborder="0" allowtransparency="true" style="width:100%;height:100%;pointer-events:none"></iframe>
+  // 小图用 mini-symbol-overview（线图，官方小尺寸组件，1个月视图）
+  const cfg = JSON.stringify({
+    symbol: t, width: 140, height: 90,
+    dateRange: "1M", colorTheme: "dark",
+    trendLineColor: "#38bdf8",
+    underLineColor: "rgba(56,189,248,.06)",
+    isTransparent: true, autosize: false, locale: "zh_CN"
+  });
+  const src = "https://s.tradingview.com/embed-widget/mini-symbol-overview/?locale=zh_CN#"
+              + encodeURIComponent(cfg);
+  return `<div class="kw" onclick="event.stopPropagation();openKModal('${t}')" title="点击放大日K">
+    <iframe src="${src}" scrolling="no" frameborder="0"
+      allowtransparency="true" style="width:100%;height:100%;pointer-events:none"></iframe>
   </div>`;
 }
 
 function openKModal(t){
-  const base = "https://s.tradingview.com/widgetembed/";
-  // 大图：带侧边栏、日期范围
-  const pl = `?symbol=${t}&interval=D&range=3M&hidesidetoolbar=0&hidetoptoolbar=0&symboledit=0&saveimage=0&theme=dark&style=1&timezone=Etc%2FUTC&locale=zh_CN&withdateranges=1`;
+  // 大图用 advanced-chart widget：强制日K（interval=D），3个月，带完整工具栏
+  const cfg = JSON.stringify({
+    symbol: t, interval: "D", range: "3M",
+    width: "100%", height: 380,
+    hide_side_toolbar: false, hide_top_toolbar: false,
+    allow_symbol_change: false, save_image: false,
+    colorTheme: "dark", locale: "zh_CN",
+    backgroundColor: "rgba(15,23,42,1)",
+    gridColor: "rgba(51,65,85,0.4)",
+    withdateranges: true, style: "1",
+    timezone: "Asia/Shanghai"
+  });
+  const src = "https://s.tradingview.com/widgetembed/?frameElementId=tv_km&symbol="
+    + t + "&interval=D&range=3M&hidesidetoolbar=0&hidetoptoolbar=0"
+    + "&symboledit=0&saveimage=0&theme=dark&style=1"
+    + "&timezone=Asia%2FShanghai&locale=zh_CN&withdateranges=1";
   document.getElementById('km-title').textContent = t + ' — 日K线（近3个月）';
-  document.getElementById('km-iframe').src = base + pl;
+  document.getElementById('km-iframe').src = src;
   document.getElementById('kmodal').classList.add('open');
   document.body.style.overflow = 'hidden';
 }
