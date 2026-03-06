@@ -179,7 +179,7 @@ function card(s, idx, ctx){
       <div class="flex items-start gap-3">
         <div class="flex-1 min-w-0">
           <div class="flex items-center gap-1.5 flex-wrap">
-            <span class="text-base font-bold">${s.t}</span>
+            <a href="https://www.tradingview.com/symbols/${s.t}/" target="_blank" onclick="event.stopPropagation()" class="text-base font-bold hover:text-blue-400 transition-colors" style="text-decoration:none">${s.t} 🔗</a>
             <span class="text-base font-bold">$${s.p}</span>
             <span class="text-sm font-semibold ${cc}">${cs}${s.ch.toFixed(1)}%</span>
             ${spec}
