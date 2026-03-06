@@ -15,10 +15,6 @@ body{background:#0f172a;color:#e2e8f0;font-family:-apple-system,'PingFang SC',sa
 .det{display:none}.det.open{display:block}
 .hb{font-size:11px;padding:3px 10px;border-radius:6px;cursor:pointer;border:1px solid #334155;background:#1e293b;color:#94a3b8;white-space:nowrap}
 .hb.a{border-color:#3b82f6;color:#60a5fa;background:#1e3a5f}
-.ba{font-size:11px;padding:2px 8px;border-radius:4px;cursor:pointer;background:#1e3a5f;color:#60a5fa;border:none}
-.br{font-size:11px;padding:2px 8px;border-radius:4px;cursor:pointer;background:#450a0a;color:#f87171;border:none}
-.ba:hover{background:#2563eb;color:#fff}.br:hover{background:#dc2626;color:#fff}
-.bm{background:#14532d;color:#4ade80;font-size:11px;padding:1px 6px;border-radius:4px}
 .bb{background:#450a0a;color:#f87171;font-size:11px;padding:1px 6px;border-radius:4px}
 .bc{background:#92400e;color:#fbbf24;font-size:11px;padding:1px 6px;border-radius:4px}
 .bs{background:#1e3a5f;color:#60a5fa;font-size:11px;padding:1px 6px;border-radius:4px}
@@ -65,19 +61,6 @@ body{background:#0f172a;color:#e2e8f0;font-family:-apple-system,'PingFang SC',sa
   </div>
 </div>
 
-<!-- Modal -->
-<div id="modal" class="hidden fixed inset-0 z-50 flex items-end justify-center" style="background:rgba(0,0,0,.75)">
-  <div class="card w-full max-w-2xl p-5 rounded-b-none rounded-t-2xl">
-    <div class="text-base font-semibold mb-1">加入哪个池子？</div>
-    <div id="mtk" class="text-2xl font-bold mb-4 text-blue-400"></div>
-    <div class="grid grid-cols-2 gap-2 mb-3">
-      <button onclick="confirmAdd('core')" class="py-3 rounded-xl text-sm font-medium" style="background:#1e3a5f;color:#60a5fa;border:none;cursor:pointer">🔵 核心池</button>
-      <button onclick="confirmAdd('watch')" class="py-3 rounded-xl text-sm font-medium" style="background:#1e3a5f;color:#60a5fa;border:none;cursor:pointer">👀 观察池</button>
-      <button onclick="confirmAdd('opportunity')" class="py-3 rounded-xl text-sm font-medium" style="background:#1e3a5f;color:#60a5fa;border:none;cursor:pointer">⚡ 机会池</button>
-      <button onclick="confirmAdd('holding')" class="py-3 rounded-xl text-sm font-medium" style="background:#1a3a1a;color:#4ade80;border:none;cursor:pointer">💼 持仓</button>
-    </div>
-    <button onclick="closeModal()" class="w-full py-2 rounded-xl text-sm text-slate-400" style="background:#0f172a;border:none;cursor:pointer">取消</button>
-  </div>
 </div>
 
 <script>
@@ -90,7 +73,6 @@ let D = {};            // 日期 → 报告数据
 let curDate = '';
 let curPool = 'core';
 let curTab = 's';
-let pendingTicker = '';
 
 // ── localStorage 股票池（唯一数据源）──
 const DEF = {
@@ -134,17 +116,7 @@ function kline(t){
 // ═══ 卡片 HTML ═══
 function cardHTML(s, idx, ctx){
   const po = poolOf(s.t);
-  // 按钮区
-  let pbtn;
-  if(ctx==='scr'){
-    if(po){
-      pbtn = `<span class="bm">✓${PN[po]}</span><button class="br" data-act="rm" data-t="${s.t}">移出</button>`;
-    } else {
-      pbtn = `<button class="ba" data-act="add" data-t="${s.t}">＋加入池子</button>`;
-    }
-  } else {
-    pbtn = `<button class="br" data-act="rmpool" data-t="${s.t}">移出</button>`;
-  }
+
 
   const stars = '⭐'.repeat(s.sc)||'<span class="neu text-xs">—</span>';
   const cc=s.ch>=0?'up':'down', cs=s.ch>=0?'+':'';
@@ -177,7 +149,7 @@ function cardHTML(s, idx, ctx){
           <span class="text-xs ${(s.fh||0)>-15?'up':'neu'}">高${s.fh}%</span>
         </div>
         <div class="flex gap-1 mt-1 flex-wrap">${mab}${crb}${sub}</div>
-        <div class="flex gap-1.5 mt-1.5 flex-wrap PBTNS">${pbtn}</div>
+
       </div>
       ${kline(s.t)}
     </div>
@@ -228,7 +200,6 @@ function simpleRow(item){
       <div class="text-xs text-slate-400 mt-0.5">${item.note||''}</div>
     </div>
     ${kline(item.t)}
-    <button class="br ml-2 flex-shrink-0" data-act="rmpool" data-t="${item.t}">移出</button>
   </div>`;
 }
 
@@ -280,79 +251,6 @@ function renderAll(){
   renderScreener();
   renderPool();
 }
-
-// ═══ 事件委托（统一处理所有按钮点击）═══
-document.addEventListener('click', function(e){
-  const btn = e.target.closest('[data-act]');
-  if(!btn) return;
-  e.stopPropagation();
-  const act = btn.getAttribute('data-act');
-  const ticker = btn.getAttribute('data-t');
-  if(!act || !ticker) return;
-
-  if(act === 'add'){
-    // 打开 modal
-    pendingTicker = ticker;
-    document.getElementById('mtk').textContent = ticker;
-    document.getElementById('modal').classList.remove('hidden');
-  }
-  else if(act === 'rm'){
-    // 从筛选页移出池子
-    doRemove(ticker);
-    // 刷新筛选页这张卡的按钮
-    updateScrCard(ticker);
-    // 如果当前在股票池页，刷新池子
-    if(curTab === 'p') renderPool();
-  }
-  else if(act === 'rmpool'){
-    // 从股票池页移出
-    doRemove(ticker);
-    // 刷新池子列表
-    renderPool();
-    // 同步刷新筛选页按钮
-    updateScrCard(ticker);
-  }
-});
-
-function doRemove(ticker){
-  Object.keys(WL).forEach(k=>{ WL[k] = WL[k].filter(x=>x.t!==ticker); });
-  saveWL();
-}
-
-// 仅更新筛选页某张卡的按钮区域
-function updateScrCard(ticker){
-  const card = document.getElementById(`CARD-scr-${ticker}`);
-  if(!card) return;
-  const area = card.querySelector('.PBTNS');
-  if(!area) return;
-  const po = poolOf(ticker);
-  if(po){
-    area.innerHTML = `<span class="bm">✓${PN[po]}</span><button class="br" data-act="rm" data-t="${ticker}">移出</button>`;
-  } else {
-    area.innerHTML = `<button class="ba" data-act="add" data-t="${ticker}">＋加入池子</button>`;
-  }
-}
-
-// ── 加入池子确认 ──
-function confirmAdd(pool){
-  // 先从所有池移除
-  doRemove(pendingTicker);
-  // 加入目标池
-  if(!WL[pool]) WL[pool] = [];
-  const s = SM()[pendingTicker];
-  WL[pool].push({t: pendingTicker, note: s?.co || ''});
-  saveWL();
-  closeModal();
-  // 更新筛选卡按钮
-  updateScrCard(pendingTicker);
-  // 如果当前在股票池页，刷新
-  if(curTab === 'p') renderPool();
-}
-
-function closeModal(){ document.getElementById('modal').classList.add('hidden'); }
-document.getElementById('modal').addEventListener('click', e=>{ if(e.target===document.getElementById('modal')) closeModal(); });
-
-
 
 // ── 展开/收起 ──
 function tog(id){
