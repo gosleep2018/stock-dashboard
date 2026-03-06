@@ -279,7 +279,7 @@ function renderHeader(){
 }
 
 function renderScreener(){
-  const stocks = (D[curDate]?.stocks||[]).filter(s=>SCR.includes(s.t));
+  const stocks = (D[curDate]?.stocks||[]).slice().sort((a,b)=>(b.sc||0)-(a.sc||0));
   document.getElementById('scount').textContent = `共 ${stocks.length} 只`;
   document.getElementById('slist').innerHTML = stocks.map((s,i)=>cardHTML(s,i,'scr')).join('') ||
     '<div class="card p-8 text-center text-slate-500">今日暂无数据</div>';
