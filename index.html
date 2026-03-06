@@ -110,7 +110,9 @@ async function loadReport(date){
 
 // ═══ K线 ═══
 function kline(t){
-  return `<div class="kw"><iframe src="https://www.tradingview.com/miniwidget/#symbol=${t}&interval=D&range=1M&hide_side_toolbar=1&allow_symbol_change=0&backgroundColor=%230f172a&lineColor=%2338bdf8&topColor=%231e3a5f22&bottomColor=%230f172a00&locale=zh_CN&save_image=0&colorTheme=dark&chartOnly=1" scrolling="no"></iframe></div>`;
+  const base = "https://s.tradingview.com/widgetembed/";
+  const p = `?symbol=${t}&interval=D&range=1M&hidesidetoolbar=1&hidetoptoolbar=1&symboledit=0&saveimage=0&theme=dark&style=1&timezone=Etc%2FUTC&locale=zh_CN&withdateranges=0`;
+  return `<div class="kw"><iframe src="${base}${p}" scrolling="no" frameborder="0" allowtransparency="true" style="width:100%;height:100%"></iframe></div>`;
 }
 
 // ═══ 卡片 HTML ═══
