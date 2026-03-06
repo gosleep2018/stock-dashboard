@@ -26,11 +26,13 @@ input[type=text]:focus{border-color:#3b82f6}
 .badge-ma-bull{background:#14532d;color:#4ade80;font-size:11px;padding:1px 6px;border-radius:4px}
 .badge-ma-bear{background:#450a0a;color:#f87171;font-size:11px;padding:1px 6px;border-radius:4px}
 .badge-surge{background:#1e3a5f;color:#60a5fa;font-size:11px;padding:1px 6px;border-radius:4px}
+/* K线图容器 */
+.kline-wrap{width:140px;height:70px;flex-shrink:0;border-radius:8px;overflow:hidden;background:#0f172a}
+.kline-wrap iframe{width:100%;height:100%;border:none;pointer-events:none}
 </style>
 </head>
 <body class="min-h-screen">
 
-<!-- Header -->
 <div class="sticky top-0 z-10 px-4 py-3 flex items-center justify-between" style="background:#0f172a;border-bottom:1px solid #1e293b">
   <div>
     <span class="font-bold">📊 美股选股日报</span>
@@ -40,18 +42,14 @@ input[type=text]:focus{border-color:#3b82f6}
 </div>
 
 <div class="max-w-2xl mx-auto px-4 py-4 space-y-3">
-
-  <!-- 历史日期 -->
   <div class="flex gap-2 overflow-x-auto pb-1" id="htabs"></div>
 
-  <!-- 市场概况 -->
   <div class="card p-4">
     <div class="text-xs text-slate-400 mb-2 font-semibold uppercase tracking-wider">市场概况</div>
     <div class="flex gap-2 mb-3" id="mkt"></div>
     <div id="msum" class="text-sm text-slate-300 leading-relaxed"></div>
   </div>
 
-  <!-- 筛选条件 -->
   <div class="card p-3 flex items-center gap-2 flex-wrap">
     <span class="text-xs text-slate-400">筛选：</span>
     <span class="text-xs px-2 py-0.5 rounded-full" style="background:#1e3a5f;color:#60a5fa">科技股</span>
@@ -60,43 +58,34 @@ input[type=text]:focus{border-color:#3b82f6}
     <span id="scount" class="ml-auto text-xs text-slate-400"></span>
   </div>
 
-  <!-- 主Tab -->
   <div class="flex rounded-xl overflow-hidden border border-slate-700">
     <button onclick="switchTab('s')" id="ts" class="tab-act flex-1 py-2 text-sm font-medium">🔍 今日筛选</button>
     <button onclick="switchTab('p')" id="tp" class="tab-inact flex-1 py-2 text-sm font-medium">📋 股票池</button>
   </div>
 
-  <!-- 今日筛选 -->
   <div id="ps"><div id="slist" class="space-y-3"></div></div>
 
-  <!-- 股票池 -->
   <div id="pp" class="hidden">
-    <!-- 子池Tab -->
     <div class="flex gap-2 mb-3 flex-wrap">
       <button onclick="switchPool('core')" id="ptcore" class="ptab-act text-xs px-3 py-1.5">🔵 核心</button>
       <button onclick="switchPool('watch')" id="ptwatch" class="ptab-inact text-xs px-3 py-1.5">👀 观察</button>
       <button onclick="switchPool('opportunity')" id="ptopp" class="ptab-inact text-xs px-3 py-1.5">⚡ 机会</button>
       <button onclick="switchPool('holding')" id="pthold" class="ptab-inact text-xs px-3 py-1.5">💼 持仓</button>
     </div>
-
-    <!-- 自定义添加股票 -->
     <div class="card p-3 mb-3">
       <div class="text-xs text-slate-400 mb-2">➕ 手动添加股票到当前池子</div>
       <div class="flex gap-2">
         <input type="text" id="addInput" placeholder="输入股票代码，如 AAPL" maxlength="10"
-          onkeydown="if(event.key==='Enter')manualAdd()"
-          style="flex:1;text-transform:uppercase">
+          onkeydown="if(event.key==='Enter')manualAdd()" style="flex:1;text-transform:uppercase">
         <button onclick="manualAdd()" class="px-4 py-2 rounded-lg text-sm font-medium" style="background:#1e3a5f;color:#60a5fa;border:none;cursor:pointer;white-space:nowrap">添加</button>
       </div>
       <div id="addMsg" class="text-xs mt-1.5 hidden"></div>
     </div>
-
     <div id="plist" class="space-y-2"></div>
   </div>
-
 </div>
 
-<!-- 加入池子 Modal -->
+<!-- Modal -->
 <div id="modal" class="hidden fixed inset-0 z-50 flex items-end justify-center" style="background:rgba(0,0,0,.75)">
   <div class="card w-full max-w-2xl p-5 rounded-b-none rounded-t-2xl">
     <div class="text-base font-semibold mb-1">选择加入的池子</div>
@@ -113,150 +102,88 @@ input[type=text]:focus{border-color:#3b82f6}
 
 <script>
 // ─── 数据 ───
-const REPORTS = {
-"2026-03-07":{
-  date:"2026-03-07",update_time:"22:30 SGT",
-  market_summary:{
-    SPY:{price:674.93,change:-0.94},QQQ:{price:604.58,change:-0.71},VIX:{price:19.8,change:2.1},
-    summary:"大盘偏弱，科技股整体承压约1%。MRVL财报驱动单日+20%领涨，军工/储能概念小盘股异动明显。建议关注MRVL回调机会，小盘股谨慎止损。"
-  },
-  stocks:[
-    {ticker:"PRSO",company:"Peraso Inc",price:2.45,change_pct:123.4,volume_ratio:19.5,surge_days:1,surge_dates:["03-06"],sudden_surge:true,ma30:1.12,ma60:1.08,ma_status:"多头",cross:"金叉",cross_date:"03-05",from_high_52w:-8.2,score:3,speculative:true,market_cap:"<100M",news:{headline:"暂无明确催化剂，技术性异动，风险极高",date:"2026-03-06",sentiment:"中性"}},
-    {ticker:"SYNX",company:"Silynxcom Ltd",price:1.72,change_pct:63.5,volume_ratio:19.5,surge_days:1,surge_dates:["03-06"],sudden_surge:true,ma30:1.05,ma60:1.03,ma_status:"多头",cross:"无穿越",cross_date:"",from_high_52w:-13.8,score:3,speculative:true,market_cap:"<100M",news:{headline:"连续2个军方订单：亚洲$40万+中东$62万战术通信系统",date:"2026-03-06",sentiment:"利好"}},
-    {ticker:"TURB",company:"Turbo Energy S.A.",price:4.22,change_pct:40.4,volume_ratio:1.7,surge_days:3,surge_dates:["03-02","03-03","03-05"],sudden_surge:true,ma30:1.06,ma60:1.04,ma_status:"多头",cross:"金叉",cross_date:"03-06",from_high_52w:-12.6,score:3,speculative:true,market_cap:"<100M",news:{headline:"AI储能工业订单积压$5300万，同时收到纳斯达克退市警告",date:"2026-03-05",sentiment:"中性"}},
-    {ticker:"QCLS",company:"Q/C Technologies",price:4.55,change_pct:35.1,volume_ratio:10.9,surge_days:1,surge_dates:["03-06"],sudden_surge:true,ma30:4.04,ma60:4.36,ma_status:"空头",cross:"无穿越",cross_date:"",from_high_52w:-44.6,score:2,speculative:true,market_cap:"<100M",news:{headline:"量子计算概念炒作，无实质业绩支撑",date:"2026-03-06",sentiment:"中性"}},
-    {ticker:"AIFF",company:"Firefly Neuroscience",price:2.05,change_pct:37.4,volume_ratio:1.7,surge_days:1,surge_dates:["03-04"],sudden_surge:false,ma30:0.87,ma60:1.03,ma_status:"空头",cross:"无穿越",cross_date:"",from_high_52w:-5.6,score:2,speculative:true,market_cap:"<100M",news:{headline:"AI神经科学医疗设备，近期获FDA关注报道",date:"2026-03-04",sentiment:"利好"}},
-    {ticker:"MRVL",company:"Marvell Technology",price:91.20,change_pct:20.4,volume_ratio:3.0,surge_days:2,surge_dates:["03-05","03-06"],sudden_surge:true,ma30:79.71,ma60:82.35,ma_status:"空头",cross:"无穿越",cross_date:"",from_high_52w:-3.8,score:2,speculative:false,market_cap:"~77B",news:{headline:"FY2026 Q4财报超预期：EPS $0.80，营收$22.2亿，AI数据中心+21% YoY",date:"2026-03-05",sentiment:"利好"}},
-    {ticker:"IOT",company:"Samsara Inc",price:34.60,change_pct:15.9,volume_ratio:1.8,surge_days:1,surge_dates:["03-05"],sudden_surge:false,ma30:27.87,ma60:32.41,ma_status:"空头",cross:"无穿越",cross_date:"",from_high_52w:-24.0,score:1,speculative:false,market_cap:"~20B",news:{headline:"Samsara物联网SaaS，分析师维持买入评级",date:"2026-03-05",sentiment:"利好"}},
-    {ticker:"NA",company:"Nano Labs Ltd",price:2.96,change_pct:0.0,volume_ratio:8.4,surge_days:1,surge_dates:["03-06"],sudden_surge:true,ma30:3.03,ma60:3.25,ma_status:"空头",cross:"无穿越",cross_date:"",from_high_52w:-25.8,score:1,speculative:true,market_cap:"<100M",news:{headline:"AI芯片概念，市场情绪带动，无独立催化剂",date:"2026-03-06",sentiment:"中性"}},
-    {ticker:"MVIS",company:"Microvision Inc",price:0.59,change_pct:3.9,volume_ratio:2.0,surge_days:0,surge_dates:[],sudden_surge:false,ma30:0.76,ma60:0.83,ma_status:"空头",cross:"无穿越",cross_date:"",from_high_52w:-42.1,score:0,speculative:true,market_cap:"<200M",news:{headline:"激光雷达，暂无重大催化剂",date:"2026-03-01",sentiment:"中性"}},
-    {ticker:"QH",company:"Quhuo Ltd",price:3.85,change_pct:2.2,volume_ratio:0.8,surge_days:0,surge_dates:[],sudden_surge:false,ma30:3.42,ma60:3.61,ma_status:"空头",cross:"无穿越",cross_date:"",from_high_52w:-31.0,score:0,speculative:true,market_cap:"<100M",news:{headline:"劳动力平台，无重大新闻",date:"2026-02-28",sentiment:"中性"}},
-    // 股票池中额外股票（今日未入筛选）
-    {ticker:"SPY",company:"SPDR S&P 500 ETF",price:674.93,change_pct:-0.94,volume_ratio:0.5,surge_days:0,surge_dates:[],sudden_surge:false,ma30:572.10,ma60:561.30,ma_status:"多头",cross:"无穿越",cross_date:"",from_high_52w:-2.1,score:3,speculative:false,market_cap:"Large",news:{headline:"标普500指数跟踪ETF，大盘今日小跌约1%，宏观担忧压制",date:"2026-03-07",sentiment:"中性"}},
-    {ticker:"QQQ",company:"Invesco QQQ Trust",price:604.58,change_pct:-0.71,volume_ratio:0.5,surge_days:0,surge_dates:[],sudden_surge:false,ma30:510.20,ma60:498.70,ma_status:"多头",cross:"无穿越",cross_date:"",from_high_52w:-3.5,score:3,speculative:false,market_cap:"Large",news:{headline:"纳斯达克100 ETF，科技股整体承压，MRVL独涨提振情绪",date:"2026-03-07",sentiment:"中性"}},
-    {ticker:"NVDA",company:"NVIDIA Corporation",price:181.83,change_pct:-0.82,volume_ratio:0.4,surge_days:0,surge_dates:[],sudden_surge:false,ma30:131.50,ma60:138.20,ma_status:"多头",cross:"无穿越",cross_date:"",from_high_52w:-12.0,score:3,speculative:false,market_cap:"~4.4T",news:{headline:"AI芯片需求持续旺盛，GTC 2026大会预期发布新产品",date:"2026-03-06",sentiment:"利好"}},
-    {ticker:"MSFT",company:"Microsoft Corporation",price:411.61,change_pct:0.23,volume_ratio:0.3,surge_days:0,surge_dates:[],sudden_surge:false,ma30:415.30,ma60:421.80,ma_status:"空头",cross:"无穿越",cross_date:"",from_high_52w:-8.0,score:2,speculative:false,market_cap:"~3T",news:{headline:"Azure AI服务增速强劲，Copilot商业化持续推进",date:"2026-03-05",sentiment:"利好"}},
-    {ticker:"GOOGL",company:"Alphabet Inc",price:299.60,change_pct:-0.43,volume_ratio:0.3,surge_days:0,surge_dates:[],sudden_surge:false,ma30:185.40,ma60:180.90,ma_status:"多头",cross:"无穿越",cross_date:"",from_high_52w:-5.0,score:3,speculative:false,market_cap:"~1.8T",news:{headline:"Gemini AI模型持续迭代，搜索广告稳健增长",date:"2026-03-04",sentiment:"利好"}},
-    {ticker:"ALNT",company:"Allient Inc",price:62.90,change_pct:1.56,volume_ratio:1.3,surge_days:0,surge_dates:[],sudden_surge:false,ma30:64.55,ma60:60.95,ma_status:"多头",cross:"无穿越",cross_date:"",from_high_52w:-10.1,score:3,speculative:false,market_cap:"~1B",news:{headline:"工业精密电机，稳健增长，无重大近期新闻",date:"2026-03-01",sentiment:"中性"}}
-  ]
-}
-};
+const REPORTS = {"2026-03-07":{date:"2026-03-07",update_time:"22:30 SGT",market_summary:{SPY:{price:674.93,change:-0.94},QQQ:{price:604.58,change:-0.71},VIX:{price:19.8,change:2.1},summary:"大盘偏弱，科技股整体承压约1%。MRVL财报驱动单日+20%领涨，军工/储能概念小盘股异动明显。"},stocks:[{ticker:"PRSO",company:"Peraso Inc",price:2.45,change_pct:123.4,volume_ratio:19.5,surge_days:1,surge_dates:["03-06"],sudden_surge:true,ma30:1.12,ma60:1.08,ma_status:"多头",cross:"金叉",cross_date:"03-05",from_high_52w:-8.2,score:3,speculative:true,market_cap:"<100M",news:{headline:"暂无明确催化剂，技术性异动，风险极高",date:"2026-03-06",sentiment:"中性"}},{ticker:"SYNX",company:"Silynxcom Ltd",price:1.72,change_pct:63.5,volume_ratio:19.5,surge_days:1,surge_dates:["03-06"],sudden_surge:true,ma30:1.05,ma60:1.03,ma_status:"多头",cross:"无穿越",cross_date:"",from_high_52w:-13.8,score:3,speculative:true,market_cap:"<100M",news:{headline:"连续2个军方订单：亚洲$40万+中东$62万战术通信系统",date:"2026-03-06",sentiment:"利好"}},{ticker:"TURB",company:"Turbo Energy S.A.",price:4.22,change_pct:40.4,volume_ratio:1.7,surge_days:3,surge_dates:["03-02","03-03","03-05"],sudden_surge:true,ma30:1.06,ma60:1.04,ma_status:"多头",cross:"金叉",cross_date:"03-06",from_high_52w:-12.6,score:3,speculative:true,market_cap:"<100M",news:{headline:"AI储能工业订单积压$5300万，同时收到纳斯达克退市警告",date:"2026-03-05",sentiment:"中性"}},{ticker:"QCLS",company:"Q/C Technologies",price:4.55,change_pct:35.1,volume_ratio:10.9,surge_days:1,surge_dates:["03-06"],sudden_surge:true,ma30:4.04,ma60:4.36,ma_status:"空头",cross:"无穿越",cross_date:"",from_high_52w:-44.6,score:2,speculative:true,market_cap:"<100M",news:{headline:"量子计算概念炒作，无实质业绩支撑",date:"2026-03-06",sentiment:"中性"}},{ticker:"AIFF",company:"Firefly Neuroscience",price:2.05,change_pct:37.4,volume_ratio:1.7,surge_days:1,surge_dates:["03-04"],sudden_surge:false,ma30:0.87,ma60:1.03,ma_status:"空头",cross:"无穿越",cross_date:"",from_high_52w:-5.6,score:2,speculative:true,market_cap:"<100M",news:{headline:"AI神经科学医疗设备，近期获FDA关注报道",date:"2026-03-04",sentiment:"利好"}},{ticker:"MRVL",company:"Marvell Technology",price:91.20,change_pct:20.4,volume_ratio:3.0,surge_days:2,surge_dates:["03-05","03-06"],sudden_surge:true,ma30:79.71,ma60:82.35,ma_status:"空头",cross:"无穿越",cross_date:"",from_high_52w:-3.8,score:2,speculative:false,market_cap:"~77B",news:{headline:"FY2026 Q4财报超预期：EPS $0.80，营收$22.2亿，AI数据中心+21% YoY",date:"2026-03-05",sentiment:"利好"}},{ticker:"IOT",company:"Samsara Inc",price:34.60,change_pct:15.9,volume_ratio:1.8,surge_days:1,surge_dates:["03-05"],sudden_surge:false,ma30:27.87,ma60:32.41,ma_status:"空头",cross:"无穿越",cross_date:"",from_high_52w:-24.0,score:1,speculative:false,market_cap:"~20B",news:{headline:"Samsara物联网SaaS，分析师维持买入评级",date:"2026-03-05",sentiment:"利好"}},{ticker:"NA",company:"Nano Labs Ltd",price:2.96,change_pct:0.0,volume_ratio:8.4,surge_days:1,surge_dates:["03-06"],sudden_surge:true,ma30:3.03,ma60:3.25,ma_status:"空头",cross:"无穿越",cross_date:"",from_high_52w:-25.8,score:1,speculative:true,market_cap:"<100M",news:{headline:"AI芯片概念，市场情绪带动",date:"2026-03-06",sentiment:"中性"}},{ticker:"MVIS",company:"Microvision Inc",price:0.59,change_pct:3.9,volume_ratio:2.0,surge_days:0,surge_dates:[],sudden_surge:false,ma30:0.76,ma60:0.83,ma_status:"空头",cross:"无穿越",cross_date:"",from_high_52w:-42.1,score:0,speculative:true,market_cap:"<200M",news:{headline:"激光雷达，暂无重大催化剂",date:"2026-03-01",sentiment:"中性"}},{ticker:"QH",company:"Quhuo Ltd",price:3.85,change_pct:2.2,volume_ratio:0.8,surge_days:0,surge_dates:[],sudden_surge:false,ma30:3.42,ma60:3.61,ma_status:"空头",cross:"无穿越",cross_date:"",from_high_52w:-31.0,score:0,speculative:true,market_cap:"<100M",news:{headline:"劳动力平台，无重大新闻",date:"2026-02-28",sentiment:"中性"}},{ticker:"SPY",company:"SPDR S&P 500 ETF",price:674.93,change_pct:-0.94,volume_ratio:0.5,surge_days:0,surge_dates:[],sudden_surge:false,ma30:572.10,ma60:561.30,ma_status:"多头",cross:"无穿越",cross_date:"",from_high_52w:-2.1,score:3,speculative:false,market_cap:"Large",news:{headline:"标普500指数跟踪ETF，大盘今日小跌约1%",date:"2026-03-07",sentiment:"中性"}},{ticker:"QQQ",company:"Invesco QQQ Trust",price:604.58,change_pct:-0.71,volume_ratio:0.5,surge_days:0,surge_dates:[],sudden_surge:false,ma30:510.20,ma60:498.70,ma_status:"多头",cross:"无穿越",cross_date:"",from_high_52w:-3.5,score:3,speculative:false,market_cap:"Large",news:{headline:"纳斯达克100 ETF，科技股整体承压",date:"2026-03-07",sentiment:"中性"}},{ticker:"NVDA",company:"NVIDIA Corporation",price:181.83,change_pct:-0.82,volume_ratio:0.4,surge_days:0,surge_dates:[],sudden_surge:false,ma30:131.50,ma60:138.20,ma_status:"多头",cross:"无穿越",cross_date:"",from_high_52w:-12.0,score:3,speculative:false,market_cap:"~4.4T",news:{headline:"AI芯片需求持续旺盛，GTC 2026大会预期发布新产品",date:"2026-03-06",sentiment:"利好"}},{ticker:"MSFT",company:"Microsoft Corporation",price:411.61,change_pct:0.23,volume_ratio:0.3,surge_days:0,surge_dates:[],sudden_surge:false,ma30:415.30,ma60:421.80,ma_status:"空头",cross:"无穿越",cross_date:"",from_high_52w:-8.0,score:2,speculative:false,market_cap:"~3T",news:{headline:"Azure AI服务增速强劲，Copilot商业化持续推进",date:"2026-03-05",sentiment:"利好"}},{ticker:"GOOGL",company:"Alphabet Inc",price:299.60,change_pct:-0.43,volume_ratio:0.3,surge_days:0,surge_dates:[],sudden_surge:false,ma30:185.40,ma60:180.90,ma_status:"多头",cross:"无穿越",cross_date:"",from_high_52w:-5.0,score:3,speculative:false,market_cap:"~1.8T",news:{headline:"Gemini AI模型持续迭代，搜索广告稳健增长",date:"2026-03-04",sentiment:"利好"}},{ticker:"ALNT",company:"Allient Inc",price:62.90,change_pct:1.56,volume_ratio:1.3,surge_days:0,surge_dates:[],sudden_surge:false,ma30:64.55,ma60:60.95,ma_status:"多头",cross:"无穿越",cross_date:"",from_high_52w:-10.1,score:3,speculative:false,market_cap:"~1B",news:{headline:"工业精密电机，稳健增长，无重大近期新闻",date:"2026-03-01",sentiment:"中性"}}]}};
+
+const SCREENER_TICKERS = ['PRSO','SYNX','TURB','QCLS','AIFF','MRVL','IOT','NA','MVIS','QH'];
 
 // ─── 状态 ───
-let curDate = Object.keys(REPORTS).sort().reverse()[0];
-let curPool = 'core';
-let curTab = 's';
-let modalTicker = '';
-let modalNote = '';
+let curDate=Object.keys(REPORTS).sort().reverse()[0],curPool='core',curTab='s',modalTicker='',modalNote='';
+const DEFAULT_WL={core:[{ticker:"SPY",note:"标普500 ETF"},{ticker:"QQQ",note:"纳斯达克100 ETF"},{ticker:"NVDA",note:"AI芯片龙头"},{ticker:"MSFT",note:"云计算+AI"},{ticker:"GOOGL",note:"搜索+云"}],watch:[{ticker:"MRVL",note:"AI芯片，财报超预期"},{ticker:"ALNT",note:"工业科技，均线多头"},{ticker:"IOT",note:"Samsara物联网SaaS"}],opportunity:[{ticker:"SYNX",note:"军事通信，订单催化"},{ticker:"TURB",note:"AI储能，金叉，退市风险"}],holding:[]};
+let wl=JSON.parse(localStorage.getItem('wl3')||'null');
+if(!wl){wl=JSON.parse(JSON.stringify(DEFAULT_WL));saveWL();}
+function saveWL(){localStorage.setItem('wl3',JSON.stringify(wl));}
 
-const DEFAULT_WL = {
-  core:[{ticker:"SPY",note:"标普500 ETF，定投主仓"},{ticker:"QQQ",note:"纳斯达克100 ETF"},{ticker:"NVDA",note:"AI芯片龙头"},{ticker:"MSFT",note:"云计算+AI"},{ticker:"GOOGL",note:"搜索+云"}],
-  watch:[{ticker:"MRVL",note:"AI芯片，财报超预期"},{ticker:"ALNT",note:"工业科技，均线多头"},{ticker:"IOT",note:"Samsara物联网SaaS"}],
-  opportunity:[{ticker:"SYNX",note:"军事通信，订单催化，小盘"},{ticker:"TURB",note:"AI储能，金叉，退市风险"}],
-  holding:[]
-};
-
-let wl = JSON.parse(localStorage.getItem('wl2') || 'null');
-if(!wl){ wl = JSON.parse(JSON.stringify(DEFAULT_WL)); saveWL(); }
-function saveWL(){ localStorage.setItem('wl2', JSON.stringify(wl)); }
-
-// ─── 工具函数 ───
-function getStockMap(){
-  const d = REPORTS[curDate];
-  const m = {};
-  d.stocks.forEach(s => m[s.ticker] = s);
-  return m;
+// ─── K线图（TradingView Mini Widget）───
+function klineHTML(ticker){
+  // 用 TradingView mini chart widget
+  const sym = encodeURIComponent(ticker);
+  return `<div class="kline-wrap">
+    <iframe src="https://www.tradingview.com/miniwidget/#symbol=${sym}&interval=D&range=1M&hide_side_toolbar=1&allow_symbol_change=0&backgroundColor=%230f172a&gridColor=%231e293b&lineColor=%2338bdf8&topColor=%231e3a5f22&bottomColor=%230f172a00&locale=zh_CN&save_image=0&colorTheme=dark&chartOnly=1" scrolling="no"></iframe>
+  </div>`;
 }
 
-function isInPool(ticker){
-  return Object.values(wl).some(arr => arr.some(x => x.ticker === ticker));
-}
+// ─── 股票卡片 ───
+function stockCard(s, i, ctx){
+  const inP=isInPool(s.ticker), poolOf=getPoolOf(s.ticker);
+  const pNames={core:'核心',watch:'观察',opportunity:'机会',holding:'持仓'};
+  let pBtn = ctx==='screener'
+    ? (inP ? `<span class="text-xs px-1.5 py-0.5 rounded" style="background:#14532d;color:#4ade80">✓${pNames[poolOf]}</span><button class="pbtn-rm" onclick="removeFromPool('${s.ticker}');event.stopPropagation()">移出</button>`
+           : `<button class="pbtn-add" onclick="openAdd('${s.ticker}','${s.company}');event.stopPropagation()">＋ 加入</button>`)
+    : `<button class="pbtn-rm" onclick="rmFromPool('${s.ticker}');event.stopPropagation()">移出</button>`;
 
-function getPoolOf(ticker){
-  for(const [k,arr] of Object.entries(wl)){
-    if(arr.some(x => x.ticker === ticker)) return k;
-  }
-  return null;
-}
-
-// ─── 股票卡片（复用于筛选和股票池）───
-function stockCard(s, i, context='screener'){
-  const inP = isInPool(s.ticker);
-  const poolOf = getPoolOf(s.ticker);
-  const poolNames = {core:'核心',watch:'观察',opportunity:'机会',holding:'持仓'};
-  
-  // 在池子按钮
-  let pBtn = '';
-  if(context === 'screener'){
-    if(inP){
-      pBtn = `<span class="text-xs px-1.5 py-0.5 rounded" style="background:#14532d;color:#4ade80">✓ ${poolNames[poolOf]}</span>
-              <button class="pbtn-rm" onclick="removeFromPool('${s.ticker}');event.stopPropagation()">移出</button>`;
-    } else {
-      pBtn = `<button class="pbtn-add" onclick="openAdd('${s.ticker}','${s.company}');event.stopPropagation()">＋ 加入池子</button>`;
-    }
-  } else {
-    pBtn = `<button class="pbtn-rm" onclick="rmFromPool('${s.ticker}');event.stopPropagation()">移出</button>`;
-  }
-
-  const stars = '⭐'.repeat(s.score) || '<span class="text-slate-600 text-xs">—</span>';
-  const cc = s.change_pct >= 0 ? 'up' : 'down';
-  const cs = s.change_pct >= 0 ? '+' : '';
-  const specBadge = s.speculative ? `<span class="text-xs px-1.5 py-0.5 rounded" style="background:#451a03;color:#fb923c">⚠️小盘</span>` : '';
-
-  // 均线+金叉徽章
-  const maBadge = s.ma_status === '多头'
-    ? `<span class="badge-ma-bull">MA多头✅</span>`
-    : `<span class="badge-ma-bear">MA空头⚠️</span>`;
-  const crossBadge = s.cross !== '无穿越'
-    ? `<span class="badge-cross">${s.cross==='金叉'?'🟡金叉':'💀死叉'} ${s.cross_date}</span>` : '';
-  const surgeBadge = s.sudden_surge
-    ? `<span class="badge-surge">⚡突然放量</span>` : '';
-
-  const nc = s.news.sentiment==='利好'?'#4ade80':s.news.sentiment==='利空'?'#f87171':'#94a3b8';
-  const ni = s.news.sentiment==='利好'?'📈':s.news.sentiment==='利空'?'📉':'📰';
-  const verdict = s.score>=3?'🚀 强势启动，值得关注':s.score===2?'👀 有信号，需观察':s.score===1?'⚠️ 信号偏弱，谨慎':' ❌ 信号不足，跳过';
-
-  const prefix = context === 'pool' ? 'p' : '';
+  const stars='⭐'.repeat(s.score)||'<span class="text-slate-600 text-xs">—</span>';
+  const cc=s.change_pct>=0?'up':'down', cs=s.change_pct>=0?'+':'';
+  const specBadge=s.speculative?`<span class="text-xs px-1 py-0.5 rounded" style="background:#451a03;color:#fb923c">⚠️小盘</span>`:'';
+  const maBadge=s.ma_status==='多头'?`<span class="badge-ma-bull">↑多头✅</span>`:`<span class="badge-ma-bear">↓空头⚠️</span>`;
+  const crossBadge=s.cross!=='无穿越'?`<span class="badge-cross">${s.cross==='金叉'?'🟡金叉':'💀死叉'} ${s.cross_date}</span>`:'';
+  const surgeBadge=s.sudden_surge?`<span class="badge-surge">⚡突然放量</span>`:'';
+  const nc=s.news.sentiment==='利好'?'#4ade80':s.news.sentiment==='利空'?'#f87171':'#94a3b8';
+  const ni=s.news.sentiment==='利好'?'📈':s.news.sentiment==='利空'?'📉':'📰';
+  const verdict=s.score>=3?'🚀 强势启动':s.score===2?'👀 值得关注':s.score===1?'⚠️ 信号偏弱':'❌ 跳过';
+  const pid=ctx==='pool'?'p':'';
 
   return `<div class="card overflow-hidden" style="transition:border-color .2s" onmouseenter="this.style.borderColor='#4f86f7'" onmouseleave="this.style.borderColor='#334155'">
-  <div class="p-4 cursor-pointer" onclick="toggle('${prefix}${i}')">
-    <div class="flex items-start justify-between">
-      <div>
-        <div class="flex items-center gap-2 flex-wrap">
-          <span class="text-lg font-bold">${s.ticker}</span>
+  <!-- 顶部行：左边信息 + 右边K线 -->
+  <div class="p-3 cursor-pointer" onclick="toggle('${pid}${i}')">
+    <div class="flex items-start gap-3">
+      <!-- 左侧信息 -->
+      <div class="flex-1 min-w-0">
+        <div class="flex items-center gap-1.5 flex-wrap">
+          <span class="text-base font-bold">${s.ticker}</span>
+          <span class="text-lg font-bold">$${s.price}</span>
+          <span class="text-sm font-semibold ${cc}">${cs}${s.change_pct.toFixed(1)}%</span>
           ${specBadge}
-          ${pBtn}
         </div>
-        <div class="text-xs text-slate-400 mt-0.5">${s.company}</div>
+        <div class="text-xs text-slate-400 mt-0.5 truncate">${s.company}</div>
+        <div class="flex items-center gap-1.5 mt-1.5 flex-wrap">
+          <span>${stars}</span>
+          <span class="text-xs text-slate-400">量<span style="color:#fb923c;font-weight:700">${s.volume_ratio}x</span></span>
+          <span class="text-xs ${s.from_high_52w>-15?'up':'neutral'}">高${s.from_high_52w}%</span>
+        </div>
+        <div class="flex gap-1 mt-1.5 flex-wrap">${maBadge}${crossBadge}${surgeBadge}</div>
+        <div class="flex gap-1.5 mt-1.5 flex-wrap">${pBtn}</div>
       </div>
-      <div class="text-right ml-2">
-        <div class="text-lg font-bold">$${s.price}</div>
-        <div class="text-sm font-semibold ${cc}">${cs}${s.change_pct.toFixed(1)}%</div>
-      </div>
+      <!-- 右侧K线图 -->
+      ${klineHTML(s.ticker)}
     </div>
-    <div class="flex items-center gap-2 mt-2 flex-wrap">
-      <span>${stars}</span>
-      <span class="text-xs text-slate-400">量比 <span style="color:#fb923c;font-weight:700">${s.volume_ratio}x</span></span>
-      <span class="text-xs text-slate-400">距52W高 <span class="${s.from_high_52w>-15?'up':'neutral'}">${s.from_high_52w}%</span></span>
-    </div>
-    <div class="flex gap-1.5 mt-2 flex-wrap">${maBadge} ${crossBadge} ${surgeBadge}</div>
   </div>
 
-  <div id="d${prefix}${i}" class="detail" style="border-top:1px solid #334155">
+  <!-- 展开详情 -->
+  <div id="d${pid}${i}" class="detail" style="border-top:1px solid #334155">
     <div class="p-4 space-y-3">
       <div class="grid grid-cols-2 gap-3">
         <div class="rounded-xl p-3 text-sm" style="background:#0f172a">
           <div class="text-xs text-slate-400 mb-1">① 放量情况</div>
-          <div class="font-semibold">近10日放量 <span style="color:#fb923c">${s.surge_days}</span> 天</div>
+          <div class="font-semibold">近10日 <span style="color:#fb923c">${s.surge_days}</span> 天放量</div>
           <div class="text-xs text-slate-500 mt-1">${s.surge_dates.length?s.surge_dates.join(', '):'无明显放量'}</div>
-          <div class="text-xs mt-1 ${s.sudden_surge?'up':'neutral'}">${s.sudden_surge?'✅ 近2日突然放量':'近2日无突然放量'}</div>
+          <div class="text-xs mt-1 ${s.sudden_surge?'up':'neutral'}">${s.sudden_surge?'✅ 近2日突然放量':'近期无突然放量'}</div>
         </div>
         <div class="rounded-xl p-3 text-sm" style="background:#0f172a">
           <div class="text-xs text-slate-400 mb-1">③ 均线状态</div>
           <div class="text-xs">MA30: <span class="font-mono">${s.ma30??'N/A'}</span></div>
           <div class="text-xs">MA60: <span class="font-mono">${s.ma60??'N/A'}</span></div>
-          <div class="text-xs mt-1 font-semibold">${s.cross!=='无穿越'?(s.cross==='金叉'?'🟡 金叉 ':'💀 死叉 ')+s.cross_date:'无近期穿越'}</div>
-          <div class="text-xs mt-0.5 ${s.ma_status==='多头'?'up':'down'}">${s.ma_status==='多头'?'↑ 多头排列':'↓ 空头排列'}</div>
+          <div class="text-xs mt-1 font-semibold ${s.cross!=='无穿越'?'':'neutral'}">${s.cross!=='无穿越'?(s.cross==='金叉'?'🟡 金叉 ':'💀 死叉 ')+s.cross_date:'无近期穿越'}</div>
+          <div class="text-xs ${s.ma_status==='多头'?'up':'down'}">${s.ma_status==='多头'?'↑ 多头排列':'↓ 空头排列'}</div>
         </div>
       </div>
       <div class="rounded-xl p-3 text-sm" style="background:#0f172a">
@@ -270,182 +197,88 @@ function stockCard(s, i, context='screener'){
       </div>
     </div>
   </div>
-
-  <div class="py-1.5 text-center cursor-pointer" onclick="toggle('${prefix}${i}')">
-    <span id="et${prefix}${i}" class="text-xs" style="color:#60a5fa">▼ 展开详情</span>
+  <div class="py-1.5 text-center cursor-pointer" onclick="toggle('${pid}${i}')">
+    <span id="et${pid}${i}" class="text-xs" style="color:#60a5fa">▼ 展开详情</span>
   </div>
 </div>`;
 }
 
-// ─── 渲染 ───
+// ─── 渲染主逻辑 ───
 function render(){
-  const dates = Object.keys(REPORTS).sort().reverse();
-  const d = REPORTS[curDate];
-
-  document.getElementById('rdate').textContent = curDate;
-  document.getElementById('utime').textContent = '更新: '+d.update_time;
-
-  // 历史Tab
-  document.getElementById('htabs').innerHTML = dates.map(dt=>
-    `<button class="hbtn${dt===curDate?' act':''}" onclick="switchDate('${dt}')">${dt.slice(5)}</button>`
-  ).join('');
-
-  // 市场指数
-  const ms = d.market_summary;
-  document.getElementById('mkt').innerHTML = ['SPY','QQQ','VIX'].map(sym=>{
-    const s=ms[sym]; const up=sym==='VIX'?s.change>0:s.change>=0;
-    return `<div class="flex flex-col items-center px-3 py-2 rounded-lg" style="background:#0f172a">
-      <span class="text-xs text-slate-400">${sym}</span>
-      <span class="text-sm font-bold">$${s.price}</span>
-      <span class="text-xs ${up?'up':'down'}">${s.change>=0?'+':''}${s.change}%</span>
-    </div>`;
-  }).join('');
-  document.getElementById('msum').textContent = ms.summary;
-  document.getElementById('scount').textContent = `共 ${d.stocks.filter(s=>s.change_pct>0&&[...new Set(d.stocks.map(x=>x.ticker))].includes(s.ticker)).length} 只`;
-
-  renderStocks();
-  renderPool();
+  const dates=Object.keys(REPORTS).sort().reverse(), d=REPORTS[curDate];
+  document.getElementById('rdate').textContent=curDate;
+  document.getElementById('utime').textContent='更新: '+d.update_time;
+  document.getElementById('htabs').innerHTML=dates.map(dt=>`<button class="hbtn${dt===curDate?' act':''}" onclick="switchDate('${dt}')">${dt.slice(5)}</button>`).join('');
+  const ms=d.market_summary;  document.getElementById('mkt').innerHTML=['SPY','QQQ','VIX'].map(sym=>{const s=ms[sym];const up=sym==='VIX'?s.change>0:s.change>=0;return`<div class="flex flex-col items-center px-3 py-2 rounded-lg" style="background:#0f172a"><span class="text-xs text-slate-400">${sym}</span><span class="text-sm font-bold">$${s.price}</span><span class="text-xs ${up?'up':'down'}">${s.change>=0?'+':''}${s.change}%</span></div>`;}).join('');
+  document.getElementById('msum').textContent=ms.summary;
+  renderStocks(); renderPool();
 }
 
 function renderStocks(){
-  const d = REPORTS[curDate];
-  // 只显示今日筛选的（排除纯股票池补充数据：非零涨幅且在筛选范围内）
-  const screenerTickers = ['PRSO','SYNX','TURB','QCLS','AIFF','MRVL','IOT','NA','MVIS','QH'];
-  const stocks = d.stocks.filter(s => screenerTickers.includes(s.ticker));
-  document.getElementById('scount').textContent = `共 ${stocks.length} 只`;
-  document.getElementById('slist').innerHTML = stocks.map((s,i) => stockCard(s, i, 'screener')).join('');
+  const d=REPORTS[curDate];
+  const stocks=d.stocks.filter(s=>SCREENER_TICKERS.includes(s.ticker));
+  document.getElementById('scount').textContent=`共 ${stocks.length} 只`;
+  document.getElementById('slist').innerHTML=stocks.map((s,i)=>stockCard(s,i,'screener')).join('');
 }
 
 function renderPool(){
-  const pool = wl[curPool] || [];
-  const sm = getStockMap();
-
-  if(!pool.length){
-    document.getElementById('plist').innerHTML = `<div class="card p-8 text-center text-slate-500 text-sm">
-      暂无股票<br><span class="text-xs mt-1 block">使用上方输入框手动添加，或在「今日筛选」中点击「加入池子」</span>
+  const pool=wl[curPool]||[], sm=getStockMap();
+  if(!pool.length){document.getElementById('plist').innerHTML=`<div class="card p-8 text-center text-slate-500 text-sm">暂无股票<br><span class="text-xs mt-1 block">用上方输入框添加，或在今日筛选中加入</span></div>`;return;}
+  document.getElementById('plist').innerHTML=pool.map((item,i)=>{
+    const s=sm[item.ticker];
+    if(s) return stockCard(s,i,'pool');
+    // 无今日数据但要显示K线
+    return `<div class="card p-3 flex items-center justify-between gap-3">
+      <div class="flex-1">
+        <div class="flex items-center gap-2"><span class="font-bold">${item.ticker}</span><span class="text-xs text-slate-500">今日无筛选数据</span></div>
+        <div class="text-xs text-slate-400 mt-0.5">${item.note||''}</div>
+      </div>
+      ${klineHTML(item.ticker)}
+      <button class="pbtn-rm ml-2" onclick="rmFromPool('${item.ticker}')">移出</button>
     </div>`;
-    return;
-  }
-
-  document.getElementById('plist').innerHTML = pool.map((item, i) => {
-    const s = sm[item.ticker];
-    if(s){
-      // 有今日数据 → 完整卡片
-      return stockCard(s, i, 'pool');
-    } else {
-      // 无今日数据 → 简单行
-      return `<div class="card p-3 flex items-center justify-between">
-        <div>
-          <div class="flex items-center gap-2">
-            <span class="font-bold">${item.ticker}</span>
-            <span class="text-xs text-slate-500">今日无数据</span>
-          </div>
-          <div class="text-xs text-slate-400 mt-0.5">${item.note||''}</div>
-        </div>
-        <button class="pbtn-rm" onclick="rmFromPool('${item.ticker}')">移出</button>
-      </div>`;
-    }
   }).join('');
 }
 
-// ─── 交互 ───
-function toggle(id){
-  const el = document.getElementById('d'+id);
-  const bt = document.getElementById('et'+id);
-  if(!el) return;
-  el.classList.toggle('open');
-  bt.textContent = el.classList.contains('open') ? '▲ 收起' : '▼ 展开详情';
-}
+// ─── 工具 ───
+function getStockMap(){const m={};REPORTS[curDate].stocks.forEach(s=>m[s.ticker]=s);return m;}
+function isInPool(t){return Object.values(wl).some(a=>a.some(x=>x.ticker===t));}
+function getPoolOf(t){for(const[k,a]of Object.entries(wl)){if(a.some(x=>x.ticker===t))return k;}return null;}
 
-function switchTab(t){
-  curTab = t;
-  document.getElementById('ps').classList.toggle('hidden', t!=='s');
-  document.getElementById('pp').classList.toggle('hidden', t!=='p');
-  document.getElementById('ts').className = t==='s' ? 'tab-act flex-1 py-2 text-sm font-medium' : 'tab-inact flex-1 py-2 text-sm font-medium';
-  document.getElementById('tp').className = t==='p' ? 'tab-act flex-1 py-2 text-sm font-medium' : 'tab-inact flex-1 py-2 text-sm font-medium';
-}
+function toggle(id){const el=document.getElementById('d'+id),bt=document.getElementById('et'+id);if(!el)return;el.classList.toggle('open');bt.textContent=el.classList.contains('open')?'▲ 收起':'▼ 展开详情';}
 
-function switchDate(d){ curDate=d; render(); }
+function switchTab(t){curTab=t;document.getElementById('ps').classList.toggle('hidden',t!=='s');document.getElementById('pp').classList.toggle('hidden',t!=='p');document.getElementById('ts').className=t==='s'?'tab-act flex-1 py-2 text-sm font-medium':'tab-inact flex-1 py-2 text-sm font-medium';document.getElementById('tp').className=t==='p'?'tab-act flex-1 py-2 text-sm font-medium':'tab-inact flex-1 py-2 text-sm font-medium';}
 
-function switchPool(p){
-  curPool = p;
-  ['core','watch','opportunity','holding'].forEach(k=>{
-    document.getElementById('pt'+k).className = k===p ? 'ptab-act text-xs px-3 py-1.5' : 'ptab-inact text-xs px-3 py-1.5';
-  });
-  renderPool();
-}
+function switchDate(d){curDate=d;render();}
 
-function isInPool(ticker){ return Object.values(wl).some(arr=>arr.some(x=>x.ticker===ticker)); }
-function getPoolOf(ticker){ for(const[k,arr]of Object.entries(wl)){ if(arr.some(x=>x.ticker===ticker))return k; } return null; }
+function switchPool(p){curPool=p;['core','watch','opportunity','holding'].forEach(k=>{document.getElementById('pt'+k).className=k===p?'ptab-act text-xs px-3 py-1.5':'ptab-inact text-xs px-3 py-1.5';});renderPool();}
 
-// 加入池子（从筛选）
-function openAdd(ticker, company){
-  modalTicker = ticker;
-  modalNote = company;
-  document.getElementById('mticker').textContent = ticker;
-  document.getElementById('modal').classList.remove('hidden');
-}
+function openAdd(t,c){modalTicker=t;modalNote=c;document.getElementById('mticker').textContent=t;document.getElementById('modal').classList.remove('hidden');}
+function closeModal(){document.getElementById('modal').classList.add('hidden');}
+function addToPool(pool){const sm=getStockMap(),s=sm[modalTicker];const note=s?s.company:modalNote;Object.keys(wl).forEach(k=>{wl[k]=wl[k].filter(x=>x.ticker!==modalTicker);});if(!wl[pool])wl[pool]=[];wl[pool].push({ticker:modalTicker,note});saveWL();closeModal();renderPool();renderStocks();}
+function removeFromPool(t){Object.keys(wl).forEach(k=>{wl[k]=wl[k].filter(x=>x.ticker!==t);});saveWL();renderStocks();renderPool();}
+function rmFromPool(t){Object.keys(wl).forEach(k=>{wl[k]=wl[k].filter(x=>x.ticker!==t);});saveWL();renderPool();renderStocks();}
 
-function closeModal(){ document.getElementById('modal').classList.add('hidden'); }
-
-function addToPool(pool){
-  const sm = getStockMap();
-  const s = sm[modalTicker];
-  const note = s ? s.company : modalNote;
-  // 先从所有池子移除
-  Object.keys(wl).forEach(k=>{ wl[k]=wl[k].filter(x=>x.ticker!==modalTicker); });
-  if(!wl[pool]) wl[pool]=[];
-  wl[pool].push({ticker:modalTicker, note});
-  saveWL();
-  closeModal();
-  renderPool();
-  renderStocks(); // 更新筛选列表的按钮状态
-}
-
-// 从筛选移出池子
-function removeFromPool(ticker){
-  Object.keys(wl).forEach(k=>{ wl[k]=wl[k].filter(x=>x.ticker!==ticker); });
-  saveWL();
-  renderStocks();
-  renderPool();
-}
-
-// 从池子内移出
-function rmFromPool(ticker){
-  Object.keys(wl).forEach(k=>{ wl[k]=wl[k].filter(x=>x.ticker!==ticker); });
-  saveWL();
-  renderPool();
-  renderStocks(); // 同步更新筛选列表按钮
-}
-
-// 手动输入添加
 function manualAdd(){
-  const input = document.getElementById('addInput');
-  const msg = document.getElementById('addMsg');
-  const ticker = input.value.trim().toUpperCase();
-  if(!ticker){ showMsg('请输入股票代码', 'red'); return; }
-  if(isInPool(ticker)){ showMsg(`${ticker} 已在${['核心','观察','机会','持仓'][['core','watch','opportunity','holding'].indexOf(getPoolOf(ticker))]}池中`, 'yellow'); return; }
-  if(!wl[curPool]) wl[curPool]=[];
-  wl[curPool].push({ticker, note:''});
-  saveWL();
-  input.value = '';
-  showMsg(`✅ ${ticker} 已加入${{'core':'核心','watch':'观察','opportunity':'机会','holding':'持仓'}[curPool]}池`, 'green');
-  renderPool();
-  renderStocks();
+  const inp=document.getElementById('addInput'),msg=document.getElementById('addMsg');
+  const t=inp.value.trim().toUpperCase();
+  if(!t){showMsg('请输入股票代码','red');return;}
+  if(isInPool(t)){const pn={core:'核心',watch:'观察',opportunity:'机会',holding:'持仓'};showMsg(`${t} 已在${pn[getPoolOf(t)]}池中`,'yellow');return;}
+  if(!wl[curPool])wl[curPool]=[];
+  wl[curPool].push({ticker:t,note:''});
+  saveWL();inp.value='';
+  const pn={core:'核心',watch:'观察',opportunity:'机会',holding:'持仓'};
+  showMsg(`✅ ${t} 已加入${pn[curPool]}池`,'green');
+  renderPool();renderStocks();
 }
 
-function showMsg(text, color){
-  const msg = document.getElementById('addMsg');
-  const colors = {green:'#4ade80', red:'#f87171', yellow:'#fbbf24'};
-  msg.style.color = colors[color]||'#94a3b8';
-  msg.textContent = text;
-  msg.classList.remove('hidden');
-  setTimeout(()=>msg.classList.add('hidden'), 3000);
+function showMsg(text,color){
+  const msg=document.getElementById('addMsg');
+  msg.style.color={green:'#4ade80',red:'#f87171',yellow:'#fbbf24'}[color]||'#94a3b8';
+  msg.textContent=text;msg.classList.remove('hidden');
+  setTimeout(()=>msg.classList.add('hidden'),3000);
 }
 
-// 点击背景关闭modal
-document.getElementById('modal').addEventListener('click', function(e){ if(e.target===this)closeModal(); });
-
+document.getElementById('modal').addEventListener('click',function(e){if(e.target===this)closeModal();});
 render();
 </script>
 </body>
