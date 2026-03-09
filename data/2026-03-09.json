@@ -1,0 +1,76 @@
+{
+  "date": "2026-03-09",
+  "upd": "22:30 SGT",
+  "ms": {
+    "SPY": {
+      "p": 664.48,
+      "c": -1.17
+    },
+    "QQQ": {
+      "p": 594.07,
+      "c": -0.95
+    },
+    "VIX": {
+      "p": 0,
+      "c": 0
+    },
+    "sum": "大盘下跌 SPY -1.17%，科技股 QQQ -0.95%，VIX 0.0。市场偏弱，注意控制仓位。"
+  },
+  "stocks": [
+    {
+      "t": "TURB",
+      "co": "Turbo Energy S.A. ADR",
+      "p": 5.71,
+      "ch": 51.06,
+      "vr": 0.8,
+      "sd": 4,
+      "sdt": [
+        "03-02",
+        "03-03",
+        "03-05",
+        "03-06"
+      ],
+      "su": true,
+      "m30": 1.21,
+      "m60": 1.11,
+      "mas": "多头",
+      "cr": "金叉",
+      "cd": "03-06",
+      "fh": -3.2,
+      "sc": 3,
+      "sp": true,
+      "news": {
+        "h": "Turbo Energy completes restructuring of bank financing",
+        "d": "2026-03-09",
+        "se": "中性"
+      }
+    },
+    {
+      "t": "AAOI",
+      "co": "Applied Optoelectronics Inc",
+      "p": 95.58,
+      "ch": -5.5,
+      "vr": 1.8,
+      "sd": 3,
+      "sdt": [
+        "02-27",
+        "03-02",
+        "03-03"
+      ],
+      "su": false,
+      "m30": 55.63,
+      "m60": 45.42,
+      "mas": "多头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -16.6,
+      "sc": 2,
+      "sp": false,
+      "news": {
+        "h": "Is Applied Optoelectronics (AAOI) Pricing Reflect Recent AI Infrastructure Hype Accurately",
+        "d": "2026-03-09",
+        "se": "中性"
+      }
+    }
+  ]
+}
