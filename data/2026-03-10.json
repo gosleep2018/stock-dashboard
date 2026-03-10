@@ -1,0 +1,120 @@
+{
+  "date": "2026-03-10",
+  "upd": "23:30 SGT",
+  "ms": {
+    "SPY": {
+      "p": 680.95,
+      "c": 0.4
+    },
+    "QQQ": {
+      "p": 611.33,
+      "c": 0.59
+    },
+    "VIX": {
+      "p": 0,
+      "c": 0
+    },
+    "sum": "大盘上涨 SPY +0.40%，科技股 QQQ +0.59%，VIX 0.0。市场震荡，选股要精准。"
+  },
+  "stocks": [
+    {
+      "t": "OCC",
+      "co": "Optical Cable Corp",
+      "p": 7.15,
+      "ch": 17.02,
+      "vr": 3.0,
+      "sd": 1,
+      "sdt": [
+        "03-10"
+      ],
+      "su": true,
+      "m30": 5.75,
+      "m60": 5.47,
+      "mas": "多头",
+      "cr": "金叉",
+      "cd": "03-06",
+      "fh": -31.0,
+      "sc": 3,
+      "sp": true,
+      "news": {
+        "h": "【技术面】近2日突然放量信号，MA30/60金叉形成，均线多头排列",
+        "d": "2026-03-10",
+        "se": "中性"
+      }
+    },
+    {
+      "t": "INTT",
+      "co": "Intest Corp",
+      "p": 13.97,
+      "ch": 2.72,
+      "vr": 1.5,
+      "sd": 2,
+      "sdt": [
+        "02-27",
+        "03-05"
+      ],
+      "su": false,
+      "m30": 10.68,
+      "m60": 9.31,
+      "mas": "多头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -2.0,
+      "sc": 3,
+      "sp": false,
+      "news": {
+        "h": "Northland Lifts PT inTEST Corporation (INTT) to $14 From $10",
+        "d": "2026-03-10",
+        "se": "中性"
+      }
+    },
+    {
+      "t": "TTEC",
+      "co": "TTEC Holdings Inc",
+      "p": 3.12,
+      "ch": 25.31,
+      "vr": 1.5,
+      "sd": 1,
+      "sdt": [
+        "02-27"
+      ],
+      "su": false,
+      "m30": 2.64,
+      "m60": 3.09,
+      "mas": "空头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -21.8,
+      "sc": 1,
+      "sp": false,
+      "news": {
+        "h": "TTEC Holdings Inc (TTEC) Q4 2025 Earnings Call Highlights: Navigating Challenges and Embracing ...",
+        "d": "2026-03-10",
+        "se": "利好"
+      }
+    },
+    {
+      "t": "JDZG",
+      "co": "Jiade Ltd",
+      "p": 0.12,
+      "ch": 2.92,
+      "vr": 0.8,
+      "sd": 0,
+      "sdt": [],
+      "su": false,
+      "m30": 0.87,
+      "m60": 0.99,
+      "mas": "空头",
+      "cr": "死叉",
+      "cd": "03-04",
+      "fh": -97.0,
+      "sc": 0,
+      "sp": true,
+      "news": {
+        "h": "Based On Its ROE, Is JIADE Limited (NASDAQ:JDZG) A High Quality Stock?",
+        "d": "2026-03-10",
+        "se": "中性"
+      }
+    }
+  ]
+}
