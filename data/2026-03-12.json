@@ -1,0 +1,204 @@
+{
+  "date": "2026-03-12",
+  "upd": "22:30 SGT",
+  "ms": {
+    "SPY": {
+      "p": 667.98,
+      "c": -1.23
+    },
+    "QQQ": {
+      "p": 598.88,
+      "c": -1.45
+    },
+    "VIX": {
+      "p": 0,
+      "c": 0
+    },
+    "sum": "大盘下跌 SPY -1.23%，科技股 QQQ -1.45%，VIX 0.0。市场偏弱，注意控制仓位。"
+  },
+  "stocks": [
+    {
+      "t": "SAGT",
+      "co": "Sagtec Global Ltd",
+      "p": 3.12,
+      "ch": 43.16,
+      "vr": 5.8,
+      "sd": 2,
+      "sdt": [
+        "03-11",
+        "03-12"
+      ],
+      "su": true,
+      "m30": 1.93,
+      "m60": 1.95,
+      "mas": "空头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -5.4,
+      "sc": 3,
+      "sp": true,
+      "news": {
+        "h": "Sagtec Global Limited (NASDAQ:SAGT) Delivered A Better ROE Than Its Industry",
+        "d": "2026-03-12",
+        "se": "中性"
+      }
+    },
+    {
+      "t": "IPM",
+      "co": "Intelligent Protection Management Corp",
+      "p": 1.93,
+      "ch": 9.32,
+      "vr": 3.3,
+      "sd": 2,
+      "sdt": [
+        "03-10",
+        "03-12"
+      ],
+      "su": true,
+      "m30": 1.71,
+      "m60": 1.75,
+      "mas": "空头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -5.1,
+      "sc": 3,
+      "sp": true,
+      "news": {
+        "h": "Zacks Initiates Coverage of Altigen With Neutral Recommendation",
+        "d": "2026-03-12",
+        "se": "中性"
+      }
+    },
+    {
+      "t": "UMAC",
+      "co": "Unusual Machines Inc",
+      "p": 19.84,
+      "ch": 7.24,
+      "vr": 1.8,
+      "sd": 3,
+      "sdt": [
+        "03-06",
+        "03-09",
+        "03-10"
+      ],
+      "su": true,
+      "m30": 14.16,
+      "m60": 14.01,
+      "mas": "多头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -4.6,
+      "sc": 3,
+      "sp": false,
+      "news": {
+        "h": "'Unusual' Drone Stock Orbits Buy Zone. But Keep This Score On Your Radar.",
+        "d": "2026-03-12",
+        "se": "利好"
+      }
+    },
+    {
+      "t": "TURB",
+      "co": "Turbo Energy S.A. ADR",
+      "p": 4.95,
+      "ch": 32.22,
+      "vr": 0.4,
+      "sd": 3,
+      "sdt": [
+        "03-02",
+        "03-03",
+        "03-05"
+      ],
+      "su": false,
+      "m30": 1.5,
+      "m60": 1.25,
+      "mas": "多头",
+      "cr": "金叉",
+      "cd": "03-06",
+      "fh": -23.9,
+      "sc": 2,
+      "sp": true,
+      "news": {
+        "h": "Turbo Energy completes restructuring of bank financing",
+        "d": "2026-03-12",
+        "se": "中性"
+      }
+    },
+    {
+      "t": "POET",
+      "co": "POET Technologies Inc",
+      "p": 7.92,
+      "ch": 6.45,
+      "vr": 1.5,
+      "sd": 1,
+      "sdt": [
+        "03-03"
+      ],
+      "su": false,
+      "m30": 6.16,
+      "m60": 6.61,
+      "mas": "空头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -13.3,
+      "sc": 2,
+      "sp": false,
+      "news": {
+        "h": "Quantum Computing Expands Into Photonic Manufacturing With Fab 1 And Lumina Acquisition",
+        "d": "2026-03-12",
+        "se": "中性"
+      }
+    },
+    {
+      "t": "DOMO",
+      "co": "Domo Inc",
+      "p": 5.06,
+      "ch": 1.81,
+      "vr": 0.7,
+      "sd": 2,
+      "sdt": [
+        "03-10",
+        "03-11"
+      ],
+      "su": true,
+      "m30": 4.55,
+      "m60": 6.13,
+      "mas": "空头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -64.0,
+      "sc": 1,
+      "sp": false,
+      "news": {
+        "h": "Assessing Domo (DOMO) Valuation After Earnings Progress And New Activist Investor Involvement",
+        "d": "2026-03-12",
+        "se": "利好"
+      }
+    },
+    {
+      "t": "UPLD",
+      "co": "Upland Software Inc",
+      "p": 0.56,
+      "ch": 1.08,
+      "vr": 1.2,
+      "sd": 2,
+      "sdt": [
+        "03-10",
+        "03-11"
+      ],
+      "su": true,
+      "m30": 0.97,
+      "m60": 1.23,
+      "mas": "空头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -73.9,
+      "sc": 0,
+      "sp": true,
+      "news": {
+        "h": "Upland Software, Inc. Q4 2025 Earnings Call Summary",
+        "d": "2026-03-12",
+        "se": "利好"
+      }
+    }
+  ]
+}
