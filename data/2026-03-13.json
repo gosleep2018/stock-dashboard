@@ -1,0 +1,197 @@
+{
+  "date": "2026-03-13",
+  "upd": "22:30 SGT",
+  "ms": {
+    "SPY": {
+      "p": 669.15,
+      "c": 0.46
+    },
+    "QQQ": {
+      "p": 600.74,
+      "c": 0.58
+    },
+    "VIX": {
+      "p": 0,
+      "c": 0
+    },
+    "sum": "大盘上涨 SPY +0.46%，科技股 QQQ +0.58%，VIX 0.0。市场震荡，选股要精准。"
+  },
+  "stocks": [
+    {
+      "t": "SVCO",
+      "co": "Silvaco Group Inc",
+      "p": 4.42,
+      "ch": 33.94,
+      "vr": 13.0,
+      "sd": 1,
+      "sdt": [
+        "03-13"
+      ],
+      "su": true,
+      "m30": 3.63,
+      "m60": 4.04,
+      "mas": "空头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -25.0,
+      "sc": 2,
+      "sp": false,
+      "news": {
+        "h": "Silvaco Group Inc (SVCO) Q4 2025 Earnings Call Highlights: Strong Revenue and Strategic Growth ...",
+        "d": "2026-03-13",
+        "se": "利好"
+      }
+    },
+    {
+      "t": "AIFF",
+      "co": "Firefly Neuroscience Inc",
+      "p": 2.3,
+      "ch": 32.18,
+      "vr": 0.5,
+      "sd": 1,
+      "sdt": [
+        "03-04"
+      ],
+      "su": false,
+      "m30": 1.01,
+      "m60": 1.05,
+      "mas": "空头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -2.5,
+      "sc": 2,
+      "sp": true,
+      "news": {
+        "h": "【技术面】单日大涨32%，均线空头排列",
+        "d": "2026-03-13",
+        "se": "中性"
+      }
+    },
+    {
+      "t": "HIMX",
+      "co": "Himax Technologies ADR",
+      "p": 11.1,
+      "ch": 9.58,
+      "vr": 1.9,
+      "sd": 1,
+      "sdt": [
+        "03-12"
+      ],
+      "su": true,
+      "m30": 7.94,
+      "m60": 8.14,
+      "mas": "空头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -7.5,
+      "sc": 2,
+      "sp": false,
+      "news": {
+        "h": "3 Cash-Producing Stocks with Open Questions",
+        "d": "2026-03-13",
+        "se": "中性"
+      }
+    },
+    {
+      "t": "TAOX",
+      "co": "TAO Synergies Inc",
+      "p": 6.14,
+      "ch": 21.32,
+      "vr": 2.2,
+      "sd": 1,
+      "sdt": [
+        "03-13"
+      ],
+      "su": true,
+      "m30": 4.18,
+      "m60": 4.52,
+      "mas": "空头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -30.0,
+      "sc": 1,
+      "sp": true,
+      "news": {
+        "h": "We're Not Very Worried About TAO Synergies' (NASDAQ:TAOX) Cash Burn Rate",
+        "d": "2026-03-13",
+        "se": "中性"
+      }
+    },
+    {
+      "t": "XNET",
+      "co": "Xunlei Ltd ADR",
+      "p": 7.35,
+      "ch": 12.04,
+      "vr": 1.6,
+      "sd": 1,
+      "sdt": [
+        "03-12"
+      ],
+      "su": true,
+      "m30": 5.89,
+      "m60": 6.59,
+      "mas": "空头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -18.5,
+      "sc": 1,
+      "sp": false,
+      "news": {
+        "h": "Xunlei Ltd (XNET) Q4 2025 Earnings Call Highlights: Strong Revenue Growth Amidst Rising Net Losses",
+        "d": "2026-03-13",
+        "se": "利好"
+      }
+    },
+    {
+      "t": "NTSK",
+      "co": "Netskope Inc",
+      "p": 10.29,
+      "ch": 7.75,
+      "vr": 0.8,
+      "sd": 1,
+      "sdt": [
+        "03-12"
+      ],
+      "su": true,
+      "m30": 11.54,
+      "m60": 14.27,
+      "mas": "空头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -58.8,
+      "sc": 0,
+      "sp": false,
+      "news": {
+        "h": "Netskope (NTSK) Is Down 17.5% After AI Security Launch And 2027 Guidance Update - What's Changed",
+        "d": "2026-03-13",
+        "se": "中性"
+      }
+    },
+    {
+      "t": "DUOT",
+      "co": "Duos Technologies Group Inc",
+      "p": 7.54,
+      "ch": 2.31,
+      "vr": 0.8,
+      "sd": 2,
+      "sdt": [
+        "03-03",
+        "03-06"
+      ],
+      "su": false,
+      "m30": 8.5,
+      "m60": 9.4,
+      "mas": "空头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -38.0,
+      "sc": 0,
+      "sp": false,
+      "news": {
+        "h": "Viant Technology (DSP) Misses Q4 Earnings Estimates",
+        "d": "2026-03-13",
+        "se": "利好"
+      }
+    }
+  ]
+}
