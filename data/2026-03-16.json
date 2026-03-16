@@ -1,0 +1,175 @@
+{
+  "date": "2026-03-16",
+  "upd": "22:31 SGT",
+  "ms": {
+    "SPY": {
+      "p": 0,
+      "c": 0
+    },
+    "QQQ": {
+      "p": 600.96,
+      "c": 1.22
+    },
+    "VIX": {
+      "p": 0,
+      "c": 0
+    },
+    "sum": "大盘上涨 SPY +0.00%，科技股 QQQ +1.22%，VIX 0.0。市场震荡，选股要精准。"
+  },
+  "stocks": [
+    {
+      "t": "ULY",
+      "co": "Urgent.ly Inc",
+      "p": 5.37,
+      "ch": 164.53,
+      "vr": 10.7,
+      "sd": 2,
+      "sdt": [
+        "03-13",
+        "03-16"
+      ],
+      "su": true,
+      "m30": 2.21,
+      "m60": 2.33,
+      "mas": "空头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -0.2,
+      "sc": 3,
+      "sp": true,
+      "news": {
+        "h": "Wall Street Monitors Geopolitical Tensions, Oil Prices as US Equity Futures Gain Pre-Bell",
+        "d": "2026-03-16",
+        "se": "中性"
+      }
+    },
+    {
+      "t": "NBIS",
+      "co": "Nebius Group N.V",
+      "p": 129.1,
+      "ch": 14.3,
+      "vr": 1.1,
+      "sd": 1,
+      "sdt": [
+        "03-11"
+      ],
+      "su": false,
+      "m30": 96.86,
+      "m60": 95.45,
+      "mas": "多头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -2.3,
+      "sc": 3,
+      "sp": false,
+      "news": {
+        "h": "These Stocks Are Today’s Movers: Nebius, Meta, Micron, Nvidia, Strategy, Dollar Tree, Circle Interne",
+        "d": "2026-03-16",
+        "se": "中性"
+      }
+    },
+    {
+      "t": "YXT",
+      "co": "Yxt.Com Group Holding Ltd. ADR",
+      "p": 0.62,
+      "ch": 15.3,
+      "vr": 17.0,
+      "sd": 2,
+      "sdt": [
+        "03-10",
+        "03-16"
+      ],
+      "su": true,
+      "m30": 0.62,
+      "m60": 0.7,
+      "mas": "空头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -43.4,
+      "sc": 2,
+      "sp": false,
+      "news": {
+        "h": "Yxt.Com Group Holding Ltd (YXT) Q2 2025 Earnings Call Highlights: Navigating Strategic Shifts ...",
+        "d": "2026-03-16",
+        "se": "利好"
+      }
+    },
+    {
+      "t": "PRSO",
+      "co": "Peraso Inc",
+      "p": 1.75,
+      "ch": 17.79,
+      "vr": 0.6,
+      "sd": 1,
+      "sdt": [
+        "03-06"
+      ],
+      "su": false,
+      "m30": 1.05,
+      "m60": 1.01,
+      "mas": "多头",
+      "cr": "金叉",
+      "cd": "03-11",
+      "fh": -18.8,
+      "sc": 2,
+      "sp": true,
+      "news": {
+        "h": "Mobix Labs, Inc. (MOBX) Wins Defense Contract for Tomahawk Missile Components",
+        "d": "2026-03-16",
+        "se": "利空"
+      }
+    },
+    {
+      "t": "CYN",
+      "co": "Cyngn Inc",
+      "p": 2.61,
+      "ch": 9.66,
+      "vr": 2.3,
+      "sd": 2,
+      "sdt": [
+        "03-11",
+        "03-16"
+      ],
+      "su": true,
+      "m30": 1.66,
+      "m60": 2.1,
+      "mas": "空头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -41.6,
+      "sc": 1,
+      "sp": true,
+      "news": {
+        "h": "NVDA: Cyngn Stock Pops on NVIDIA Partnerhip",
+        "d": "2026-03-16",
+        "se": "中性"
+      }
+    },
+    {
+      "t": "DUOT",
+      "co": "Duos Technologies Group Inc",
+      "p": 8.56,
+      "ch": 8.7,
+      "vr": 0.8,
+      "sd": 2,
+      "sdt": [
+        "03-03",
+        "03-13"
+      ],
+      "su": true,
+      "m30": 8.48,
+      "m60": 9.39,
+      "mas": "空头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -29.7,
+      "sc": 1,
+      "sp": false,
+      "news": {
+        "h": "【技术面】近2日突然放量信号，均线空头排列",
+        "d": "2026-03-16",
+        "se": "中性"
+      }
+    }
+  ]
+}
