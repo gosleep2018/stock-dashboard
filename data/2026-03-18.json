@@ -1,0 +1,317 @@
+{
+  "date": "2026-03-18",
+  "upd": "22:31 SGT",
+  "ms": {
+    "SPY": {
+      "p": 666.18,
+      "c": -0.69
+    },
+    "QQQ": {
+      "p": 599.23,
+      "c": -0.68
+    },
+    "VIX": {
+      "p": 0,
+      "c": 0
+    },
+    "sum": "大盘下跌 SPY -0.69%，科技股 QQQ -0.68%，VIX 0.0。市场震荡，选股要精准。"
+  },
+  "stocks": [
+    {
+      "t": "OSS",
+      "co": "One Stop Systems Inc",
+      "p": 11.45,
+      "ch": 7.11,
+      "vr": 1.8,
+      "sd": 0,
+      "sdt": [],
+      "su": false,
+      "m30": 9.22,
+      "m60": 9.16,
+      "mas": "多头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -10.2,
+      "sc": 3,
+      "sp": false,
+      "news": {
+        "h": "Micron Earnings Face High Expectations as Its Stock Keeps Rising",
+        "d": "2026-03-18",
+        "se": "利好"
+      }
+    },
+    {
+      "t": "LITE",
+      "co": "Lumentum Holdings Inc",
+      "p": 699.15,
+      "ch": 7.63,
+      "vr": 0.8,
+      "sd": 0,
+      "sdt": [],
+      "su": false,
+      "m30": 630.25,
+      "m60": 500.36,
+      "mas": "多头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -10.8,
+      "sc": 3,
+      "sp": false,
+      "news": {
+        "h": "【技术面】均线多头排列",
+        "d": "2026-03-18",
+        "se": "中性"
+      }
+    },
+    {
+      "t": "NN",
+      "co": "NextNav Inc",
+      "p": 18.77,
+      "ch": 11.29,
+      "vr": 1.5,
+      "sd": 0,
+      "sdt": [],
+      "su": false,
+      "m30": 16.42,
+      "m60": 16.04,
+      "mas": "多头",
+      "cr": "金叉",
+      "cd": "03-11",
+      "fh": -3.6,
+      "sc": 3,
+      "sp": false,
+      "news": {
+        "h": "NextNav (NN) Q4 2025 Earnings Call Transcript",
+        "d": "2026-03-18",
+        "se": "利好"
+      }
+    },
+    {
+      "t": "NBIS",
+      "co": "Nebius Group N.V",
+      "p": 117.92,
+      "ch": 1.36,
+      "vr": 0.6,
+      "sd": 3,
+      "sdt": [
+        "03-11",
+        "03-16",
+        "03-17"
+      ],
+      "su": true,
+      "m30": 98.75,
+      "m60": 96.8,
+      "mas": "多头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -10.9,
+      "sc": 3,
+      "sp": false,
+      "news": {
+        "h": "Nebius Weighs $3.75b Convert As AI Contracts Test Valuation",
+        "d": "2026-03-18",
+        "se": "中性"
+      }
+    },
+    {
+      "t": "AAOI",
+      "co": "Applied Optoelectronics Inc",
+      "p": 92.17,
+      "ch": 6.76,
+      "vr": 0.7,
+      "sd": 0,
+      "sdt": [],
+      "su": false,
+      "m30": 72.53,
+      "m60": 55.16,
+      "mas": "多头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -28.5,
+      "sc": 2,
+      "sp": false,
+      "news": {
+        "h": "Applied Optoelectronics (AAOI) Is Down 28.4% After Securing Major 1.6T AI Transceiver Order - What's",
+        "d": "2026-03-18",
+        "se": "中性"
+      }
+    },
+    {
+      "t": "DVLT",
+      "co": "Datavault AI Inc",
+      "p": 0.95,
+      "ch": 21.24,
+      "vr": 2.6,
+      "sd": 1,
+      "sdt": [
+        "03-18"
+      ],
+      "su": true,
+      "m30": 0.73,
+      "m60": 0.78,
+      "mas": "空头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -65.6,
+      "sc": 1,
+      "sp": false,
+      "news": {
+        "h": "Datavault AI Showcases NIL Tokenization And ADIO As Investors Weigh Upside",
+        "d": "2026-03-18",
+        "se": "中性"
+      }
+    },
+    {
+      "t": "TACT",
+      "co": "Transact Technologies Inc",
+      "p": 3.56,
+      "ch": 7.55,
+      "vr": 1.0,
+      "sd": 3,
+      "sdt": [
+        "03-11",
+        "03-12",
+        "03-16"
+      ],
+      "su": false,
+      "m30": 3.53,
+      "m60": 3.7,
+      "mas": "空头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -25.1,
+      "sc": 1,
+      "sp": true,
+      "news": {
+        "h": "Transact Technologies Inc (TACT) Q4 2025 Earnings Call Highlights: Strong Sales Growth and ...",
+        "d": "2026-03-18",
+        "se": "利好"
+      }
+    },
+    {
+      "t": "QCLS",
+      "co": "Q/C Technologies Inc",
+      "p": 3.98,
+      "ch": -1.0,
+      "vr": 1.4,
+      "sd": 1,
+      "sdt": [
+        "03-06"
+      ],
+      "su": false,
+      "m30": 3.85,
+      "m60": 4.21,
+      "mas": "空头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -51.3,
+      "sc": 1,
+      "sp": true,
+      "news": {
+        "h": "【技术面】均线空头排列",
+        "d": "2026-03-18",
+        "se": "中性"
+      }
+    },
+    {
+      "t": "HIMX",
+      "co": "Himax Technologies ADR",
+      "p": 9.47,
+      "ch": 4.53,
+      "vr": 0.4,
+      "sd": 2,
+      "sdt": [
+        "03-12",
+        "03-13"
+      ],
+      "su": false,
+      "m30": 8.04,
+      "m60": 8.18,
+      "mas": "空头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -21.1,
+      "sc": 1,
+      "sp": false,
+      "news": {
+        "h": "3 Overrated  Stocks We Steer Clear Of",
+        "d": "2026-03-18",
+        "se": "中性"
+      }
+    },
+    {
+      "t": "DOCU",
+      "co": "DocuSign Inc",
+      "p": 48.62,
+      "ch": 2.27,
+      "vr": 0.8,
+      "sd": 0,
+      "sdt": [],
+      "su": false,
+      "m30": 46.09,
+      "m60": 54.21,
+      "mas": "空头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -32.8,
+      "sc": 1,
+      "sp": false,
+      "news": {
+        "h": "DocuSign (DOCU) Q4 2026 Earnings Call Transcript",
+        "d": "2026-03-18",
+        "se": "利好"
+      }
+    },
+    {
+      "t": "INLX",
+      "co": "Intellinetics Inc",
+      "p": 7.57,
+      "ch": 0.19,
+      "vr": 8.5,
+      "sd": 1,
+      "sdt": [
+        "03-18"
+      ],
+      "su": true,
+      "m30": 7.77,
+      "m60": 7.91,
+      "mas": "空头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -18.6,
+      "sc": 1,
+      "sp": true,
+      "news": {
+        "h": "Intellinetics Inc (INLX) Q3 2025 Earnings Call Highlights: Navigating Revenue Challenges with ...",
+        "d": "2026-03-18",
+        "se": "利好"
+      }
+    },
+    {
+      "t": "LIDR",
+      "co": "AEye Inc",
+      "p": 1.89,
+      "ch": 3.55,
+      "vr": 0.6,
+      "sd": 2,
+      "sdt": [
+        "03-16",
+        "03-17"
+      ],
+      "su": true,
+      "m30": 1.63,
+      "m60": 1.83,
+      "mas": "空头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -32.1,
+      "sc": 1,
+      "sp": true,
+      "news": {
+        "h": "AEye Inc (LIDR) Q4 2025 Earnings Call Highlights: Strong Customer Growth and Strategic ...",
+        "d": "2026-03-18",
+        "se": "利好"
+      }
+    }
+  ]
+}
