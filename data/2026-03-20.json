@@ -1,0 +1,95 @@
+{
+  "date": "2026-03-20",
+  "upd": "22:31 SGT",
+  "ms": {
+    "SPY": {
+      "p": 652.4,
+      "c": -1.12
+    },
+    "QQQ": {
+      "p": 586.45,
+      "c": -1.11
+    },
+    "VIX": {
+      "p": 0,
+      "c": 0
+    },
+    "sum": "大盘下跌 SPY -1.12%，科技股 QQQ -1.11%，VIX 0.0。市场偏弱，注意控制仓位。"
+  },
+  "stocks": [
+    {
+      "t": "DELL",
+      "co": "Dell Technologies Inc",
+      "p": 164.24,
+      "ch": 4.77,
+      "vr": 0.9,
+      "sd": 0,
+      "sdt": [],
+      "su": false,
+      "m30": 136.21,
+      "m60": 128.15,
+      "mas": "多头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -3.3,
+      "sc": 3,
+      "sp": false,
+      "news": {
+        "h": "Stock Market Today: Dow, Indexes Continue Their Slide; Super Micro Crashes, But Dell Rips Higher (Li",
+        "d": "2026-03-20",
+        "se": "中性"
+      }
+    },
+    {
+      "t": "IDN",
+      "co": "Intellicheck Inc",
+      "p": 6.06,
+      "ch": 26.34,
+      "vr": 6.0,
+      "sd": 2,
+      "sdt": [
+        "03-19",
+        "03-20"
+      ],
+      "su": true,
+      "m30": 4.92,
+      "m60": 5.52,
+      "mas": "空头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -18.9,
+      "sc": 2,
+      "sp": false,
+      "news": {
+        "h": "Intellicheck Mobilisa Q4 Earnings Call Highlights",
+        "d": "2026-03-20",
+        "se": "利好"
+      }
+    },
+    {
+      "t": "AIRG",
+      "co": "Airgain Inc",
+      "p": 4.67,
+      "ch": 18.53,
+      "vr": 2.0,
+      "sd": 1,
+      "sdt": [
+        "03-20"
+      ],
+      "su": true,
+      "m30": 4.59,
+      "m60": 4.4,
+      "mas": "多头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -17.1,
+      "sc": 2,
+      "sp": true,
+      "news": {
+        "h": "How The Airgain (AIRG) Story Is Shifting Around The US$6.13 Valuation Target",
+        "d": "2026-03-20",
+        "se": "中性"
+      }
+    }
+  ]
+}
