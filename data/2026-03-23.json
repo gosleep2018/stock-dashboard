@@ -1,0 +1,174 @@
+{
+  "date": "2026-03-23",
+  "upd": "22:31 SGT",
+  "ms": {
+    "SPY": {
+      "p": 660.6,
+      "c": 1.85
+    },
+    "QQQ": {
+      "p": 593.51,
+      "c": 1.97
+    },
+    "VIX": {
+      "p": 0,
+      "c": 0
+    },
+    "sum": "大盘上涨 SPY +1.85%，科技股 QQQ +1.97%，VIX 0.0。市场偏强，动量股机会增加。"
+  },
+  "stocks": [
+    {
+      "t": "AIRG",
+      "co": "Airgain Inc",
+      "p": 5.26,
+      "ch": 10.27,
+      "vr": 1.6,
+      "sd": 1,
+      "sdt": [
+        "03-20"
+      ],
+      "su": true,
+      "m30": 4.6,
+      "m60": 4.42,
+      "mas": "多头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -6.6,
+      "sc": 3,
+      "sp": true,
+      "news": {
+        "h": "How The Airgain (AIRG) Story Is Shifting Around The US$6.13 Valuation Target",
+        "d": "2026-03-23",
+        "se": "中性"
+      }
+    },
+    {
+      "t": "TSEM",
+      "co": "Tower Semiconductor Ltd",
+      "p": 179.41,
+      "ch": 9.65,
+      "vr": 0.8,
+      "sd": 2,
+      "sdt": [
+        "03-19",
+        "03-20"
+      ],
+      "su": true,
+      "m30": 132.02,
+      "m60": 129.36,
+      "mas": "多头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -1.3,
+      "sc": 3,
+      "sp": false,
+      "news": {
+        "h": "Tower Semiconductor (TSEM) Climbs 31.2% as Firm Taps into $80-Billion AI Infra Market",
+        "d": "2026-03-23",
+        "se": "中性"
+      }
+    },
+    {
+      "t": "AIFF",
+      "co": "Firefly Neuroscience Inc",
+      "p": 2.21,
+      "ch": 44.44,
+      "vr": 0.4,
+      "sd": 1,
+      "sdt": [
+        "03-13"
+      ],
+      "su": false,
+      "m30": 1.29,
+      "m60": 1.14,
+      "mas": "多头",
+      "cr": "金叉",
+      "cd": "03-16",
+      "fh": -21.9,
+      "sc": 2,
+      "sp": true,
+      "news": {
+        "h": "【技术面】单日大涨44%，MA30/60金叉形成，均线多头排列",
+        "d": "2026-03-23",
+        "se": "中性"
+      }
+    },
+    {
+      "t": "IDN",
+      "co": "Intellicheck Inc",
+      "p": 5.74,
+      "ch": 3.7,
+      "vr": 0.9,
+      "sd": 2,
+      "sdt": [
+        "03-19",
+        "03-20"
+      ],
+      "su": true,
+      "m30": 4.93,
+      "m60": 5.5,
+      "mas": "空头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -23.2,
+      "sc": 1,
+      "sp": false,
+      "news": {
+        "h": "Intellicheck Mobilisa Q4 Earnings Call Highlights",
+        "d": "2026-03-23",
+        "se": "利好"
+      }
+    },
+    {
+      "t": "MNDO",
+      "co": "Mind C.T.I Ltd",
+      "p": 1.19,
+      "ch": 2.59,
+      "vr": 0.9,
+      "sd": 2,
+      "sdt": [
+        "03-10",
+        "03-13"
+      ],
+      "su": false,
+      "m30": 1.19,
+      "m60": 1.19,
+      "mas": "空头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -7.8,
+      "sc": 1,
+      "sp": true,
+      "news": {
+        "h": "A Look At The Fair Value Of MIND C.T.I. Ltd (NASDAQ:MNDO)",
+        "d": "2026-03-23",
+        "se": "中性"
+      }
+    },
+    {
+      "t": "SMCI",
+      "co": "Super Micro Computer Inc",
+      "p": 21.14,
+      "ch": 2.95,
+      "vr": 1.1,
+      "sd": 1,
+      "sdt": [
+        "03-20"
+      ],
+      "su": true,
+      "m30": 30.88,
+      "m60": 30.77,
+      "mas": "多头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -47.1,
+      "sc": 1,
+      "sp": false,
+      "news": {
+        "h": "Stocks to Watch Monday: Synopsys, Super Micro, Air Canada, DraftKings",
+        "d": "2026-03-23",
+        "se": "中性"
+      }
+    }
+  ]
+}
