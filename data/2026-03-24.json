@@ -1,0 +1,148 @@
+{
+  "date": "2026-03-24",
+  "upd": "22:36 SGT",
+  "ms": {
+    "SPY": {
+      "p": 652.74,
+      "c": -0.4
+    },
+    "QQQ": {
+      "p": 583.61,
+      "c": -0.75
+    },
+    "VIX": {
+      "p": 0,
+      "c": 0
+    },
+    "sum": "大盘下跌 SPY -0.40%，科技股 QQQ -0.75%，VIX 0.0。市场震荡，选股要精准。"
+  },
+  "stocks": [
+    {
+      "t": "YMT",
+      "co": "Yimutian Inc. ADR",
+      "p": 0.4,
+      "ch": 34.7,
+      "vr": 19.0,
+      "sd": 1,
+      "sdt": [
+        "03-24"
+      ],
+      "su": true,
+      "m30": 0.65,
+      "m60": 1.21,
+      "mas": "空头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -81.8,
+      "sc": 1,
+      "sp": true,
+      "news": {
+        "h": "Yimutian (YMT) to Acquire Premium Camellia Oil Producer Jiufeng Agriculture in Major Strategic Pivot",
+        "d": "2026-03-24",
+        "se": "中性"
+      }
+    },
+    {
+      "t": "AXIL",
+      "co": "AXIL Brands Inc",
+      "p": 6.84,
+      "ch": 3.92,
+      "vr": 2.2,
+      "sd": 1,
+      "sdt": [
+        "03-24"
+      ],
+      "su": true,
+      "m30": 6.16,
+      "m60": 6.65,
+      "mas": "空头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -30.6,
+      "sc": 1,
+      "sp": true,
+      "news": {
+        "h": "The Zacks Analyst Blog Highlights NVIDIA, Amazon.com, Regeneron, National Presto and AXIL",
+        "d": "2026-03-24",
+        "se": "中性"
+      }
+    },
+    {
+      "t": "WRD",
+      "co": "WeRide Inc. ADR",
+      "p": 7.34,
+      "ch": 6.07,
+      "vr": 0.8,
+      "sd": 2,
+      "sdt": [
+        "03-20",
+        "03-23"
+      ],
+      "su": true,
+      "m30": 6.94,
+      "m60": 7.82,
+      "mas": "空头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -26.7,
+      "sc": 1,
+      "sp": false,
+      "news": {
+        "h": "WeRide (WRD) Climbs 8.98% as 2025 Revenues Nearly Double",
+        "d": "2026-03-24",
+        "se": "利好"
+      }
+    },
+    {
+      "t": "LEDS",
+      "co": "Semileds Corp",
+      "p": 1.39,
+      "ch": 12.1,
+      "vr": 1.1,
+      "sd": 2,
+      "sdt": [
+        "03-18",
+        "03-19"
+      ],
+      "su": false,
+      "m30": 1.47,
+      "m60": 1.63,
+      "mas": "空头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -45.5,
+      "sc": 0,
+      "sp": true,
+      "news": {
+        "h": "Is SemiLEDs the Fastest-Growing Semiconductor Stock?",
+        "d": "2026-03-24",
+        "se": "中性"
+      }
+    },
+    {
+      "t": "HUBC",
+      "co": "Hub Cyber Security Ltd",
+      "p": 0.19,
+      "ch": 3.03,
+      "vr": 0.7,
+      "sd": 1,
+      "sdt": [
+        "03-19"
+      ],
+      "su": false,
+      "m30": 1.26,
+      "m60": 2.81,
+      "mas": "空头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -99.1,
+      "sc": 0,
+      "sp": true,
+      "news": {
+        "h": "HUB Security signs perpetual KYC, compliance services agreement with Kyrrex",
+        "d": "2026-03-24",
+        "se": "中性"
+      }
+    }
+  ]
+}
