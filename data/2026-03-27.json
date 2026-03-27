@@ -1,44 +1,119 @@
 {
   "date": "2026-03-27",
-  "upd": "21:23 SGT",
+  "upd": "22:34 SGT",
   "ms": {
     "SPY": {
-      "p": 645.09,
-      "c": -1.79
+      "p": 639.36,
+      "c": -0.89
     },
     "QQQ": {
-      "p": 573.79,
-      "c": -2.39
+      "p": 566.84,
+      "c": -1.21
     },
     "VIX": {
       "p": 0,
       "c": 0
     },
-    "sum": "大盘下跌 SPY -1.79%，科技股 QQQ -2.39%，VIX 0.0。市场偏弱，注意控制仓位。"
+    "sum": "大盘下跌 SPY -0.89%，科技股 QQQ -1.21%，VIX 0.0。市场震荡，选股要精准。"
   },
   "stocks": [
     {
-      "t": "AIFF",
-      "co": "Firefly Neuroscience Inc",
-      "p": 3.02,
-      "ch": 79.76,
-      "vr": 3.6,
-      "sd": 2,
+      "t": "OS",
+      "co": "OneStream Inc",
+      "p": 23.99,
+      "ch": 0.65,
+      "vr": 2.4,
+      "sd": 1,
       "sdt": [
-        "03-13",
-        "03-26"
+        "03-27"
       ],
       "su": true,
-      "m30": 1.42,
-      "m60": 1.19,
+      "m30": 23.66,
+      "m60": 23.35,
       "mas": "多头",
-      "cr": "金叉",
-      "cd": "03-16",
-      "fh": -4.1,
-      "sc": 4,
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -0.2,
+      "sc": 3,
+      "sp": false,
+      "news": {
+        "h": "Why BTIG Downgraded OneStream (OS) After Its $24-Per-Share Buyout Agreement",
+        "d": "2026-03-27",
+        "se": "利好"
+      }
+    },
+    {
+      "t": "BOSC",
+      "co": "B.O.S. Better Online Solutions",
+      "p": 4.97,
+      "ch": 0.1,
+      "vr": 1.3,
+      "sd": 1,
+      "sdt": [
+        "03-23"
+      ],
+      "su": false,
+      "m30": 4.85,
+      "m60": 4.86,
+      "mas": "空头",
+      "cr": "死叉",
+      "cd": "03-18",
+      "fh": -7.2,
+      "sc": 2,
       "sp": true,
       "news": {
-        "h": "【技术面】单日暴涨80%，近2日突然放量信号，MA30/60金叉形成，均线多头排列",
+        "h": "B.O.S. Better Online Solutions Ltd.'s (NASDAQ:BOSC) Stock Has Been Sliding But Fundamentals Look Str",
+        "d": "2026-03-27",
+        "se": "中性"
+      }
+    },
+    {
+      "t": "HKIT",
+      "co": "Hitek Global Inc",
+      "p": 0.12,
+      "ch": 109.66,
+      "vr": 13.8,
+      "sd": 2,
+      "sdt": [
+        "03-23",
+        "03-27"
+      ],
+      "su": true,
+      "m30": 1.22,
+      "m60": 1.62,
+      "mas": "空头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -95.3,
+      "sc": 1,
+      "sp": true,
+      "news": {
+        "h": "Hitek Global Inc.'s (NASDAQ:HKIT) market cap up US$63m last week, benefiting both private companies ",
+        "d": "2026-03-27",
+        "se": "中性"
+      }
+    },
+    {
+      "t": "IZM",
+      "co": "Iczoom Group Inc",
+      "p": 0.5,
+      "ch": 9.51,
+      "vr": 18.7,
+      "sd": 1,
+      "sdt": [
+        "03-27"
+      ],
+      "su": true,
+      "m30": 0.69,
+      "m60": 1.11,
+      "mas": "空头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -81.9,
+      "sc": 1,
+      "sp": true,
+      "news": {
+        "h": "【技术面】量比19倍极度放量，近2日突然放量信号，均线空头排列",
         "d": "2026-03-27",
         "se": "中性"
       }
@@ -46,21 +121,21 @@
     {
       "t": "NAVN",
       "co": "Navan Inc",
-      "p": 13.11,
-      "ch": 43.28,
-      "vr": 7.8,
+      "p": 13.86,
+      "ch": 5.72,
+      "vr": 2.0,
       "sd": 1,
       "sdt": [
         "03-26"
       ],
       "su": true,
-      "m30": 9.75,
-      "m60": 12.02,
+      "m30": 9.87,
+      "m60": 11.96,
       "mas": "空头",
       "cr": "无穿越",
       "cd": "",
-      "fh": -29.3,
-      "sc": 2,
+      "fh": -25.3,
+      "sc": 1,
       "sp": false,
       "news": {
         "h": "How Navan is taking over the corporate travel game",
@@ -71,9 +146,9 @@
     {
       "t": "BZAI",
       "co": "Blaize Holdings Inc",
-      "p": 1.75,
-      "ch": 41.13,
-      "vr": 4.3,
+      "p": 1.78,
+      "ch": 2.0,
+      "vr": 0.7,
       "sd": 3,
       "sdt": [
         "03-24",
@@ -81,13 +156,13 @@
         "03-26"
       ],
       "su": true,
-      "m30": 1.17,
+      "m30": 1.19,
       "m60": 1.48,
       "mas": "空头",
       "cr": "无穿越",
       "cd": "",
-      "fh": -32.2,
-      "sc": 2,
+      "fh": -30.0,
+      "sc": 1,
       "sp": false,
       "news": {
         "h": "Earnings Release: Here's Why Analysts Cut Their Blaize Holdings, Inc. (NASDAQ:BZAI) Price Target To ",
@@ -96,53 +171,26 @@
       }
     },
     {
-      "t": "PAYS",
-      "co": "PaySign Inc",
-      "p": 5.33,
-      "ch": 3.5,
-      "vr": 2.8,
-      "sd": 3,
-      "sdt": [
-        "03-24",
-        "03-25",
-        "03-26"
-      ],
-      "su": true,
-      "m30": 3.6,
-      "m60": 4.0,
-      "mas": "空头",
-      "cr": "无穿越",
-      "cd": "",
-      "fh": -5.7,
-      "sc": 2,
-      "sp": false,
-      "news": {
-        "h": "Should You Be Adding Paysign (NASDAQ:PAYS) To Your Watchlist Today?",
-        "d": "2026-03-27",
-        "se": "中性"
-      }
-    },
-    {
-      "t": "IZM",
-      "co": "Iczoom Group Inc",
-      "p": 0.45,
-      "ch": 7.62,
-      "vr": 6.1,
+      "t": "NXTT",
+      "co": "Next Technology Holding Inc",
+      "p": 1.87,
+      "ch": 26.34,
+      "vr": 0.7,
       "sd": 1,
       "sdt": [
-        "03-26"
+        "03-25"
       ],
-      "su": true,
-      "m30": 0.71,
-      "m60": 1.15,
+      "su": false,
+      "m30": 2.71,
+      "m60": 4.23,
       "mas": "空头",
       "cr": "无穿越",
       "cd": "",
-      "fh": -83.4,
-      "sc": 1,
+      "fh": -87.5,
+      "sc": 0,
       "sp": true,
       "news": {
-        "h": "【技术面】量比6倍明显放量，近2日突然放量信号，均线空头排列",
+        "h": "Crypto Currents: CFTC affirms crypto oversight alignment with SEC",
         "d": "2026-03-27",
         "se": "中性"
       }
