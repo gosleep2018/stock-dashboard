@@ -1,0 +1,151 @@
+{
+  "date": "2026-03-27",
+  "upd": "21:23 SGT",
+  "ms": {
+    "SPY": {
+      "p": 645.09,
+      "c": -1.79
+    },
+    "QQQ": {
+      "p": 573.79,
+      "c": -2.39
+    },
+    "VIX": {
+      "p": 0,
+      "c": 0
+    },
+    "sum": "大盘下跌 SPY -1.79%，科技股 QQQ -2.39%，VIX 0.0。市场偏弱，注意控制仓位。"
+  },
+  "stocks": [
+    {
+      "t": "AIFF",
+      "co": "Firefly Neuroscience Inc",
+      "p": 3.02,
+      "ch": 79.76,
+      "vr": 3.6,
+      "sd": 2,
+      "sdt": [
+        "03-13",
+        "03-26"
+      ],
+      "su": true,
+      "m30": 1.42,
+      "m60": 1.19,
+      "mas": "多头",
+      "cr": "金叉",
+      "cd": "03-16",
+      "fh": -4.1,
+      "sc": 4,
+      "sp": true,
+      "news": {
+        "h": "【技术面】单日暴涨80%，近2日突然放量信号，MA30/60金叉形成，均线多头排列",
+        "d": "2026-03-27",
+        "se": "中性"
+      }
+    },
+    {
+      "t": "NAVN",
+      "co": "Navan Inc",
+      "p": 13.11,
+      "ch": 43.28,
+      "vr": 7.8,
+      "sd": 1,
+      "sdt": [
+        "03-26"
+      ],
+      "su": true,
+      "m30": 9.75,
+      "m60": 12.02,
+      "mas": "空头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -29.3,
+      "sc": 2,
+      "sp": false,
+      "news": {
+        "h": "How Navan is taking over the corporate travel game",
+        "d": "2026-03-27",
+        "se": "中性"
+      }
+    },
+    {
+      "t": "BZAI",
+      "co": "Blaize Holdings Inc",
+      "p": 1.75,
+      "ch": 41.13,
+      "vr": 4.3,
+      "sd": 3,
+      "sdt": [
+        "03-24",
+        "03-25",
+        "03-26"
+      ],
+      "su": true,
+      "m30": 1.17,
+      "m60": 1.48,
+      "mas": "空头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -32.2,
+      "sc": 2,
+      "sp": false,
+      "news": {
+        "h": "Earnings Release: Here's Why Analysts Cut Their Blaize Holdings, Inc. (NASDAQ:BZAI) Price Target To ",
+        "d": "2026-03-27",
+        "se": "利好"
+      }
+    },
+    {
+      "t": "PAYS",
+      "co": "PaySign Inc",
+      "p": 5.33,
+      "ch": 3.5,
+      "vr": 2.8,
+      "sd": 3,
+      "sdt": [
+        "03-24",
+        "03-25",
+        "03-26"
+      ],
+      "su": true,
+      "m30": 3.6,
+      "m60": 4.0,
+      "mas": "空头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -5.7,
+      "sc": 2,
+      "sp": false,
+      "news": {
+        "h": "Should You Be Adding Paysign (NASDAQ:PAYS) To Your Watchlist Today?",
+        "d": "2026-03-27",
+        "se": "中性"
+      }
+    },
+    {
+      "t": "IZM",
+      "co": "Iczoom Group Inc",
+      "p": 0.45,
+      "ch": 7.62,
+      "vr": 6.1,
+      "sd": 1,
+      "sdt": [
+        "03-26"
+      ],
+      "su": true,
+      "m30": 0.71,
+      "m60": 1.15,
+      "mas": "空头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -83.4,
+      "sc": 1,
+      "sp": true,
+      "news": {
+        "h": "【技术面】量比6倍明显放量，近2日突然放量信号，均线空头排列",
+        "d": "2026-03-27",
+        "se": "中性"
+      }
+    }
+  ]
+}
