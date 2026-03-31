@@ -1,0 +1,197 @@
+{
+  "date": "2026-03-31",
+  "upd": "22:35 SGT",
+  "ms": {
+    "SPY": {
+      "p": 642.2,
+      "c": 1.62
+    },
+    "QQQ": {
+      "p": 568.56,
+      "c": 1.84
+    },
+    "VIX": {
+      "p": 0,
+      "c": 0
+    },
+    "sum": "大盘上涨 SPY +1.62%，科技股 QQQ +1.84%，VIX 0.0。市场偏强，动量股机会增加。"
+  },
+  "stocks": [
+    {
+      "t": "CURR",
+      "co": "Currenc Group Inc",
+      "p": 2.58,
+      "ch": 7.95,
+      "vr": 1.8,
+      "sd": 0,
+      "sdt": [],
+      "su": false,
+      "m30": 2.3,
+      "m60": 1.98,
+      "mas": "多头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -13.1,
+      "sc": 3,
+      "sp": false,
+      "news": {
+        "h": "Sector Update: Financial Stocks Rise Late Afternoon",
+        "d": "2026-03-31",
+        "se": "中性"
+      }
+    },
+    {
+      "t": "USBC",
+      "co": "USBC Inc",
+      "p": 0.37,
+      "ch": 12.76,
+      "vr": 10.9,
+      "sd": 1,
+      "sdt": [
+        "03-31"
+      ],
+      "su": true,
+      "m30": 0.38,
+      "m60": 0.46,
+      "mas": "空头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -59.1,
+      "sc": 2,
+      "sp": false,
+      "news": {
+        "h": "【技术面】量比11倍极度放量，近2日突然放量信号，均线空头排列",
+        "d": "2026-03-31",
+        "se": "中性"
+      }
+    },
+    {
+      "t": "IDN",
+      "co": "Intellicheck Inc",
+      "p": 6.5,
+      "ch": 1.24,
+      "vr": 0.6,
+      "sd": 2,
+      "sdt": [
+        "03-20",
+        "03-30"
+      ],
+      "su": true,
+      "m30": 5.09,
+      "m60": 5.4,
+      "mas": "空头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -13.1,
+      "sc": 2,
+      "sp": false,
+      "news": {
+        "h": "Strength Seen in Intellicheck Mobilisa (IDN): Can Its 25.4% Jump Turn into More Strength?",
+        "d": "2026-03-31",
+        "se": "利好"
+      }
+    },
+    {
+      "t": "MASK",
+      "co": "3 E Network Technology Group Ltd",
+      "p": 2.61,
+      "ch": 110.48,
+      "vr": 18.6,
+      "sd": 1,
+      "sdt": [
+        "03-31"
+      ],
+      "su": true,
+      "m30": 3.05,
+      "m60": 5.04,
+      "mas": "空头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -84.3,
+      "sc": 1,
+      "sp": true,
+      "news": {
+        "h": "Cloud AI Update - Nordic Expansion Fuels AI Infrastructure Growth in Finland",
+        "d": "2026-03-31",
+        "se": "利好"
+      }
+    },
+    {
+      "t": "WRD",
+      "co": "WeRide Inc. ADR",
+      "p": 8.08,
+      "ch": 13.66,
+      "vr": 0.7,
+      "sd": 2,
+      "sdt": [
+        "03-20",
+        "03-23"
+      ],
+      "su": false,
+      "m30": 6.91,
+      "m60": 7.71,
+      "mas": "空头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -19.3,
+      "sc": 1,
+      "sp": false,
+      "news": {
+        "h": "Permian and Pool have been highlighted as Zacks Bull and Bear of the Day",
+        "d": "2026-03-31",
+        "se": "中性"
+      }
+    },
+    {
+      "t": "FOXX",
+      "co": "Foxx Development Holdings Inc",
+      "p": 5.0,
+      "ch": 13.04,
+      "vr": 2.4,
+      "sd": 1,
+      "sdt": [
+        "03-31"
+      ],
+      "su": true,
+      "m30": 4.46,
+      "m60": 4.49,
+      "mas": "空头",
+      "cr": "死叉",
+      "cd": "03-27",
+      "fh": -29.1,
+      "sc": 1,
+      "sp": true,
+      "news": {
+        "h": "Zacks Initiates Coverage of FOXX With Underperform Recommendation",
+        "d": "2026-03-31",
+        "se": "中性"
+      }
+    },
+    {
+      "t": "SAIH",
+      "co": "SAIHEAT Ltd",
+      "p": 7.9,
+      "ch": 1.28,
+      "vr": 1.8,
+      "sd": 2,
+      "sdt": [
+        "03-26",
+        "03-30"
+      ],
+      "su": true,
+      "m30": 7.42,
+      "m60": 7.68,
+      "mas": "空头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -27.5,
+      "sc": 1,
+      "sp": true,
+      "news": {
+        "h": "【技术面】近2日突然放量信号，均线空头排列",
+        "d": "2026-03-31",
+        "se": "中性"
+      }
+    }
+  ]
+}
