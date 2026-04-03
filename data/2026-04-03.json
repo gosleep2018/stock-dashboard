@@ -1,0 +1,123 @@
+{
+  "date": "2026-04-03",
+  "upd": "22:36 SGT",
+  "ms": {
+    "SPY": {
+      "p": 655.83,
+      "c": 0.09
+    },
+    "QQQ": {
+      "p": 584.98,
+      "c": 0.11
+    },
+    "VIX": {
+      "p": 0,
+      "c": 0
+    },
+    "sum": "大盘上涨 SPY +0.09%，科技股 QQQ +0.11%，VIX 0.0。市场震荡，选股要精准。"
+  },
+  "stocks": [
+    {
+      "t": "ALOT",
+      "co": "AstroNova Inc",
+      "p": 9.11,
+      "ch": 0.66,
+      "vr": 6.7,
+      "sd": 1,
+      "sdt": [
+        "04-02"
+      ],
+      "su": true,
+      "m30": 8.97,
+      "m60": 9.15,
+      "mas": "空头",
+      "cr": "死叉",
+      "cd": "03-23",
+      "fh": -8.9,
+      "sc": 3,
+      "sp": true,
+      "news": {
+        "h": "AstroNova (NASDAQ:ALOT) investors are sitting on a loss of 35% if they invested three years ago",
+        "d": "2026-04-03",
+        "se": "利空"
+      }
+    },
+    {
+      "t": "SELX",
+      "co": "Semilux International Ltd",
+      "p": 0.53,
+      "ch": 50.86,
+      "vr": 17.5,
+      "sd": 2,
+      "sdt": [
+        "04-01",
+        "04-02"
+      ],
+      "su": true,
+      "m30": 0.47,
+      "m60": 0.61,
+      "mas": "空头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -47.7,
+      "sc": 2,
+      "sp": true,
+      "news": {
+        "h": "【技术面】单日暴涨51%，量比18倍极度放量，近2日突然放量信号，均线空头排列",
+        "d": "2026-04-03",
+        "se": "利好"
+      }
+    },
+    {
+      "t": "AIXI",
+      "co": "Xiao-I Corp ADR",
+      "p": 0.13,
+      "ch": 33.67,
+      "vr": 8.3,
+      "sd": 2,
+      "sdt": [
+        "04-01",
+        "04-02"
+      ],
+      "su": true,
+      "m30": 0.18,
+      "m60": 0.23,
+      "mas": "空头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -84.4,
+      "sc": 1,
+      "sp": true,
+      "news": {
+        "h": "China Court Ruling On AI Patents Puts Apple Valuation In Focus",
+        "d": "2026-04-03",
+        "se": "中性"
+      }
+    },
+    {
+      "t": "AGPU",
+      "co": "Axe Compute Inc",
+      "p": 4.07,
+      "ch": 14.33,
+      "vr": 1.6,
+      "sd": 1,
+      "sdt": [
+        "04-01"
+      ],
+      "su": true,
+      "m30": 1.91,
+      "m60": 3.11,
+      "mas": "空头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -54.8,
+      "sc": 1,
+      "sp": true,
+      "news": {
+        "h": "Axe Compute Inc (AGPU) Q4 2025 Earnings Call Highlights: Strategic Expansion and Strong ...",
+        "d": "2026-04-03",
+        "se": "利好"
+      }
+    }
+  ]
+}
