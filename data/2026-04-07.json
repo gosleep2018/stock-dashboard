@@ -1,0 +1,128 @@
+{
+  "date": "2026-04-07",
+  "upd": "22:38 SGT",
+  "ms": {
+    "SPY": {
+      "p": 654.47,
+      "c": -0.68
+    },
+    "QQQ": {
+      "p": 582.12,
+      "c": -1.08
+    },
+    "VIX": {
+      "p": 0,
+      "c": 0
+    },
+    "sum": "大盘下跌 SPY -0.68%，科技股 QQQ -1.08%，VIX 0.0。市场震荡，选股要精准。"
+  },
+  "stocks": [
+    {
+      "t": "RYDE",
+      "co": "Ryde Group Ltd",
+      "p": 0.93,
+      "ch": 22.85,
+      "vr": 5.4,
+      "sd": 2,
+      "sdt": [
+        "03-24",
+        "04-07"
+      ],
+      "su": true,
+      "m30": 0.55,
+      "m60": 0.43,
+      "mas": "多头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -9.7,
+      "sc": 4,
+      "sp": false,
+      "news": {
+        "h": "Ryde Teams With Concorde To Put Drivers In Singapore's Security Jobs",
+        "d": "2026-04-07",
+        "se": "中性"
+      }
+    },
+    {
+      "t": "AIXI",
+      "co": "Xiao-I Corp ADR",
+      "p": 1.32,
+      "ch": 63.56,
+      "vr": 2.1,
+      "sd": 4,
+      "sdt": [
+        "04-01",
+        "04-02",
+        "04-06",
+        "04-07"
+      ],
+      "su": true,
+      "m30": 0.24,
+      "m60": 0.25,
+      "mas": "空头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -10.5,
+      "sc": 2,
+      "sp": true,
+      "news": {
+        "h": "China Court Ruling On AI Patents Puts Apple Valuation In Focus",
+        "d": "2026-04-07",
+        "se": "中性"
+      }
+    },
+    {
+      "t": "ALOT",
+      "co": "AstroNova Inc",
+      "p": 10.83,
+      "ch": 15.26,
+      "vr": 2.4,
+      "sd": 2,
+      "sdt": [
+        "04-02",
+        "04-07"
+      ],
+      "su": true,
+      "m30": 9.02,
+      "m60": 9.18,
+      "mas": "空头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -4.0,
+      "sc": 2,
+      "sp": true,
+      "news": {
+        "h": "AstroNova (NASDAQ:ALOT) investors are sitting on a loss of 35% if they invested three years ago",
+        "d": "2026-04-07",
+        "se": "利空"
+      }
+    },
+    {
+      "t": "HUBC",
+      "co": "Hub Cyber Security Ltd",
+      "p": 0.09,
+      "ch": 16.22,
+      "vr": 2.8,
+      "sd": 3,
+      "sdt": [
+        "03-25",
+        "04-01",
+        "04-07"
+      ],
+      "su": true,
+      "m30": 0.62,
+      "m60": 1.95,
+      "mas": "空头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -99.5,
+      "sc": 0,
+      "sp": true,
+      "news": {
+        "h": "HUB Security signs perpetual KYC, compliance services agreement with Kyrrex",
+        "d": "2026-04-07",
+        "se": "中性"
+      }
+    }
+  ]
+}
