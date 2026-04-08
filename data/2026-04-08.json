@@ -1,0 +1,148 @@
+{
+  "date": "2026-04-08",
+  "upd": "22:38 SGT",
+  "ms": {
+    "SPY": {
+      "p": 673.6,
+      "c": 2.18
+    },
+    "QQQ": {
+      "p": 605.07,
+      "c": 2.8
+    },
+    "VIX": {
+      "p": 0,
+      "c": 0
+    },
+    "sum": "大盘上涨 SPY +2.18%，科技股 QQQ +2.80%，VIX 0.0。市场偏强，动量股机会增加。"
+  },
+  "stocks": [
+    {
+      "t": "AEHR",
+      "co": "Aehr Test Systems",
+      "p": 62.32,
+      "ch": 24.02,
+      "vr": 2.1,
+      "sd": 3,
+      "sdt": [
+        "04-06",
+        "04-07",
+        "04-08"
+      ],
+      "su": true,
+      "m30": 40.11,
+      "m60": 34.27,
+      "mas": "多头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -6.0,
+      "sc": 3,
+      "sp": false,
+      "news": {
+        "h": "Aehr Test Systems (AEHR) Q3 2026 Earnings Call Highlights: Record Backlog Amid Revenue Decline",
+        "d": "2026-04-08",
+        "se": "利好"
+      }
+    },
+    {
+      "t": "FEBO",
+      "co": "Fenbo Holdings Ltd",
+      "p": 1.24,
+      "ch": 10.22,
+      "vr": 4.4,
+      "sd": 1,
+      "sdt": [
+        "04-08"
+      ],
+      "su": true,
+      "m30": 1.13,
+      "m60": 1.14,
+      "mas": "空头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -15.1,
+      "sc": 2,
+      "sp": true,
+      "news": {
+        "h": "【技术面】近2日突然放量信号，均线空头排列",
+        "d": "2026-04-08",
+        "se": "中性"
+      }
+    },
+    {
+      "t": "MASK",
+      "co": "3 E Network Technology Group Ltd",
+      "p": 2.29,
+      "ch": 21.81,
+      "vr": 1.8,
+      "sd": 1,
+      "sdt": [
+        "03-31"
+      ],
+      "su": false,
+      "m30": 2.73,
+      "m60": 4.37,
+      "mas": "空头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -86.2,
+      "sc": 1,
+      "sp": true,
+      "news": {
+        "h": "Cloud AI Update - Nordic Expansion Fuels AI Infrastructure Growth in Finland",
+        "d": "2026-04-08",
+        "se": "利好"
+      }
+    },
+    {
+      "t": "HTCR",
+      "co": "HeartCore Enterprises Inc",
+      "p": 3.18,
+      "ch": 4.26,
+      "vr": 1.7,
+      "sd": 3,
+      "sdt": [
+        "04-01",
+        "04-06",
+        "04-07"
+      ],
+      "su": true,
+      "m30": 4.67,
+      "m60": 5.1,
+      "mas": "空头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -68.2,
+      "sc": 0,
+      "sp": true,
+      "news": {
+        "h": "HeartCore Enterprises, Inc. (HTCR) Reports Q3 Loss, Beats Revenue Estimates",
+        "d": "2026-04-08",
+        "se": "利好"
+      }
+    },
+    {
+      "t": "TAOP",
+      "co": "Taoping Inc",
+      "p": 1.25,
+      "ch": -0.75,
+      "vr": 1.2,
+      "sd": 0,
+      "sdt": [],
+      "su": false,
+      "m30": 1.41,
+      "m60": 1.44,
+      "mas": "空头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -60.0,
+      "sc": 0,
+      "sp": true,
+      "news": {
+        "h": "【技术面】均线空头排列",
+        "d": "2026-04-08",
+        "se": "中性"
+      }
+    }
+  ]
+}
