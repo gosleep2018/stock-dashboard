@@ -1,0 +1,149 @@
+{
+  "date": "2026-04-11",
+  "upd": "00:50 SGT",
+  "ms": {
+    "SPY": {
+      "p": 679.39,
+      "c": -0.08
+    },
+    "QQQ": {
+      "p": 610.42,
+      "c": 0.04
+    },
+    "VIX": {
+      "p": 0,
+      "c": 0
+    },
+    "sum": "大盘下跌 SPY -0.08%，科技股 QQQ +0.04%，VIX 0.0。市场震荡，选股要精准。"
+  },
+  "stocks": [
+    {
+      "t": "OCC",
+      "co": "Optical Cable Corp",
+      "p": 11.51,
+      "ch": 20.27,
+      "vr": 2.2,
+      "sd": 1,
+      "sdt": [
+        "04-10"
+      ],
+      "su": true,
+      "m30": 8.03,
+      "m60": 6.63,
+      "mas": "多头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -0.8,
+      "sc": 3,
+      "sp": false,
+      "news": {
+        "h": "Remplir expected to avoid proposed US pharmaceutical tariffs",
+        "d": "2026-04-11",
+        "se": "中性"
+      }
+    },
+    {
+      "t": "CURR",
+      "co": "Currenc Group Inc",
+      "p": 3.5,
+      "ch": 10.76,
+      "vr": 2.9,
+      "sd": 2,
+      "sdt": [
+        "03-31",
+        "04-10"
+      ],
+      "su": true,
+      "m30": 2.53,
+      "m60": 2.13,
+      "mas": "多头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -4.1,
+      "sc": 3,
+      "sp": false,
+      "news": {
+        "h": "Sector Update: Financial Stocks Rise Late Afternoon",
+        "d": "2026-04-11",
+        "se": "中性"
+      }
+    },
+    {
+      "t": "FUSE",
+      "co": "Fusemachines Inc",
+      "p": 1.78,
+      "ch": 110.0,
+      "vr": 19.5,
+      "sd": 1,
+      "sdt": [
+        "04-10"
+      ],
+      "su": true,
+      "m30": 1.24,
+      "m60": 1.46,
+      "mas": "空头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -51.4,
+      "sc": 2,
+      "sp": true,
+      "news": {
+        "h": "【技术面】单日暴涨110%，量比20倍极度放量，近2日突然放量信号，均线空头排列",
+        "d": "2026-04-11",
+        "se": "利好"
+      }
+    },
+    {
+      "t": "MAXN",
+      "co": "Maxeon Solar Technologies Ltd",
+      "p": 1.77,
+      "ch": 34.09,
+      "vr": 1.1,
+      "sd": 2,
+      "sdt": [
+        "04-06",
+        "04-07"
+      ],
+      "su": false,
+      "m30": 1.88,
+      "m60": 2.37,
+      "mas": "空头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -60.7,
+      "sc": 1,
+      "sp": true,
+      "news": {
+        "h": "Maxeon says it is committed to building massive Albuquerque facility despite financial losses, polic",
+        "d": "2026-04-11",
+        "se": "利空"
+      }
+    },
+    {
+      "t": "VTSI",
+      "co": "VirTra Inc",
+      "p": 4.27,
+      "ch": 8.38,
+      "vr": 2.5,
+      "sd": 2,
+      "sdt": [
+        "03-27",
+        "04-10"
+      ],
+      "su": true,
+      "m30": 4.15,
+      "m60": 4.37,
+      "mas": "空头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -17.7,
+      "sc": 1,
+      "sp": true,
+      "news": {
+        "h": "VirTra, Inc. (VTSI) Stock Slides as Market Rises: Facts to Know Before You Trade",
+        "d": "2026-04-11",
+        "se": "中性"
+      }
+    }
+  ]
+}
