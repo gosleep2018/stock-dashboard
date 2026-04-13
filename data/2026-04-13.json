@@ -1,0 +1,194 @@
+{
+  "date": "2026-04-13",
+  "upd": "22:52 SGT",
+  "ms": {
+    "SPY": {
+      "p": 679.97,
+      "c": 0.08
+    },
+    "QQQ": {
+      "p": 611.97,
+      "c": 0.15
+    },
+    "VIX": {
+      "p": 0,
+      "c": 0
+    },
+    "sum": "大盘上涨 SPY +0.08%，科技股 QQQ +0.15%，VIX 0.0。市场震荡，选股要精准。"
+  },
+  "stocks": [
+    {
+      "t": "OPTX",
+      "co": "Syntec Optics Holdings Inc",
+      "p": 11.0,
+      "ch": 17.65,
+      "vr": 4.3,
+      "sd": 1,
+      "sdt": [
+        "04-13"
+      ],
+      "su": true,
+      "m30": 7.69,
+      "m60": 6.92,
+      "mas": "多头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -9.8,
+      "sc": 4,
+      "sp": false,
+      "news": {
+        "h": "Syntec Optics' 2025 Loss Narrows Y/Y on Margin Expansion, Cost Cuts",
+        "d": "2026-04-13",
+        "se": "利空"
+      }
+    },
+    {
+      "t": "RMSG",
+      "co": "Real Messenger Corp",
+      "p": 1.2,
+      "ch": 155.11,
+      "vr": 8.8,
+      "sd": 1,
+      "sdt": [
+        "04-13"
+      ],
+      "su": true,
+      "m30": 0.54,
+      "m60": 0.71,
+      "mas": "空头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -44.5,
+      "sc": 2,
+      "sp": true,
+      "news": {
+        "h": "【技术面】单日暴涨155%，量比9倍明显放量，近2日突然放量信号，均线空头排列",
+        "d": "2026-04-13",
+        "se": "利好"
+      }
+    },
+    {
+      "t": "ALMU",
+      "co": "Aeluma Inc",
+      "p": 15.81,
+      "ch": 46.93,
+      "vr": 8.7,
+      "sd": 1,
+      "sdt": [
+        "04-13"
+      ],
+      "su": true,
+      "m30": 14.11,
+      "m60": 15.36,
+      "mas": "空头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -34.7,
+      "sc": 2,
+      "sp": false,
+      "news": {
+        "h": "Should Benchmark’s Nvidia-Linked Rating Rationale Reframe How Investors View Aeluma’s (ALMU) Ecosyst",
+        "d": "2026-04-13",
+        "se": "中性"
+      }
+    },
+    {
+      "t": "JDZG",
+      "co": "Jiade Ltd",
+      "p": 1.97,
+      "ch": 29.61,
+      "vr": 12.9,
+      "sd": 1,
+      "sdt": [
+        "04-13"
+      ],
+      "su": true,
+      "m30": 2.26,
+      "m60": 15.93,
+      "mas": "空头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -98.1,
+      "sc": 2,
+      "sp": true,
+      "news": {
+        "h": "Based On Its ROE, Is JIADE Limited (NASDAQ:JDZG) A High Quality Stock?",
+        "d": "2026-04-13",
+        "se": "中性"
+      }
+    },
+    {
+      "t": "POET",
+      "co": "POET Technologies Inc",
+      "p": 7.72,
+      "ch": 9.59,
+      "vr": 1.3,
+      "sd": 0,
+      "sdt": [],
+      "su": false,
+      "m30": 6.38,
+      "m60": 6.33,
+      "mas": "多头",
+      "cr": "金叉",
+      "cd": "04-13",
+      "fh": -15.6,
+      "sc": 2,
+      "sp": false,
+      "news": {
+        "h": "Assessing POET Technologies (NasdaqCM:POET) Valuation Gap As Long Term Returns Contrast Recent Weakn",
+        "d": "2026-04-13",
+        "se": "利空"
+      }
+    },
+    {
+      "t": "FUSE",
+      "co": "Fusemachines Inc",
+      "p": 2.08,
+      "ch": 13.39,
+      "vr": 1.1,
+      "sd": 1,
+      "sdt": [
+        "04-10"
+      ],
+      "su": true,
+      "m30": 1.27,
+      "m60": 1.47,
+      "mas": "空头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -43.5,
+      "sc": 1,
+      "sp": true,
+      "news": {
+        "h": "The VIX Sharply Reverses and Points Back Towards 30 After Failed Peace Negotiations",
+        "d": "2026-04-13",
+        "se": "中性"
+      }
+    },
+    {
+      "t": "VTSI",
+      "co": "VirTra Inc",
+      "p": 4.34,
+      "ch": 3.21,
+      "vr": 1.1,
+      "sd": 1,
+      "sdt": [
+        "04-10"
+      ],
+      "su": true,
+      "m30": 4.15,
+      "m60": 4.35,
+      "mas": "空头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -16.3,
+      "sc": 1,
+      "sp": true,
+      "news": {
+        "h": "VirTra, Inc. (VTSI) Stock Slides as Market Rises: Facts to Know Before You Trade",
+        "d": "2026-04-13",
+        "se": "中性"
+      }
+    }
+  ]
+}
