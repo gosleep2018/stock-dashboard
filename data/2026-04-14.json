@@ -1,95 +1,267 @@
 {
   "date": "2026-04-14",
-  "upd": "15:59 SGT",
+  "upd": "22:34 SGT",
   "ms": {
     "SPY": {
-      "p": 686.1,
-      "c": 0.98
+      "p": 690.84,
+      "c": 0.69
     },
     "QQQ": {
-      "p": 617.39,
-      "c": 1.03
+      "p": 623.42,
+      "c": 0.98
     },
     "VIX": {
       "p": 0,
       "c": 0
     },
-    "sum": "大盘上涨 SPY +0.98%，科技股 QQQ +1.03%，VIX 0.0。市场震荡，选股要精准。"
+    "sum": "大盘上涨 SPY +0.69%，科技股 QQQ +0.98%，VIX 0.0。市场震荡，选股要精准。"
   },
   "stocks": [
     {
-      "t": "RMSG",
-      "co": "Real Messenger Corp",
-      "p": 2.7,
-      "ch": 474.47,
-      "vr": 12.6,
+      "t": "MITQ",
+      "co": "Moving iMage Technologies Inc",
+      "p": 0.7,
+      "ch": 22.98,
+      "vr": 12.7,
+      "sd": 1,
+      "sdt": [
+        "04-14"
+      ],
+      "su": true,
+      "m30": 0.58,
+      "m60": 0.63,
+      "mas": "空头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -13.5,
+      "sc": 3,
+      "sp": true,
+      "news": {
+        "h": "The Zacks Analyst Blog Highlights Oracle, Intuitive Surgical, Analog Devices and Moving iMage Techno",
+        "d": "2026-04-14",
+        "se": "中性"
+      }
+    },
+    {
+      "t": "AOSL",
+      "co": "Alpha & Omega Semiconductor Ltd",
+      "p": 31.08,
+      "ch": 13.47,
+      "vr": 2.4,
+      "sd": 1,
+      "sdt": [
+        "04-14"
+      ],
+      "su": true,
+      "m30": 22.43,
+      "m60": 22.22,
+      "mas": "多头",
+      "cr": "金叉",
+      "cd": "04-13",
+      "fh": -0.9,
+      "sc": 3,
+      "sp": false,
+      "news": {
+        "h": "How The Alpha And Omega Semiconductor (AOSL) Investment Story Is Shifting After The US$22 Fair Value",
+        "d": "2026-04-14",
+        "se": "中性"
+      }
+    },
+    {
+      "t": "XNDU",
+      "co": "Xanadu Quantum Technologies Ltd",
+      "p": 15.76,
+      "ch": 37.16,
+      "vr": 1.9,
       "sd": 1,
       "sdt": [
         "04-13"
       ],
       "su": true,
-      "m30": 0.59,
-      "m60": 0.73,
+      "m30": null,
+      "m60": null,
       "mas": "空头",
       "cr": "无穿越",
       "cd": "",
       "fh": -1.1,
-      "sc": 3,
-      "sp": true,
-      "news": {
-        "h": "【技术面】单日暴涨474%，量比13倍极度放量，近2日突然放量信号，均线空头排列",
-        "d": "2026-04-14",
-        "se": "利好"
-      }
-    },
-    {
-      "t": "ALMU",
-      "co": "Aeluma Inc",
-      "p": 15.35,
-      "ch": 42.66,
-      "vr": 10.8,
-      "sd": 1,
-      "sdt": [
-        "04-13"
-      ],
-      "su": true,
-      "m30": 14.1,
-      "m60": 15.35,
-      "mas": "空头",
-      "cr": "无穿越",
-      "cd": "",
-      "fh": -36.6,
       "sc": 2,
       "sp": false,
       "news": {
-        "h": "Should Benchmark’s Nvidia-Linked Rating Rationale Reframe How Investors View Aeluma’s (ALMU) Ecosyst",
+        "h": "Xanadu Becomes Public, Eyes Quantum Commercialization: Quarterly Update Report",
         "d": "2026-04-14",
         "se": "中性"
       }
     },
     {
-      "t": "YAAS",
-      "co": "Youxin Technology Ltd",
-      "p": 1.03,
-      "ch": 5.42,
-      "vr": 4.6,
-      "sd": 1,
+      "t": "VTSI",
+      "co": "VirTra Inc",
+      "p": 4.82,
+      "ch": 8.8,
+      "vr": 1.5,
+      "sd": 2,
       "sdt": [
+        "04-10",
         "04-13"
       ],
       "su": true,
-      "m30": 0.98,
-      "m60": 1.18,
+      "m30": 4.17,
+      "m60": 4.35,
+      "mas": "空头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -7.1,
+      "sc": 2,
+      "sp": true,
+      "news": {
+        "h": "VirTra, Inc. (VTSI) Stock Slides as Market Rises: Facts to Know Before You Trade",
+        "d": "2026-04-14",
+        "se": "中性"
+      }
+    },
+    {
+      "t": "UTSI",
+      "co": "UTStarcom Holdings Corp",
+      "p": 2.6,
+      "ch": 8.33,
+      "vr": 1.2,
+      "sd": 2,
+      "sdt": [
+        "03-31",
+        "04-13"
+      ],
+      "su": true,
+      "m30": 2.41,
+      "m60": 2.43,
+      "mas": "空头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -8.1,
+      "sc": 2,
+      "sp": true,
+      "news": {
+        "h": "Will UTStarcom Holdings (NASDAQ:UTSI) Spend Its Cash Wisely?",
+        "d": "2026-04-14",
+        "se": "中性"
+      }
+    },
+    {
+      "t": "IONQ",
+      "co": "IonQ Inc",
+      "p": 34.83,
+      "ch": 17.05,
+      "vr": 1.4,
+      "sd": 0,
+      "sdt": [],
+      "su": false,
+      "m30": 31.84,
+      "m60": 35.2,
+      "mas": "空头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -37.4,
+      "sc": 1,
+      "sp": false,
+      "news": {
+        "h": "Analysts Are Bullish on These 3 Quantum Computing Stocks — Including One You’ve Never Heard Of",
+        "d": "2026-04-14",
+        "se": "中性"
+      }
+    },
+    {
+      "t": "WETH",
+      "co": "Wetouch Technology Inc",
+      "p": 1.55,
+      "ch": 13.14,
+      "vr": 1.6,
+      "sd": 1,
+      "sdt": [
+        "04-10"
+      ],
+      "su": false,
+      "m30": 1.38,
+      "m60": 1.56,
+      "mas": "空头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -26.2,
+      "sc": 1,
+      "sp": true,
+      "news": {
+        "h": "Returns On Capital At Wetouch Technology (NASDAQ:WETH) Paint A Concerning Picture",
+        "d": "2026-04-14",
+        "se": "中性"
+      }
+    },
+    {
+      "t": "HQ",
+      "co": "Horizon Quantum Holdings Ltd",
+      "p": 10.44,
+      "ch": 17.62,
+      "vr": 1.9,
+      "sd": 0,
+      "sdt": [],
+      "su": false,
+      "m30": null,
+      "m60": null,
+      "mas": "空头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -22.3,
+      "sc": 1,
+      "sp": false,
+      "news": {
+        "h": "【技术面】均线空头排列",
+        "d": "2026-04-14",
+        "se": "中性"
+      }
+    },
+    {
+      "t": "QMCO",
+      "co": "Quantum Corp",
+      "p": 6.88,
+      "ch": 7.21,
+      "vr": 1.5,
+      "sd": 0,
+      "sdt": [],
+      "su": false,
+      "m30": 5.43,
+      "m60": 5.78,
+      "mas": "空头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -31.2,
+      "sc": 1,
+      "sp": false,
+      "news": {
+        "h": "QMCO & Pink Elephant Partner for Sovereign Cold Storage in Europe",
+        "d": "2026-04-14",
+        "se": "中性"
+      }
+    },
+    {
+      "t": "LAES",
+      "co": "SEALSQ Corp",
+      "p": 2.45,
+      "ch": 14.72,
+      "vr": 1.0,
+      "sd": 2,
+      "sdt": [
+        "04-07",
+        "04-08"
+      ],
+      "su": false,
+      "m30": 3.03,
+      "m60": 3.6,
       "mas": "空头",
       "cr": "无穿越",
       "cd": "",
       "fh": -55.2,
-      "sc": 2,
-      "sp": true,
+      "sc": 0,
+      "sp": false,
       "news": {
-        "h": "With 65% ownership, Youxin Technology Ltd (NASDAQ:YAAS) insiders have a lot riding on the company's ",
+        "h": "SEALSQ (LAES) Says Q1 Revenue Jumps Over 200%",
         "d": "2026-04-14",
-        "se": "中性"
+        "se": "利好"
       }
     }
   ]
