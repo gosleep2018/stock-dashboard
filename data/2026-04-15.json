@@ -1,0 +1,147 @@
+{
+  "date": "2026-04-15",
+  "upd": "01:54 SGT",
+  "ms": {
+    "SPY": {
+      "p": 693.67,
+      "c": 1.1
+    },
+    "QQQ": {
+      "p": 627.45,
+      "c": 1.63
+    },
+    "VIX": {
+      "p": 0,
+      "c": 0
+    },
+    "sum": "大盘上涨 SPY +1.10%，科技股 QQQ +1.63%，VIX 0.0。市场偏强，动量股机会增加。"
+  },
+  "stocks": [
+    {
+      "t": "AOSL",
+      "co": "Alpha & Omega Semiconductor Ltd",
+      "p": 30.74,
+      "ch": 12.21,
+      "vr": 3.8,
+      "sd": 1,
+      "sdt": [
+        "04-14"
+      ],
+      "su": true,
+      "m30": 22.41,
+      "m60": 22.22,
+      "mas": "多头",
+      "cr": "金叉",
+      "cd": "04-13",
+      "fh": -5.1,
+      "sc": 4,
+      "sp": false,
+      "news": {
+        "h": "How The Alpha And Omega Semiconductor (AOSL) Investment Story Is Shifting After The US$22 Fair Value",
+        "d": "2026-04-15",
+        "se": "中性"
+      }
+    },
+    {
+      "t": "XNDU",
+      "co": "Xanadu Quantum Technologies Ltd",
+      "p": 14.68,
+      "ch": 27.72,
+      "vr": 3.1,
+      "sd": 2,
+      "sdt": [
+        "04-13",
+        "04-14"
+      ],
+      "su": true,
+      "m30": null,
+      "m60": null,
+      "mas": "空头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -10.0,
+      "sc": 3,
+      "sp": false,
+      "news": {
+        "h": "It’s Anyone’s Game: What China’s Five-Year Plan Means for Quantum Computing",
+        "d": "2026-04-15",
+        "se": "中性"
+      }
+    },
+    {
+      "t": "MITQ",
+      "co": "Moving iMage Technologies Inc",
+      "p": 0.58,
+      "ch": 1.74,
+      "vr": 17.8,
+      "sd": 1,
+      "sdt": [
+        "04-14"
+      ],
+      "su": true,
+      "m30": 0.57,
+      "m60": 0.63,
+      "mas": "空头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -28.4,
+      "sc": 2,
+      "sp": true,
+      "news": {
+        "h": "The Zacks Analyst Blog Highlights Oracle, Intuitive Surgical, Analog Devices and Moving iMage Techno",
+        "d": "2026-04-15",
+        "se": "中性"
+      }
+    },
+    {
+      "t": "ARAI",
+      "co": "Arrive AI Inc",
+      "p": 1.28,
+      "ch": 44.04,
+      "vr": 1.7,
+      "sd": 1,
+      "sdt": [
+        "04-09"
+      ],
+      "su": false,
+      "m30": 0.9,
+      "m60": 1.27,
+      "mas": "空头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -68.4,
+      "sc": 1,
+      "sp": true,
+      "news": {
+        "h": "Arrive AI Is Trending Overnight — Here's Why ARAI Stock Popped 33% In The After-Hours Session",
+        "d": "2026-04-15",
+        "se": "中性"
+      }
+    },
+    {
+      "t": "HQ",
+      "co": "Horizon Quantum Holdings Ltd",
+      "p": 10.43,
+      "ch": 17.4,
+      "vr": 2.8,
+      "sd": 1,
+      "sdt": [
+        "04-14"
+      ],
+      "su": true,
+      "m30": null,
+      "m60": null,
+      "mas": "空头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -22.4,
+      "sc": 1,
+      "sp": false,
+      "news": {
+        "h": "【技术面】近2日突然放量信号，均线空头排列",
+        "d": "2026-04-15",
+        "se": "中性"
+      }
+    }
+  ]
+}
