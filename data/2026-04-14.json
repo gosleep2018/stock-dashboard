@@ -1,0 +1,96 @@
+{
+  "date": "2026-04-14",
+  "upd": "15:59 SGT",
+  "ms": {
+    "SPY": {
+      "p": 686.1,
+      "c": 0.98
+    },
+    "QQQ": {
+      "p": 617.39,
+      "c": 1.03
+    },
+    "VIX": {
+      "p": 0,
+      "c": 0
+    },
+    "sum": "大盘上涨 SPY +0.98%，科技股 QQQ +1.03%，VIX 0.0。市场震荡，选股要精准。"
+  },
+  "stocks": [
+    {
+      "t": "RMSG",
+      "co": "Real Messenger Corp",
+      "p": 2.7,
+      "ch": 474.47,
+      "vr": 12.6,
+      "sd": 1,
+      "sdt": [
+        "04-13"
+      ],
+      "su": true,
+      "m30": 0.59,
+      "m60": 0.73,
+      "mas": "空头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -1.1,
+      "sc": 3,
+      "sp": true,
+      "news": {
+        "h": "【技术面】单日暴涨474%，量比13倍极度放量，近2日突然放量信号，均线空头排列",
+        "d": "2026-04-14",
+        "se": "利好"
+      }
+    },
+    {
+      "t": "ALMU",
+      "co": "Aeluma Inc",
+      "p": 15.35,
+      "ch": 42.66,
+      "vr": 10.8,
+      "sd": 1,
+      "sdt": [
+        "04-13"
+      ],
+      "su": true,
+      "m30": 14.1,
+      "m60": 15.35,
+      "mas": "空头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -36.6,
+      "sc": 2,
+      "sp": false,
+      "news": {
+        "h": "Should Benchmark’s Nvidia-Linked Rating Rationale Reframe How Investors View Aeluma’s (ALMU) Ecosyst",
+        "d": "2026-04-14",
+        "se": "中性"
+      }
+    },
+    {
+      "t": "YAAS",
+      "co": "Youxin Technology Ltd",
+      "p": 1.03,
+      "ch": 5.42,
+      "vr": 4.6,
+      "sd": 1,
+      "sdt": [
+        "04-13"
+      ],
+      "su": true,
+      "m30": 0.98,
+      "m60": 1.18,
+      "mas": "空头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -55.2,
+      "sc": 2,
+      "sp": true,
+      "news": {
+        "h": "With 65% ownership, Youxin Technology Ltd (NASDAQ:YAAS) insiders have a lot riding on the company's ",
+        "d": "2026-04-14",
+        "se": "中性"
+      }
+    }
+  ]
+}
