@@ -1,0 +1,248 @@
+{
+  "date": "2026-04-20",
+  "upd": "22:31 SGT",
+  "ms": {
+    "SPY": {
+      "p": 708.74,
+      "c": -0.2
+    },
+    "QQQ": {
+      "p": 646.22,
+      "c": -0.41
+    },
+    "VIX": {
+      "p": 0,
+      "c": 0
+    },
+    "sum": "大盘下跌 SPY -0.20%，科技股 QQQ -0.41%，VIX 0.0。市场震荡，选股要精准。"
+  },
+  "stocks": [
+    {
+      "t": "POET",
+      "co": "POET Technologies Inc",
+      "p": 8.94,
+      "ch": 23.21,
+      "vr": 2.1,
+      "sd": 2,
+      "sdt": [
+        "04-14",
+        "04-20"
+      ],
+      "su": true,
+      "m30": 6.48,
+      "m60": 6.28,
+      "mas": "多头",
+      "cr": "金叉",
+      "cd": "04-13",
+      "fh": -4.6,
+      "sc": 3,
+      "sp": false,
+      "news": {
+        "h": "POET Stock Rises After Pushes Back on Short Seller Claims",
+        "d": "2026-04-20",
+        "se": "利空"
+      }
+    },
+    {
+      "t": "MXL",
+      "co": "MaxLinear Inc",
+      "p": 29.94,
+      "ch": 13.97,
+      "vr": 1.4,
+      "sd": 1,
+      "sdt": [
+        "04-17"
+      ],
+      "su": true,
+      "m30": 18.78,
+      "m60": 18.47,
+      "mas": "多头",
+      "cr": "金叉",
+      "cd": "04-17",
+      "fh": -0.1,
+      "sc": 3,
+      "sp": false,
+      "news": {
+        "h": "Evaluating MaxLinear (MXL) After A Sharp Rally And Mixed Signals On Fair Value",
+        "d": "2026-04-20",
+        "se": "利好"
+      }
+    },
+    {
+      "t": "AOSL",
+      "co": "Alpha & Omega Semiconductor Ltd",
+      "p": 37.9,
+      "ch": 11.88,
+      "vr": 1.5,
+      "sd": 3,
+      "sdt": [
+        "04-14",
+        "04-15",
+        "04-17"
+      ],
+      "su": true,
+      "m30": 24.18,
+      "m60": 22.94,
+      "mas": "多头",
+      "cr": "金叉",
+      "cd": "04-13",
+      "fh": -2.1,
+      "sc": 3,
+      "sp": false,
+      "news": {
+        "h": "Alpha and Omega (AOSL) Soars 10.9%: Is Further Upside Left in the Stock?",
+        "d": "2026-04-20",
+        "se": "利好"
+      }
+    },
+    {
+      "t": "KSPI",
+      "co": "Kaspi.kz JSC ADR",
+      "p": 94.2,
+      "ch": 10.94,
+      "vr": 1.7,
+      "sd": 0,
+      "sdt": [],
+      "su": false,
+      "m30": 74.08,
+      "m60": 73.7,
+      "mas": "多头",
+      "cr": "金叉",
+      "cd": "04-20",
+      "fh": -3.2,
+      "sc": 3,
+      "sp": false,
+      "news": {
+        "h": "Highlighting BillionToOne And 2 Other Stocks That Investors May Be Undervaluing",
+        "d": "2026-04-20",
+        "se": "中性"
+      }
+    },
+    {
+      "t": "BB",
+      "co": "BlackBerry Ltd",
+      "p": 5.31,
+      "ch": 9.26,
+      "vr": 0.9,
+      "sd": 0,
+      "sdt": [],
+      "su": false,
+      "m30": 3.6,
+      "m60": 3.55,
+      "mas": "多头",
+      "cr": "金叉",
+      "cd": "04-17",
+      "fh": -0.7,
+      "sc": 3,
+      "sp": false,
+      "news": {
+        "h": "BlackBerry (TSX:BB) Valuation Check After QNX Records, Secure Communications Progress And Turnaround",
+        "d": "2026-04-20",
+        "se": "利好"
+      }
+    },
+    {
+      "t": "PDC",
+      "co": "Perpetuals.com Ltd ADR",
+      "p": 7.39,
+      "ch": 6.03,
+      "vr": 1.7,
+      "sd": 1,
+      "sdt": [
+        "04-09"
+      ],
+      "su": false,
+      "m30": 5.18,
+      "m60": 5.04,
+      "mas": "多头",
+      "cr": "金叉",
+      "cd": "04-16",
+      "fh": -7.2,
+      "sc": 3,
+      "sp": true,
+      "news": {
+        "h": "Perpetuals.com (PDC) Announces Strategic Initiative to Deploy Next-Gen Agentic AI Infrastructure Pla",
+        "d": "2026-04-20",
+        "se": "中性"
+      }
+    },
+    {
+      "t": "OWLS",
+      "co": "OBOOK Holdings Inc",
+      "p": 6.0,
+      "ch": 13.42,
+      "vr": 3.3,
+      "sd": 2,
+      "sdt": [
+        "04-17",
+        "04-20"
+      ],
+      "su": true,
+      "m30": 5.89,
+      "m60": 5.89,
+      "mas": "空头",
+      "cr": "死叉",
+      "cd": "04-16",
+      "fh": -30.0,
+      "sc": 2,
+      "sp": false,
+      "news": {
+        "h": "Analysts Are Optimistic We'll See A Profit From Obook Holdings Inc. (NASDAQ:OWLS)",
+        "d": "2026-04-20",
+        "se": "利好"
+      }
+    },
+    {
+      "t": "EBON",
+      "co": "Ebang International Holdings Inc",
+      "p": 2.66,
+      "ch": 15.6,
+      "vr": 2.5,
+      "sd": 1,
+      "sdt": [
+        "04-20"
+      ],
+      "su": true,
+      "m30": 2.14,
+      "m60": 2.41,
+      "mas": "空头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -31.6,
+      "sc": 1,
+      "sp": true,
+      "news": {
+        "h": "Credicorp (BAP) Soars 7.5%: Is Further Upside Left in the Stock?",
+        "d": "2026-04-20",
+        "se": "利好"
+      }
+    },
+    {
+      "t": "INFQ",
+      "co": "Infleqtion Inc",
+      "p": 17.29,
+      "ch": -0.74,
+      "vr": 2.1,
+      "sd": 3,
+      "sdt": [
+        "04-16",
+        "04-17",
+        "04-20"
+      ],
+      "su": true,
+      "m30": 11.47,
+      "m60": null,
+      "mas": "空头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -18.7,
+      "sc": 1,
+      "sp": false,
+      "news": {
+        "h": "Xanadu (XNDU) Soars 237% This Week. Nvidia May Hold The Answer",
+        "d": "2026-04-20",
+        "se": "利好"
+      }
+    }
+  ]
+}
