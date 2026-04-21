@@ -1,0 +1,400 @@
+{
+  "date": "2026-04-21",
+  "upd": "22:30 SGT",
+  "ms": {
+    "SPY": {
+      "p": 710.41,
+      "c": 0.24
+    },
+    "QQQ": {
+      "p": 649.13,
+      "c": 0.36
+    },
+    "VIX": {
+      "p": 0,
+      "c": 0
+    },
+    "sum": "大盘上涨 SPY +0.24%，科技股 QQQ +0.36%，VIX 0.0。市场震荡，选股要精准。"
+  },
+  "stocks": [
+    {
+      "t": "ELSE",
+      "co": "Electro-Sensors Inc",
+      "p": 7.61,
+      "ch": 71.78,
+      "vr": 15.0,
+      "sd": 1,
+      "sdt": [
+        "04-21"
+      ],
+      "su": true,
+      "m30": 4.5,
+      "m60": 4.41,
+      "mas": "多头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -0.5,
+      "sc": 4,
+      "sp": true,
+      "news": {
+        "h": "Has Electro-Sensors, Inc.'s (NASDAQ:ELSE) Impressive Stock Performance Got Anything to Do With Its F",
+        "d": "2026-04-21",
+        "se": "中性"
+      }
+    },
+    {
+      "t": "NVTS",
+      "co": "Navitas Semiconductor Corp",
+      "p": 16.19,
+      "ch": 22.69,
+      "vr": 1.6,
+      "sd": 1,
+      "sdt": [
+        "04-16"
+      ],
+      "su": false,
+      "m30": 9.87,
+      "m60": 9.32,
+      "mas": "多头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -2.5,
+      "sc": 3,
+      "sp": false,
+      "news": {
+        "h": "Most Investors Have Never Heard of This Semiconductor Stock. That's About to Change.",
+        "d": "2026-04-21",
+        "se": "中性"
+      }
+    },
+    {
+      "t": "POET",
+      "co": "POET Technologies Inc",
+      "p": 10.25,
+      "ch": 19.32,
+      "vr": 2.5,
+      "sd": 2,
+      "sdt": [
+        "04-20",
+        "04-21"
+      ],
+      "su": true,
+      "m30": 6.59,
+      "m60": 6.32,
+      "mas": "多头",
+      "cr": "金叉",
+      "cd": "04-13",
+      "fh": -7.5,
+      "sc": 3,
+      "sp": false,
+      "news": {
+        "h": "Stock Market Today, April 20: POET Technologies Jumps After Responding to Short Report and Clarifyin",
+        "d": "2026-04-21",
+        "se": "利好"
+      }
+    },
+    {
+      "t": "OCC",
+      "co": "Optical Cable Corp",
+      "p": 12.08,
+      "ch": 12.25,
+      "vr": 0.9,
+      "sd": 1,
+      "sdt": [
+        "04-10"
+      ],
+      "su": false,
+      "m30": 9.19,
+      "m60": 7.43,
+      "mas": "多头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -1.6,
+      "sc": 3,
+      "sp": false,
+      "news": {
+        "h": "Orthocell flags strong March quarter as US Remplir rollout gathers pace",
+        "d": "2026-04-21",
+        "se": "利好"
+      }
+    },
+    {
+      "t": "BMR",
+      "co": "Beamr Imaging Ltd",
+      "p": 2.18,
+      "ch": 14.14,
+      "vr": 5.2,
+      "sd": 2,
+      "sdt": [
+        "04-20",
+        "04-21"
+      ],
+      "su": true,
+      "m30": 1.6,
+      "m60": 1.69,
+      "mas": "空头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -13.1,
+      "sc": 3,
+      "sp": true,
+      "news": {
+        "h": "Beamr Imaging Launches GPU-Accelerated Video Compression for Autonomous Vehicles at NVIDIA GTC Paris",
+        "d": "2026-04-21",
+        "se": "中性"
+      }
+    },
+    {
+      "t": "VICR",
+      "co": "Vicor Corp",
+      "p": 249.5,
+      "ch": 10.98,
+      "vr": 1.1,
+      "sd": 0,
+      "sdt": [],
+      "su": false,
+      "m30": 180.76,
+      "m60": 176.03,
+      "mas": "多头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -2.5,
+      "sc": 3,
+      "sp": false,
+      "news": {
+        "h": "Vicor (VICR) Q1 Earnings Top Estimates",
+        "d": "2026-04-21",
+        "se": "利好"
+      }
+    },
+    {
+      "t": "MXL",
+      "co": "MaxLinear Inc",
+      "p": 34.26,
+      "ch": 7.97,
+      "vr": 2.2,
+      "sd": 3,
+      "sdt": [
+        "04-17",
+        "04-20",
+        "04-21"
+      ],
+      "su": true,
+      "m30": 19.45,
+      "m60": 18.76,
+      "mas": "多头",
+      "cr": "金叉",
+      "cd": "04-17",
+      "fh": -8.3,
+      "sc": 3,
+      "sp": false,
+      "news": {
+        "h": "MaxLinear (MXL) Hits 2-Year High as Firm Bets on ‘Double-Digit’ Revenue Jump",
+        "d": "2026-04-21",
+        "se": "利好"
+      }
+    },
+    {
+      "t": "MX",
+      "co": "MagnaChip Semiconductor Corp",
+      "p": 3.54,
+      "ch": 5.36,
+      "vr": 1.6,
+      "sd": 1,
+      "sdt": [
+        "04-20"
+      ],
+      "su": true,
+      "m30": 2.92,
+      "m60": 2.89,
+      "mas": "多头",
+      "cr": "金叉",
+      "cd": "04-17",
+      "fh": -0.8,
+      "sc": 3,
+      "sp": false,
+      "news": {
+        "h": "Magnachip Semiconductor (MX) Rolls Out New 8th-generation 40V and 60V Medium-Voltage (MV) MOSFETs",
+        "d": "2026-04-21",
+        "se": "中性"
+      }
+    },
+    {
+      "t": "AOSL",
+      "co": "Alpha & Omega Semiconductor Ltd",
+      "p": 40.43,
+      "ch": 1.33,
+      "vr": 0.9,
+      "sd": 3,
+      "sdt": [
+        "04-14",
+        "04-17",
+        "04-20"
+      ],
+      "su": true,
+      "m30": 24.93,
+      "m60": 23.28,
+      "mas": "多头",
+      "cr": "金叉",
+      "cd": "04-13",
+      "fh": -3.4,
+      "sc": 3,
+      "sp": false,
+      "news": {
+        "h": "Alpha and Omega (AOSL) Soars 10.9%: Is Further Upside Left in the Stock?",
+        "d": "2026-04-21",
+        "se": "利好"
+      }
+    },
+    {
+      "t": "RPGL",
+      "co": "Republic Power Group Ltd",
+      "p": 0.79,
+      "ch": 74.76,
+      "vr": 9.4,
+      "sd": 3,
+      "sdt": [
+        "04-14",
+        "04-16",
+        "04-21"
+      ],
+      "su": true,
+      "m30": 0.62,
+      "m60": 3.85,
+      "mas": "空头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -97.9,
+      "sc": 2,
+      "sp": true,
+      "news": {
+        "h": "【技术面】单日暴涨75%，量比9倍明显放量，近2日突然放量信号，均线空头排列",
+        "d": "2026-04-21",
+        "se": "利好"
+      }
+    },
+    {
+      "t": "GRRR",
+      "co": "Gorilla Technology Group Inc",
+      "p": 14.68,
+      "ch": 3.27,
+      "vr": 1.6,
+      "sd": 0,
+      "sdt": [],
+      "su": false,
+      "m30": 11.29,
+      "m60": 11.82,
+      "mas": "空头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -8.6,
+      "sc": 2,
+      "sp": false,
+      "news": {
+        "h": "Gorilla Technology Group Inc. (GRRR): Most Undervalued Cybersecurity Stock to Invest In",
+        "d": "2026-04-21",
+        "se": "中性"
+      }
+    },
+    {
+      "t": "ACFN",
+      "co": "Acorn Energy Inc",
+      "p": 19.0,
+      "ch": 3.43,
+      "vr": 2.0,
+      "sd": 1,
+      "sdt": [
+        "04-21"
+      ],
+      "su": true,
+      "m30": 18.59,
+      "m60": 18.53,
+      "mas": "多头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -20.0,
+      "sc": 2,
+      "sp": true,
+      "news": {
+        "h": "Zacks Initiates Coverage of Acorn With Outperform Recommendation",
+        "d": "2026-04-21",
+        "se": "中性"
+      }
+    },
+    {
+      "t": "BIYA",
+      "co": "Baiya International Group Inc",
+      "p": 1.2,
+      "ch": 38.43,
+      "vr": 12.5,
+      "sd": 2,
+      "sdt": [
+        "04-20",
+        "04-21"
+      ],
+      "su": true,
+      "m30": 1.37,
+      "m60": 1.97,
+      "mas": "空头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -86.3,
+      "sc": 1,
+      "sp": true,
+      "news": {
+        "h": "Baiya International announces partial waiver of IPO lock-up restriction",
+        "d": "2026-04-21",
+        "se": "中性"
+      }
+    },
+    {
+      "t": "VELO",
+      "co": "Velo3D Inc",
+      "p": 14.82,
+      "ch": 26.99,
+      "vr": 1.7,
+      "sd": 0,
+      "sdt": [],
+      "su": false,
+      "m30": 11.81,
+      "m60": 11.9,
+      "mas": "空头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -37.8,
+      "sc": 1,
+      "sp": false,
+      "news": {
+        "h": "Why Velo3D Stock Is Plummeting Today",
+        "d": "2026-04-21",
+        "se": "中性"
+      }
+    },
+    {
+      "t": "KOSS",
+      "co": "Koss Corp",
+      "p": 4.14,
+      "ch": 0.24,
+      "vr": 2.8,
+      "sd": 2,
+      "sdt": [
+        "04-16",
+        "04-21"
+      ],
+      "su": true,
+      "m30": 3.88,
+      "m60": 4.11,
+      "mas": "空头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -16.4,
+      "sc": 1,
+      "sp": true,
+      "news": {
+        "h": "Pure Treats buys Primal Pet Foods from private-equity owners",
+        "d": "2026-04-21",
+        "se": "利好"
+      }
+    }
+  ]
+}
