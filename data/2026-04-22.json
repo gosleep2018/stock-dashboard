@@ -1,0 +1,252 @@
+{
+  "date": "2026-04-22",
+  "upd": "00:53 SGT",
+  "ms": {
+    "SPY": {
+      "p": 706.23,
+      "c": -0.35
+    },
+    "QQQ": {
+      "p": 645.66,
+      "c": -0.18
+    },
+    "VIX": {
+      "p": 0,
+      "c": 0
+    },
+    "sum": "大盘下跌 SPY -0.35%，科技股 QQQ -0.18%，VIX 0.0。市场震荡，选股要精准。"
+  },
+  "stocks": [
+    {
+      "t": "ELSE",
+      "co": "Electro-Sensors Inc",
+      "p": 7.61,
+      "ch": 71.78,
+      "vr": 16.3,
+      "sd": 1,
+      "sdt": [
+        "04-21"
+      ],
+      "su": true,
+      "m30": 4.5,
+      "m60": 4.41,
+      "mas": "多头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -0.5,
+      "sc": 4,
+      "sp": true,
+      "news": {
+        "h": "Has Electro-Sensors, Inc.'s (NASDAQ:ELSE) Impressive Stock Performance Got Anything to Do With Its F",
+        "d": "2026-04-22",
+        "se": "中性"
+      }
+    },
+    {
+      "t": "POET",
+      "co": "POET Technologies Inc",
+      "p": 10.39,
+      "ch": 20.91,
+      "vr": 3.3,
+      "sd": 2,
+      "sdt": [
+        "04-20",
+        "04-21"
+      ],
+      "su": true,
+      "m30": 6.59,
+      "m60": 6.33,
+      "mas": "多头",
+      "cr": "金叉",
+      "cd": "04-13",
+      "fh": -6.3,
+      "sc": 4,
+      "sp": false,
+      "news": {
+        "h": "POET Technologies PFIC Steps U.S. Move And Financing Shift Focus",
+        "d": "2026-04-22",
+        "se": "中性"
+      }
+    },
+    {
+      "t": "NVTS",
+      "co": "Navitas Semiconductor Corp",
+      "p": 15.27,
+      "ch": 15.68,
+      "vr": 2.7,
+      "sd": 2,
+      "sdt": [
+        "04-16",
+        "04-21"
+      ],
+      "su": true,
+      "m30": 9.84,
+      "m60": 9.3,
+      "mas": "多头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -8.1,
+      "sc": 3,
+      "sp": false,
+      "news": {
+        "h": "The ‘Behind-the-Scenes’ AI Chip Stock Few Investors Know — But Every Hyperscaler Will Soon Need",
+        "d": "2026-04-22",
+        "se": "中性"
+      }
+    },
+    {
+      "t": "BB",
+      "co": "BlackBerry Ltd",
+      "p": 5.64,
+      "ch": 2.64,
+      "vr": 1.6,
+      "sd": 1,
+      "sdt": [
+        "04-20"
+      ],
+      "su": true,
+      "m30": 3.68,
+      "m60": 3.59,
+      "mas": "多头",
+      "cr": "金叉",
+      "cd": "04-17",
+      "fh": -1.1,
+      "sc": 3,
+      "sp": false,
+      "news": {
+        "h": "BlackBerry And NVIDIA Tie-Up - What's Going On?",
+        "d": "2026-04-22",
+        "se": "中性"
+      }
+    },
+    {
+      "t": "RPGL",
+      "co": "Republic Power Group Ltd",
+      "p": 0.62,
+      "ch": 37.11,
+      "vr": 13.6,
+      "sd": 2,
+      "sdt": [
+        "04-14",
+        "04-21"
+      ],
+      "su": true,
+      "m30": 0.62,
+      "m60": 3.85,
+      "mas": "空头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -98.3,
+      "sc": 2,
+      "sp": true,
+      "news": {
+        "h": "【技术面】单日大涨37%，量比14倍极度放量，近2日突然放量信号，均线空头排列",
+        "d": "2026-04-22",
+        "se": "利好"
+      }
+    },
+    {
+      "t": "VELO",
+      "co": "Velo3D Inc",
+      "p": 15.38,
+      "ch": 31.75,
+      "vr": 3.8,
+      "sd": 1,
+      "sdt": [
+        "04-21"
+      ],
+      "su": true,
+      "m30": 11.83,
+      "m60": 11.91,
+      "mas": "空头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -35.5,
+      "sc": 2,
+      "sp": false,
+      "news": {
+        "h": "Why Velo3D Stock Is Plummeting Today",
+        "d": "2026-04-22",
+        "se": "中性"
+      }
+    },
+    {
+      "t": "BMR",
+      "co": "Beamr Imaging Ltd",
+      "p": 2.07,
+      "ch": 8.38,
+      "vr": 5.9,
+      "sd": 2,
+      "sdt": [
+        "04-20",
+        "04-21"
+      ],
+      "su": true,
+      "m30": 1.59,
+      "m60": 1.69,
+      "mas": "空头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -17.5,
+      "sc": 2,
+      "sp": true,
+      "news": {
+        "h": "Beamr Imaging Launches GPU-Accelerated Video Compression for Autonomous Vehicles at NVIDIA GTC Paris",
+        "d": "2026-04-22",
+        "se": "中性"
+      }
+    },
+    {
+      "t": "KOSS",
+      "co": "Koss Corp",
+      "p": 4.18,
+      "ch": 1.21,
+      "vr": 3.5,
+      "sd": 2,
+      "sdt": [
+        "04-16",
+        "04-21"
+      ],
+      "su": true,
+      "m30": 3.88,
+      "m60": 4.11,
+      "mas": "空头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -15.6,
+      "sc": 2,
+      "sp": true,
+      "news": {
+        "h": "Pure Treats buys Primal Pet Foods from private-equity owners",
+        "d": "2026-04-22",
+        "se": "利好"
+      }
+    },
+    {
+      "t": "BIYA",
+      "co": "Baiya International Group Inc",
+      "p": 1.27,
+      "ch": 45.98,
+      "vr": 13.1,
+      "sd": 2,
+      "sdt": [
+        "04-20",
+        "04-21"
+      ],
+      "su": true,
+      "m30": 1.37,
+      "m60": 1.97,
+      "mas": "空头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -85.6,
+      "sc": 1,
+      "sp": true,
+      "news": {
+        "h": "Baiya International announces partial waiver of IPO lock-up restriction",
+        "d": "2026-04-22",
+        "se": "中性"
+      }
+    }
+  ]
+}
