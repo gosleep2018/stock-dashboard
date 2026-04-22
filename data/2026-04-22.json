@@ -1,69 +1,118 @@
 {
   "date": "2026-04-22",
-  "upd": "00:53 SGT",
+  "upd": "22:31 SGT",
   "ms": {
     "SPY": {
-      "p": 706.23,
-      "c": -0.35
+      "p": 710.27,
+      "c": 0.88
     },
     "QQQ": {
-      "p": 645.66,
-      "c": -0.18
+      "p": 652.58,
+      "c": 1.29
     },
     "VIX": {
       "p": 0,
       "c": 0
     },
-    "sum": "大盘下跌 SPY -0.35%，科技股 QQQ -0.18%，VIX 0.0。市场震荡，选股要精准。"
+    "sum": "大盘上涨 SPY +0.88%，科技股 QQQ +1.29%，VIX 0.0。市场震荡，选股要精准。"
   },
   "stocks": [
     {
-      "t": "ELSE",
-      "co": "Electro-Sensors Inc",
-      "p": 7.61,
-      "ch": 71.78,
-      "vr": 16.3,
+      "t": "BGIN",
+      "co": "Bgin Blockchain Ltd",
+      "p": 4.0,
+      "ch": 25.39,
+      "vr": 8.6,
       "sd": 1,
       "sdt": [
-        "04-21"
+        "04-22"
       ],
       "su": true,
-      "m30": 4.5,
-      "m60": 4.41,
+      "m30": 2.93,
+      "m60": 2.91,
       "mas": "多头",
-      "cr": "无穿越",
-      "cd": "",
-      "fh": -0.5,
+      "cr": "金叉",
+      "cd": "04-22",
+      "fh": -2.4,
       "sc": 4,
-      "sp": true,
+      "sp": false,
       "news": {
-        "h": "Has Electro-Sensors, Inc.'s (NASDAQ:ELSE) Impressive Stock Performance Got Anything to Do With Its F",
+        "h": "【技术面】单日大涨25%，量比9倍明显放量，近2日突然放量信号，MA30/60金叉形成，均线多头排列",
         "d": "2026-04-22",
-        "se": "中性"
+        "se": "利好"
       }
     },
     {
       "t": "POET",
       "co": "POET Technologies Inc",
-      "p": 10.39,
-      "ch": 20.91,
-      "vr": 3.3,
-      "sd": 2,
+      "p": 11.66,
+      "ch": 13.76,
+      "vr": 2.7,
+      "sd": 3,
       "sdt": [
         "04-20",
-        "04-21"
+        "04-21",
+        "04-22"
       ],
       "su": true,
-      "m30": 6.59,
-      "m60": 6.33,
+      "m30": 6.74,
+      "m60": 6.41,
       "mas": "多头",
       "cr": "金叉",
       "cd": "04-13",
-      "fh": -6.3,
-      "sc": 4,
+      "fh": -10.0,
+      "sc": 3,
       "sp": false,
       "news": {
-        "h": "POET Technologies PFIC Steps U.S. Move And Financing Shift Focus",
+        "h": "POET Technologies (POET) Is Up 52.8% After U.S. HQ Shift And Fresh Funding Plan - Has The Bull Case ",
+        "d": "2026-04-22",
+        "se": "中性"
+      }
+    },
+    {
+      "t": "KOPN",
+      "co": "Kopin Corp",
+      "p": 3.16,
+      "ch": 11.05,
+      "vr": 0.7,
+      "sd": 0,
+      "sdt": [],
+      "su": false,
+      "m30": 2.42,
+      "m60": 2.38,
+      "mas": "多头",
+      "cr": "金叉",
+      "cd": "04-21",
+      "fh": -11.1,
+      "sc": 3,
+      "sp": false,
+      "news": {
+        "h": "Kopin Corporation Q4 2025 Earnings Call Summary",
+        "d": "2026-04-22",
+        "se": "利好"
+      }
+    },
+    {
+      "t": "POWI",
+      "co": "Power Integrations Inc",
+      "p": 74.26,
+      "ch": 10.23,
+      "vr": 1.1,
+      "sd": 1,
+      "sdt": [
+        "04-21"
+      ],
+      "su": true,
+      "m30": 52.48,
+      "m60": 49.58,
+      "mas": "多头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -2.6,
+      "sc": 3,
+      "sp": false,
+      "news": {
+        "h": "Forget Memory, Power Chips Are the Next Hot AI Play. These 6 Stocks Are Surging.",
         "d": "2026-04-22",
         "se": "中性"
       }
@@ -71,181 +120,281 @@
     {
       "t": "NVTS",
       "co": "Navitas Semiconductor Corp",
-      "p": 15.27,
-      "ch": 15.68,
-      "vr": 2.7,
-      "sd": 2,
+      "p": 16.84,
+      "ch": 9.88,
+      "vr": 1.4,
+      "sd": 1,
       "sdt": [
-        "04-16",
         "04-21"
       ],
       "su": true,
-      "m30": 9.84,
-      "m60": 9.3,
+      "m30": 10.11,
+      "m60": 9.43,
       "mas": "多头",
       "cr": "无穿越",
       "cd": "",
-      "fh": -8.1,
+      "fh": -6.4,
       "sc": 3,
       "sp": false,
       "news": {
-        "h": "The ‘Behind-the-Scenes’ AI Chip Stock Few Investors Know — But Every Hyperscaler Will Soon Need",
+        "h": "Forget Memory, Power Chips Are the Next Hot AI Play. These 6 Stocks Are Surging.",
         "d": "2026-04-22",
         "se": "中性"
       }
     },
     {
-      "t": "BB",
-      "co": "BlackBerry Ltd",
-      "p": 5.64,
-      "ch": 2.64,
-      "vr": 1.6,
+      "t": "VICR",
+      "co": "Vicor Corp",
+      "p": 260.0,
+      "ch": 5.59,
+      "vr": 1.1,
       "sd": 1,
       "sdt": [
-        "04-20"
+        "04-21"
       ],
       "su": true,
-      "m30": 3.68,
-      "m60": 3.59,
+      "m30": 183.46,
+      "m60": 177.67,
+      "mas": "多头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -11.5,
+      "sc": 3,
+      "sp": false,
+      "news": {
+        "h": "Forget Memory, Power Chips Are the Next Hot AI Play. These 6 Stocks Are Surging.",
+        "d": "2026-04-22",
+        "se": "中性"
+      }
+    },
+    {
+      "t": "MX",
+      "co": "MagnaChip Semiconductor Corp",
+      "p": 3.81,
+      "ch": 7.63,
+      "vr": 2.3,
+      "sd": 3,
+      "sdt": [
+        "04-20",
+        "04-21",
+        "04-22"
+      ],
+      "su": true,
+      "m30": 2.96,
+      "m60": 2.9,
       "mas": "多头",
       "cr": "金叉",
       "cd": "04-17",
-      "fh": -1.1,
+      "fh": -3.3,
       "sc": 3,
       "sp": false,
       "news": {
-        "h": "BlackBerry And NVIDIA Tie-Up - What's Going On?",
+        "h": "April 2026's Top Penny Stocks To Watch",
         "d": "2026-04-22",
         "se": "中性"
       }
     },
     {
-      "t": "RPGL",
-      "co": "Republic Power Group Ltd",
-      "p": 0.62,
-      "ch": 37.11,
-      "vr": 13.6,
-      "sd": 2,
-      "sdt": [
-        "04-14",
-        "04-21"
-      ],
-      "su": true,
-      "m30": 0.62,
-      "m60": 3.85,
-      "mas": "空头",
+      "t": "TRT",
+      "co": "Trio-Tech International",
+      "p": 8.23,
+      "ch": 16.74,
+      "vr": 1.9,
+      "sd": 0,
+      "sdt": [],
+      "su": false,
+      "m30": 6.37,
+      "m60": 5.84,
+      "mas": "多头",
       "cr": "无穿越",
       "cd": "",
-      "fh": -98.3,
-      "sc": 2,
+      "fh": -0.8,
+      "sc": 3,
       "sp": true,
       "news": {
-        "h": "【技术面】单日大涨37%，量比14倍极度放量，近2日突然放量信号，均线空头排列",
+        "h": "【技术面】均线多头排列",
         "d": "2026-04-22",
-        "se": "利好"
+        "se": "中性"
       }
     },
     {
-      "t": "VELO",
-      "co": "Velo3D Inc",
-      "p": 15.38,
-      "ch": 31.75,
-      "vr": 3.8,
+      "t": "ALOT",
+      "co": "AstroNova Inc",
+      "p": 13.95,
+      "ch": 1.81,
+      "vr": 0.4,
       "sd": 1,
       "sdt": [
-        "04-21"
+        "04-16"
       ],
-      "su": true,
-      "m30": 11.83,
-      "m60": 11.91,
-      "mas": "空头",
-      "cr": "无穿越",
-      "cd": "",
-      "fh": -35.5,
-      "sc": 2,
+      "su": false,
+      "m30": 10.28,
+      "m60": 9.74,
+      "mas": "多头",
+      "cr": "金叉",
+      "cd": "04-14",
+      "fh": -0.9,
+      "sc": 3,
       "sp": false,
       "news": {
-        "h": "Why Velo3D Stock Is Plummeting Today",
-        "d": "2026-04-22",
-        "se": "中性"
-      }
-    },
-    {
-      "t": "BMR",
-      "co": "Beamr Imaging Ltd",
-      "p": 2.07,
-      "ch": 8.38,
-      "vr": 5.9,
-      "sd": 2,
-      "sdt": [
-        "04-20",
-        "04-21"
-      ],
-      "su": true,
-      "m30": 1.59,
-      "m60": 1.69,
-      "mas": "空头",
-      "cr": "无穿越",
-      "cd": "",
-      "fh": -17.5,
-      "sc": 2,
-      "sp": true,
-      "news": {
-        "h": "Beamr Imaging Launches GPU-Accelerated Video Compression for Autonomous Vehicles at NVIDIA GTC Paris",
-        "d": "2026-04-22",
-        "se": "中性"
-      }
-    },
-    {
-      "t": "KOSS",
-      "co": "Koss Corp",
-      "p": 4.18,
-      "ch": 1.21,
-      "vr": 3.5,
-      "sd": 2,
-      "sdt": [
-        "04-16",
-        "04-21"
-      ],
-      "su": true,
-      "m30": 3.88,
-      "m60": 4.11,
-      "mas": "空头",
-      "cr": "无穿越",
-      "cd": "",
-      "fh": -15.6,
-      "sc": 2,
-      "sp": true,
-      "news": {
-        "h": "Pure Treats buys Primal Pet Foods from private-equity owners",
+        "h": "AstroNova (ALOT) Q4 2026 Earnings Transcript",
         "d": "2026-04-22",
         "se": "利好"
       }
     },
     {
-      "t": "BIYA",
-      "co": "Baiya International Group Inc",
-      "p": 1.27,
-      "ch": 45.98,
-      "vr": 13.1,
+      "t": "IPWR",
+      "co": "Ideal Power Inc",
+      "p": 3.85,
+      "ch": 22.38,
+      "vr": 4.8,
       "sd": 2,
       "sdt": [
         "04-20",
-        "04-21"
+        "04-22"
       ],
       "su": true,
-      "m30": 1.37,
-      "m60": 1.97,
+      "m30": 3.11,
+      "m60": 3.41,
       "mas": "空头",
       "cr": "无穿越",
       "cd": "",
-      "fh": -85.6,
-      "sc": 1,
+      "fh": -29.4,
+      "sc": 2,
       "sp": true,
       "news": {
-        "h": "Baiya International announces partial waiver of IPO lock-up restriction",
+        "h": "Ideal Power sets sights on data centers, EVs, and energy storage with B-TRAN",
         "d": "2026-04-22",
         "se": "中性"
+      }
+    },
+    {
+      "t": "BEEM",
+      "co": "Beam Global",
+      "p": 1.79,
+      "ch": 17.76,
+      "vr": 5.6,
+      "sd": 3,
+      "sdt": [
+        "04-09",
+        "04-10",
+        "04-22"
+      ],
+      "su": true,
+      "m30": 1.5,
+      "m60": 1.52,
+      "mas": "空头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -22.5,
+      "sc": 2,
+      "sp": true,
+      "news": {
+        "h": "Morning Movers: Organon jumps after report of Sun Pharmaceutical bid",
+        "d": "2026-04-22",
+        "se": "利好"
+      }
+    },
+    {
+      "t": "XNDU",
+      "co": "Xanadu Quantum Technologies Ltd",
+      "p": 29.0,
+      "ch": 26.64,
+      "vr": 1.0,
+      "sd": 3,
+      "sdt": [
+        "04-15",
+        "04-16",
+        "04-17"
+      ],
+      "su": false,
+      "m30": null,
+      "m60": null,
+      "mas": "空头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -31.7,
+      "sc": 1,
+      "sp": false,
+      "news": {
+        "h": "Meet the film school dropout who became a billionaire quantum computing CEO in days thanks to Nvidia",
+        "d": "2026-04-22",
+        "se": "利空"
+      }
+    },
+    {
+      "t": "ZENA",
+      "co": "ZenaTech Inc",
+      "p": 2.27,
+      "ch": 10.49,
+      "vr": 1.0,
+      "sd": 0,
+      "sdt": [],
+      "su": false,
+      "m30": 2.22,
+      "m60": 2.56,
+      "mas": "空头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -56.2,
+      "sc": 1,
+      "sp": false,
+      "news": {
+        "h": "ZenaTech (ZENA) Is Up 13.8% After Expanding AI-Driven Counter-Drone Ecosystem Into Ukraine Manufactu",
+        "d": "2026-04-22",
+        "se": "中性"
+      }
+    },
+    {
+      "t": "INFQ",
+      "co": "Infleqtion Inc",
+      "p": 15.16,
+      "ch": 0.99,
+      "vr": 0.8,
+      "sd": 2,
+      "sdt": [
+        "04-17",
+        "04-20"
+      ],
+      "su": false,
+      "m30": 11.64,
+      "m60": null,
+      "mas": "空头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -28.8,
+      "sc": 1,
+      "sp": false,
+      "news": {
+        "h": "Infleqtion (INFQ) Is Up 27.1% After $1.11B Shelf, ISS Quantum Upgrade And Nvidia Tie-Up",
+        "d": "2026-04-22",
+        "se": "利好"
+      }
+    },
+    {
+      "t": "HTCR",
+      "co": "HeartCore Enterprises Inc",
+      "p": 3.09,
+      "ch": -0.77,
+      "vr": 1.1,
+      "sd": 2,
+      "sdt": [
+        "04-13",
+        "04-21"
+      ],
+      "su": true,
+      "m30": 4.05,
+      "m60": 4.66,
+      "mas": "空头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -64.0,
+      "sc": 0,
+      "sp": true,
+      "news": {
+        "h": "HeartCore Enterprises, Inc. (HTCR) Reports Q3 Loss, Beats Revenue Estimates",
+        "d": "2026-04-22",
+        "se": "利好"
       }
     }
   ]
