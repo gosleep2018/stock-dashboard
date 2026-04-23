@@ -1,0 +1,213 @@
+{
+  "date": "2026-04-23",
+  "upd": "22:30 SGT",
+  "ms": {
+    "SPY": {
+      "p": 0,
+      "c": 0
+    },
+    "QQQ": {
+      "p": 0,
+      "c": 0
+    },
+    "VIX": {
+      "p": 0,
+      "c": 0
+    },
+    "sum": "大盘上涨 SPY +0.00%，科技股 QQQ +0.00%，VIX 0.0。市场震荡，选股要精准。"
+  },
+  "stocks": [
+    {
+      "t": "TRT",
+      "co": "Trio-Tech International",
+      "p": 13.26,
+      "ch": 60.55,
+      "vr": 17.5,
+      "sd": 1,
+      "sdt": [
+        "04-23"
+      ],
+      "su": true,
+      "m30": 6.61,
+      "m60": 5.96,
+      "mas": "多头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -3.6,
+      "sc": 4,
+      "sp": false,
+      "news": {
+        "h": "【技术面】单日暴涨61%，量比18倍极度放量，近2日突然放量信号，均线多头排列",
+        "d": "2026-04-23",
+        "se": "利好"
+      }
+    },
+    {
+      "t": "STM",
+      "co": "ST Microelectronics",
+      "p": 50.06,
+      "ch": 11.59,
+      "vr": 1.0,
+      "sd": 0,
+      "sdt": [],
+      "su": false,
+      "m30": 36.85,
+      "m60": 34.52,
+      "mas": "多头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -0.9,
+      "sc": 3,
+      "sp": false,
+      "news": {
+        "h": "STMicroelectronics Forecasts Accelerating Sales Growth, Sees AI Upside",
+        "d": "2026-04-23",
+        "se": "利好"
+      }
+    },
+    {
+      "t": "AIXI",
+      "co": "Xiao-I Corp ADR",
+      "p": 1.14,
+      "ch": 27.36,
+      "vr": 0.3,
+      "sd": 0,
+      "sdt": [],
+      "su": false,
+      "m30": 0.59,
+      "m60": 0.41,
+      "mas": "多头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -57.9,
+      "sc": 2,
+      "sp": true,
+      "news": {
+        "h": "Penny Stock Xiao-I Is Surging on Apple Patent Win. Should You Buy Little-Known AIXI Now?",
+        "d": "2026-04-23",
+        "se": "利好"
+      }
+    },
+    {
+      "t": "FTFT",
+      "co": "Future FinTech Group Inc",
+      "p": 1.46,
+      "ch": 20.5,
+      "vr": 9.9,
+      "sd": 1,
+      "sdt": [
+        "04-23"
+      ],
+      "su": true,
+      "m30": 1.33,
+      "m60": 1.47,
+      "mas": "空头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -68.6,
+      "sc": 2,
+      "sp": true,
+      "news": {
+        "h": "This Future FinTech Group Insider Increased Their Holding In The Last Year",
+        "d": "2026-04-23",
+        "se": "中性"
+      }
+    },
+    {
+      "t": "TXN",
+      "co": "Texas Instruments Inc",
+      "p": 274.88,
+      "ch": 16.32,
+      "vr": 1.4,
+      "sd": 0,
+      "sdt": [],
+      "su": false,
+      "m30": 206.39,
+      "m60": 210.51,
+      "mas": "空头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -0.9,
+      "sc": 2,
+      "sp": false,
+      "news": {
+        "h": "Stock Market Today: Dow Off Lightly; Tesla Drops On Musk Comments But Texas Instruments Soars (Live ",
+        "d": "2026-04-23",
+        "se": "利好"
+      }
+    },
+    {
+      "t": "APLD",
+      "co": "Applied Digital Corp",
+      "p": 36.96,
+      "ch": 13.97,
+      "vr": 0.9,
+      "sd": 0,
+      "sdt": [],
+      "su": false,
+      "m30": 27.62,
+      "m60": 29.68,
+      "mas": "空头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -12.6,
+      "sc": 2,
+      "sp": false,
+      "news": {
+        "h": "Applied Digital signs $7.5B AI data center lease with hyperscaler",
+        "d": "2026-04-23",
+        "se": "中性"
+      }
+    },
+    {
+      "t": "ASTI",
+      "co": "Ascent Solar Technologies Inc",
+      "p": 5.75,
+      "ch": 15.74,
+      "vr": 1.4,
+      "sd": 1,
+      "sdt": [
+        "04-15"
+      ],
+      "su": false,
+      "m30": 4.63,
+      "m60": 5.43,
+      "mas": "空头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -41.7,
+      "sc": 1,
+      "sp": true,
+      "news": {
+        "h": "Ascent Solar prices 1.8M shares at $5.50 in private placement",
+        "d": "2026-04-23",
+        "se": "中性"
+      }
+    },
+    {
+      "t": "FEBO",
+      "co": "Fenbo Holdings Ltd",
+      "p": 1.14,
+      "ch": 1.79,
+      "vr": 1.4,
+      "sd": 1,
+      "sdt": [
+        "04-13"
+      ],
+      "su": false,
+      "m30": 1.17,
+      "m60": 1.14,
+      "mas": "多头",
+      "cr": "金叉",
+      "cd": "04-13",
+      "fh": -21.9,
+      "sc": 1,
+      "sp": true,
+      "news": {
+        "h": "【技术面】MA30/60金叉形成，均线多头排列",
+        "d": "2026-04-23",
+        "se": "中性"
+      }
+    }
+  ]
+}
