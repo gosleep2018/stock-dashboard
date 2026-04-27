@@ -1,0 +1,250 @@
+{
+  "date": "2026-04-27",
+  "upd": "22:30 SGT",
+  "ms": {
+    "SPY": {
+      "p": 0,
+      "c": 0
+    },
+    "QQQ": {
+      "p": 0,
+      "c": 0
+    },
+    "VIX": {
+      "p": 0,
+      "c": 0
+    },
+    "sum": "大盘上涨 SPY +0.00%，科技股 QQQ +0.00%，VIX 0.0。市场震荡，选股要精准。"
+  },
+  "stocks": [
+    {
+      "t": "QUIK",
+      "co": "Quicklogic Corp",
+      "p": 15.94,
+      "ch": 21.87,
+      "vr": 4.7,
+      "sd": 2,
+      "sdt": [
+        "04-24",
+        "04-27"
+      ],
+      "su": true,
+      "m30": 10.71,
+      "m60": 9.3,
+      "mas": "多头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -5.6,
+      "sc": 4,
+      "sp": false,
+      "news": {
+        "h": "QuickLogic (QUIK) Sees a More Significant Dip Than Broader Market: Some Facts to Know",
+        "d": "2026-04-27",
+        "se": "中性"
+      }
+    },
+    {
+      "t": "MITQ",
+      "co": "Moving iMage Technologies Inc",
+      "p": 0.73,
+      "ch": 13.28,
+      "vr": 3.4,
+      "sd": 2,
+      "sdt": [
+        "04-14",
+        "04-27"
+      ],
+      "su": true,
+      "m30": 0.58,
+      "m60": 0.61,
+      "mas": "空头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -10.5,
+      "sc": 3,
+      "sp": true,
+      "news": {
+        "h": "The Zacks Analyst Blog Highlights Oracle, Intuitive Surgical, Analog Devices and Moving iMage Techno",
+        "d": "2026-04-27",
+        "se": "中性"
+      }
+    },
+    {
+      "t": "NOK",
+      "co": "Nokia Corp ADR",
+      "p": 11.13,
+      "ch": 6.38,
+      "vr": 0.6,
+      "sd": 1,
+      "sdt": [
+        "04-23"
+      ],
+      "su": false,
+      "m30": 9.21,
+      "m60": 8.34,
+      "mas": "多头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -1.5,
+      "sc": 3,
+      "sp": false,
+      "news": {
+        "h": "Nokia Oyj (NOK): Billionaire Howard Marks Likes Upside Potential of This Stock",
+        "d": "2026-04-27",
+        "se": "中性"
+      }
+    },
+    {
+      "t": "YAAS",
+      "co": "Youxin Technology Ltd",
+      "p": 1.5,
+      "ch": 61.27,
+      "vr": 19.8,
+      "sd": 1,
+      "sdt": [
+        "04-27"
+      ],
+      "su": true,
+      "m30": 0.98,
+      "m60": 1.09,
+      "mas": "空头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -20.3,
+      "sc": 2,
+      "sp": true,
+      "news": {
+        "h": "With 65% ownership, Youxin Technology Ltd (NASDAQ:YAAS) insiders have a lot riding on the company's ",
+        "d": "2026-04-27",
+        "se": "中性"
+      }
+    },
+    {
+      "t": "KLTR",
+      "co": "Kaltura Inc",
+      "p": 1.51,
+      "ch": 17.96,
+      "vr": 2.6,
+      "sd": 2,
+      "sdt": [
+        "04-20",
+        "04-27"
+      ],
+      "su": true,
+      "m30": 1.2,
+      "m60": 1.31,
+      "mas": "空头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -12.7,
+      "sc": 2,
+      "sp": false,
+      "news": {
+        "h": "Promising Penny Stocks To Consider In March 2026",
+        "d": "2026-04-27",
+        "se": "中性"
+      }
+    },
+    {
+      "t": "LAW",
+      "co": "CS Disco Inc",
+      "p": 4.81,
+      "ch": 16.46,
+      "vr": 2.1,
+      "sd": 1,
+      "sdt": [
+        "04-27"
+      ],
+      "su": true,
+      "m30": 4.02,
+      "m60": 4.04,
+      "mas": "空头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -44.8,
+      "sc": 1,
+      "sp": false,
+      "news": {
+        "h": "Undervalued Small Caps With Insider Buying Highlight 3 Top Picks",
+        "d": "2026-04-27",
+        "se": "利好"
+      }
+    },
+    {
+      "t": "SQNS",
+      "co": "Sequans Communications S.A ADR",
+      "p": 3.56,
+      "ch": 7.78,
+      "vr": 0.7,
+      "sd": 2,
+      "sdt": [
+        "04-20",
+        "04-22"
+      ],
+      "su": false,
+      "m30": 2.79,
+      "m60": 3.02,
+      "mas": "空头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -39.4,
+      "sc": 1,
+      "sp": true,
+      "news": {
+        "h": "European Equities Traded in the US as American Depositary Receipts Edge Higher in Wednesday Trading",
+        "d": "2026-04-27",
+        "se": "中性"
+      }
+    },
+    {
+      "t": "LEDS",
+      "co": "Semileds Corp",
+      "p": 1.68,
+      "ch": 3.07,
+      "vr": 0.6,
+      "sd": 1,
+      "sdt": [
+        "04-24"
+      ],
+      "su": true,
+      "m30": 1.3,
+      "m60": 1.42,
+      "mas": "空头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -22.6,
+      "sc": 1,
+      "sp": true,
+      "news": {
+        "h": "Is SemiLEDs the Fastest-Growing Semiconductor Stock?",
+        "d": "2026-04-27",
+        "se": "中性"
+      }
+    },
+    {
+      "t": "FTFT",
+      "co": "Future FinTech Group Inc",
+      "p": 1.57,
+      "ch": 1.29,
+      "vr": 0.6,
+      "sd": 1,
+      "sdt": [
+        "04-23"
+      ],
+      "su": false,
+      "m30": 1.34,
+      "m60": 1.45,
+      "mas": "空头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -63.3,
+      "sc": 1,
+      "sp": true,
+      "news": {
+        "h": "This Future FinTech Group Insider Increased Their Holding In The Last Year",
+        "d": "2026-04-27",
+        "se": "中性"
+      }
+    }
+  ]
+}
