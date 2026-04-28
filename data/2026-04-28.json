@@ -1,0 +1,202 @@
+{
+  "date": "2026-04-28",
+  "upd": "22:30 SGT",
+  "ms": {
+    "SPY": {
+      "p": 711.15,
+      "c": -0.56
+    },
+    "QQQ": {
+      "p": 657.48,
+      "c": -1.02
+    },
+    "VIX": {
+      "p": 0,
+      "c": 0
+    },
+    "sum": "大盘下跌 SPY -0.56%，科技股 QQQ -1.02%，VIX 0.0。市场震荡，选股要精准。"
+  },
+  "stocks": [
+    {
+      "t": "SANM",
+      "co": "Sanmina Corp",
+      "p": 207.07,
+      "ch": 10.1,
+      "vr": 1.8,
+      "sd": 1,
+      "sdt": [
+        "04-27"
+      ],
+      "su": true,
+      "m30": 149.1,
+      "m60": 145.89,
+      "mas": "多头",
+      "cr": "金叉",
+      "cd": "04-27",
+      "fh": -10.2,
+      "sc": 3,
+      "sp": false,
+      "news": {
+        "h": "AMD Supplier Up 65% This Month Soars On Earnings Beat",
+        "d": "2026-04-28",
+        "se": "利好"
+      }
+    },
+    {
+      "t": "BIYA",
+      "co": "Baiya International Group Inc",
+      "p": 1.91,
+      "ch": 145.17,
+      "vr": 14.6,
+      "sd": 2,
+      "sdt": [
+        "04-21",
+        "04-28"
+      ],
+      "su": true,
+      "m30": 1.28,
+      "m60": 1.74,
+      "mas": "空头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -78.3,
+      "sc": 2,
+      "sp": true,
+      "news": {
+        "h": "Baiya International announces partial waiver of IPO lock-up restriction",
+        "d": "2026-04-28",
+        "se": "中性"
+      }
+    },
+    {
+      "t": "WYY",
+      "co": "Widepoint Corp",
+      "p": 6.23,
+      "ch": 14.31,
+      "vr": 1.8,
+      "sd": 2,
+      "sdt": [
+        "04-22",
+        "04-27"
+      ],
+      "su": true,
+      "m30": 5.02,
+      "m60": 4.98,
+      "mas": "多头",
+      "cr": "金叉",
+      "cd": "04-28",
+      "fh": -16.8,
+      "sc": 2,
+      "sp": true,
+      "news": {
+        "h": "WidePoint Corp (WYY) Q4 2025 Earnings Call Highlights: Revenue Growth Amid Strategic Shifts",
+        "d": "2026-04-28",
+        "se": "利好"
+      }
+    },
+    {
+      "t": "POET",
+      "co": "POET Technologies Inc",
+      "p": 8.15,
+      "ch": 2.58,
+      "vr": 1.2,
+      "sd": 3,
+      "sdt": [
+        "04-22",
+        "04-24",
+        "04-27"
+      ],
+      "su": true,
+      "m30": 7.26,
+      "m60": 6.73,
+      "mas": "多头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -47.4,
+      "sc": 2,
+      "sp": false,
+      "news": {
+        "h": "POET Technologies Shares Plunge On Marvell Order Cancellation: What Investors Need To Know",
+        "d": "2026-04-28",
+        "se": "中性"
+      }
+    },
+    {
+      "t": "MXL",
+      "co": "MaxLinear Inc",
+      "p": 52.55,
+      "ch": 1.75,
+      "vr": 0.5,
+      "sd": 3,
+      "sdt": [
+        "04-21",
+        "04-24",
+        "04-27"
+      ],
+      "su": true,
+      "m30": 24.4,
+      "m60": 21.08,
+      "mas": "多头",
+      "cr": "金叉",
+      "cd": "04-17",
+      "fh": -17.3,
+      "sc": 2,
+      "sp": false,
+      "news": {
+        "h": "Analysts Are Upgrading MaxLinear, Inc. (NASDAQ:MXL) After Its Latest Results",
+        "d": "2026-04-28",
+        "se": "中性"
+      }
+    },
+    {
+      "t": "FTFT",
+      "co": "Future FinTech Group Inc",
+      "p": 1.82,
+      "ch": 11.66,
+      "vr": 1.4,
+      "sd": 1,
+      "sdt": [
+        "04-23"
+      ],
+      "su": false,
+      "m30": 1.36,
+      "m60": 1.45,
+      "mas": "空头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -55.8,
+      "sc": 1,
+      "sp": true,
+      "news": {
+        "h": "This Future FinTech Group Insider Increased Their Holding In The Last Year",
+        "d": "2026-04-28",
+        "se": "中性"
+      }
+    },
+    {
+      "t": "CYAB",
+      "co": "Cyabra Inc",
+      "p": 1.02,
+      "ch": 5.67,
+      "vr": 0.9,
+      "sd": 1,
+      "sdt": [
+        "04-16"
+      ],
+      "su": false,
+      "m30": null,
+      "m60": null,
+      "mas": "空头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -83.5,
+      "sc": 0,
+      "sp": true,
+      "news": {
+        "h": "【技术面】均线空头排列",
+        "d": "2026-04-28",
+        "se": "中性"
+      }
+    }
+  ]
+}
