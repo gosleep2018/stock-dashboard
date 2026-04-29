@@ -1,0 +1,222 @@
+{
+  "date": "2026-04-29",
+  "upd": "22:30 SGT",
+  "ms": {
+    "SPY": {
+      "p": 711.39,
+      "c": -0.04
+    },
+    "QQQ": {
+      "p": 659.81,
+      "c": 0.34
+    },
+    "VIX": {
+      "p": 0,
+      "c": 0
+    },
+    "sum": "大盘下跌 SPY -0.04%，科技股 QQQ +0.34%，VIX 0.0。市场震荡，选股要精准。"
+  },
+  "stocks": [
+    {
+      "t": "SIMO",
+      "co": "Silicon Motion Technology Corp ADR",
+      "p": 195.01,
+      "ch": 30.72,
+      "vr": 2.9,
+      "sd": 1,
+      "sdt": [
+        "04-29"
+      ],
+      "su": true,
+      "m30": 129.7,
+      "m60": 129.3,
+      "mas": "多头",
+      "cr": "金叉",
+      "cd": "04-29",
+      "fh": -7.0,
+      "sc": 3,
+      "sp": false,
+      "news": {
+        "h": "Silicon Motion Stock Rockets As Sales More Than Double",
+        "d": "2026-04-29",
+        "se": "中性"
+      }
+    },
+    {
+      "t": "EXTR",
+      "co": "Extreme Networks Inc",
+      "p": 20.2,
+      "ch": 18.48,
+      "vr": 0.9,
+      "sd": 3,
+      "sdt": [
+        "04-21",
+        "04-22",
+        "04-23"
+      ],
+      "su": false,
+      "m30": 16.54,
+      "m60": 15.5,
+      "mas": "多头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -1.1,
+      "sc": 3,
+      "sp": false,
+      "news": {
+        "h": "Extreme Networks (EXTR) Q3 Earnings and Revenues Surpass Estimates",
+        "d": "2026-04-29",
+        "se": "利好"
+      }
+    },
+    {
+      "t": "MXL",
+      "co": "MaxLinear Inc",
+      "p": 59.44,
+      "ch": 14.28,
+      "vr": 0.6,
+      "sd": 2,
+      "sdt": [
+        "04-24",
+        "04-27"
+      ],
+      "su": false,
+      "m30": 25.8,
+      "m60": 21.77,
+      "mas": "多头",
+      "cr": "金叉",
+      "cd": "04-17",
+      "fh": -6.4,
+      "sc": 3,
+      "sp": false,
+      "news": {
+        "h": "With a 76% Post-Earnings Rally, MaxLinear May Have Just Become the Top AI Infrastructure Stock to Bu",
+        "d": "2026-04-29",
+        "se": "利好"
+      }
+    },
+    {
+      "t": "AIXI",
+      "co": "Xiao-I Corp ADR",
+      "p": 1.13,
+      "ch": 54.78,
+      "vr": 0.5,
+      "sd": 0,
+      "sdt": [],
+      "su": false,
+      "m30": 0.67,
+      "m60": 0.45,
+      "mas": "多头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -58.3,
+      "sc": 2,
+      "sp": true,
+      "news": {
+        "h": "Penny Stock Xiao-I Is Surging on Apple Patent Win. Should You Buy Little-Known AIXI Now?",
+        "d": "2026-04-29",
+        "se": "利好"
+      }
+    },
+    {
+      "t": "NXPI",
+      "co": "NXP Semiconductors NV",
+      "p": 288.88,
+      "ch": 25.39,
+      "vr": 1.1,
+      "sd": 0,
+      "sdt": [],
+      "su": false,
+      "m30": 209.94,
+      "m60": 215.19,
+      "mas": "空头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -0.1,
+      "sc": 2,
+      "sp": false,
+      "news": {
+        "h": "Stock Market Today: Dow Slips Ahead Of Fed Decision, Powell; Robinhood Sinks On Earnings (Live Cover",
+        "d": "2026-04-29",
+        "se": "利好"
+      }
+    },
+    {
+      "t": "AWRE",
+      "co": "Aware Inc",
+      "p": 1.46,
+      "ch": 15.48,
+      "vr": 4.9,
+      "sd": 1,
+      "sdt": [
+        "04-29"
+      ],
+      "su": true,
+      "m30": 1.27,
+      "m60": 1.45,
+      "mas": "空头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -32.9,
+      "sc": 2,
+      "sp": true,
+      "news": {
+        "h": "AWRE Downgraded to Underperform on Delayed Conversions & Cash Burn",
+        "d": "2026-04-29",
+        "se": "利空"
+      }
+    },
+    {
+      "t": "UBXG",
+      "co": "U-BX Technology Ltd",
+      "p": 1.02,
+      "ch": 4.09,
+      "vr": 7.6,
+      "sd": 2,
+      "sdt": [
+        "04-27",
+        "04-29"
+      ],
+      "su": true,
+      "m30": 1.4,
+      "m60": 1.61,
+      "mas": "空头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -69.5,
+      "sc": 1,
+      "sp": true,
+      "news": {
+        "h": "We're Keeping An Eye On U-BX Technology's (NASDAQ:UBXG) Cash Burn Rate",
+        "d": "2026-04-29",
+        "se": "中性"
+      }
+    },
+    {
+      "t": "BIYA",
+      "co": "Baiya International Group Inc",
+      "p": 1.64,
+      "ch": 7.2,
+      "vr": 0.3,
+      "sd": 2,
+      "sdt": [
+        "04-21",
+        "04-28"
+      ],
+      "su": true,
+      "m30": 1.28,
+      "m60": 1.69,
+      "mas": "空头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -81.3,
+      "sc": 1,
+      "sp": true,
+      "news": {
+        "h": "BIYA Bets on BNB With $1M Crypto Strategy — Buybacks Could Tie Gains Directly to Shareholders",
+        "d": "2026-04-29",
+        "se": "利好"
+      }
+    }
+  ]
+}
