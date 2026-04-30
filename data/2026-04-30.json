@@ -1,0 +1,353 @@
+{
+  "date": "2026-04-30",
+  "upd": "22:30 SGT",
+  "ms": {
+    "SPY": {
+      "p": 712.02,
+      "c": 0.06
+    },
+    "QQQ": {
+      "p": 659.12,
+      "c": -0.37
+    },
+    "VIX": {
+      "p": 0,
+      "c": 0
+    },
+    "sum": "大盘上涨 SPY +0.06%，科技股 QQQ -0.37%，VIX 0.0。市场震荡，选股要精准。"
+  },
+  "stocks": [
+    {
+      "t": "BAND",
+      "co": "Bandwidth Inc",
+      "p": 33.74,
+      "ch": 39.42,
+      "vr": 3.0,
+      "sd": 1,
+      "sdt": [
+        "04-30"
+      ],
+      "su": true,
+      "m30": 19.86,
+      "m60": 17.2,
+      "mas": "多头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -5.7,
+      "sc": 4,
+      "sp": false,
+      "news": {
+        "h": "Apple Earnings Become Sideshow With New CEO Ready to Grab Reins",
+        "d": "2026-04-30",
+        "se": "利好"
+      }
+    },
+    {
+      "t": "MRAM",
+      "co": "Everspin Technologies Inc",
+      "p": 18.2,
+      "ch": 37.98,
+      "vr": 9.7,
+      "sd": 1,
+      "sdt": [
+        "04-30"
+      ],
+      "su": true,
+      "m30": 11.01,
+      "m60": 10.67,
+      "mas": "多头",
+      "cr": "金叉",
+      "cd": "04-28",
+      "fh": -7.7,
+      "sc": 4,
+      "sp": false,
+      "news": {
+        "h": "Everspin Technologies Inc (MRAM) Q1 2026 Earnings Call Highlights: Strong MRAM Sales and ...",
+        "d": "2026-04-30",
+        "se": "利好"
+      }
+    },
+    {
+      "t": "VISN",
+      "co": "Vistance Networks Inc",
+      "p": 12.82,
+      "ch": 22.45,
+      "vr": 1.9,
+      "sd": 2,
+      "sdt": [
+        "04-28",
+        "04-29"
+      ],
+      "su": true,
+      "m30": 9.29,
+      "m60": 9.08,
+      "mas": "多头",
+      "cr": "金叉",
+      "cd": "04-21",
+      "fh": -3.0,
+      "sc": 3,
+      "sp": false,
+      "news": {
+        "h": "Apple Earnings Become Sideshow With New CEO Ready to Grab Reins",
+        "d": "2026-04-30",
+        "se": "利好"
+      }
+    },
+    {
+      "t": "INSG",
+      "co": "Inseego Corp",
+      "p": 18.25,
+      "ch": 23.39,
+      "vr": 2.7,
+      "sd": 2,
+      "sdt": [
+        "04-21",
+        "04-30"
+      ],
+      "su": true,
+      "m30": 13.35,
+      "m60": 12.38,
+      "mas": "多头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -8.8,
+      "sc": 3,
+      "sp": false,
+      "news": {
+        "h": "Inseego CEO Pitches Turnaround at Roth Conference: More Carriers, FWA Push, Recurring Revenue Focus",
+        "d": "2026-04-30",
+        "se": "利好"
+      }
+    },
+    {
+      "t": "SILC",
+      "co": "Silicom Ltd",
+      "p": 36.8,
+      "ch": 30.82,
+      "vr": 1.2,
+      "sd": 2,
+      "sdt": [
+        "04-17",
+        "04-20"
+      ],
+      "su": false,
+      "m30": 24.43,
+      "m60": 22.07,
+      "mas": "多头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": 0.0,
+      "sc": 3,
+      "sp": false,
+      "news": {
+        "h": "Apple Earnings Become Sideshow With New CEO Ready to Grab Reins",
+        "d": "2026-04-30",
+        "se": "利好"
+      }
+    },
+    {
+      "t": "CEVA",
+      "co": "Ceva Inc",
+      "p": 29.41,
+      "ch": 7.49,
+      "vr": 1.1,
+      "sd": 2,
+      "sdt": [
+        "04-24",
+        "04-27"
+      ],
+      "su": false,
+      "m30": 21.78,
+      "m60": 21.14,
+      "mas": "多头",
+      "cr": "金叉",
+      "cd": "04-27",
+      "fh": -0.4,
+      "sc": 3,
+      "sp": false,
+      "news": {
+        "h": "Ceva (CEVA) Soars 17.2%: Is Further Upside Left in the Stock?",
+        "d": "2026-04-30",
+        "se": "利好"
+      }
+    },
+    {
+      "t": "QCOM",
+      "co": "Qualcomm Inc",
+      "p": 176.69,
+      "ch": 13.26,
+      "vr": 1.4,
+      "sd": 3,
+      "sdt": [
+        "04-24",
+        "04-27",
+        "04-29"
+      ],
+      "su": true,
+      "m30": 134.73,
+      "m60": 136.43,
+      "mas": "空头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -3.6,
+      "sc": 2,
+      "sp": false,
+      "news": {
+        "h": "Semiconductor stocks rise on Big Tech earnings, Qualcomm beat",
+        "d": "2026-04-30",
+        "se": "利好"
+      }
+    },
+    {
+      "t": "BIYA",
+      "co": "Baiya International Group Inc",
+      "p": 2.3,
+      "ch": 20.79,
+      "vr": 1.3,
+      "sd": 2,
+      "sdt": [
+        "04-21",
+        "04-28"
+      ],
+      "su": false,
+      "m30": 1.32,
+      "m60": 1.67,
+      "mas": "空头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -73.9,
+      "sc": 1,
+      "sp": true,
+      "news": {
+        "h": "BIYA Bets on BNB With $1M Crypto Strategy — Buybacks Could Tie Gains Directly to Shareholders",
+        "d": "2026-04-30",
+        "se": "利好"
+      }
+    },
+    {
+      "t": "JFU",
+      "co": "9F Inc ADR",
+      "p": 3.81,
+      "ch": 21.34,
+      "vr": 1.9,
+      "sd": 1,
+      "sdt": [
+        "04-29"
+      ],
+      "su": true,
+      "m30": 3.2,
+      "m60": 3.85,
+      "mas": "空头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -52.4,
+      "sc": 1,
+      "sp": true,
+      "news": {
+        "h": "With EPS Growth And More, 9F (NASDAQ:JFU) Makes An Interesting Case",
+        "d": "2026-04-30",
+        "se": "利好"
+      }
+    },
+    {
+      "t": "RDZN",
+      "co": "Roadzen Inc",
+      "p": 2.07,
+      "ch": 20.35,
+      "vr": 2.1,
+      "sd": 3,
+      "sdt": [
+        "04-23",
+        "04-29",
+        "04-30"
+      ],
+      "su": true,
+      "m30": 1.23,
+      "m60": 1.28,
+      "mas": "空头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -19.1,
+      "sc": 1,
+      "sp": false,
+      "news": {
+        "h": "Loss-Making Roadzen, Inc. (NASDAQ:RDZN) Expected To Breakeven In The Medium-Term",
+        "d": "2026-04-30",
+        "se": "利空"
+      }
+    },
+    {
+      "t": "VUZI",
+      "co": "Vuzix Corp",
+      "p": 2.7,
+      "ch": 13.66,
+      "vr": 1.3,
+      "sd": 0,
+      "sdt": [],
+      "su": false,
+      "m30": 2.42,
+      "m60": 2.5,
+      "mas": "空头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -33.0,
+      "sc": 1,
+      "sp": false,
+      "news": {
+        "h": "April 2026 Penny Stocks To Watch For Savvy Investors",
+        "d": "2026-04-30",
+        "se": "中性"
+      }
+    },
+    {
+      "t": "CLRO",
+      "co": "ClearOne Inc",
+      "p": 3.25,
+      "ch": -9.72,
+      "vr": 1.0,
+      "sd": 1,
+      "sdt": [
+        "04-20"
+      ],
+      "su": false,
+      "m30": 3.43,
+      "m60": 4.35,
+      "mas": "空头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -54.6,
+      "sc": 1,
+      "sp": true,
+      "news": {
+        "h": "The Zacks Analyst Blog Highlights SAP, Novartis, Philip Morris International, ImmuCell and ClearOne",
+        "d": "2026-04-30",
+        "se": "中性"
+      }
+    },
+    {
+      "t": "AMST",
+      "co": "Amesite Inc",
+      "p": 1.11,
+      "ch": 4.76,
+      "vr": 0.8,
+      "sd": 1,
+      "sdt": [
+        "04-23"
+      ],
+      "su": false,
+      "m30": 1.63,
+      "m60": 1.73,
+      "mas": "空头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -59.6,
+      "sc": 0,
+      "sp": true,
+      "news": {
+        "h": "Amesite reports $6M concurrent registered direct offering, private placement",
+        "d": "2026-04-30",
+        "se": "中性"
+      }
+    }
+  ]
+}
