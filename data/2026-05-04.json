@@ -1,0 +1,224 @@
+{
+  "date": "2026-05-04",
+  "upd": "22:30 SGT",
+  "ms": {
+    "SPY": {
+      "p": 721.3,
+      "c": 0.1
+    },
+    "QQQ": {
+      "p": 675.2,
+      "c": 0.18
+    },
+    "VIX": {
+      "p": 0,
+      "c": 0
+    },
+    "sum": "大盘上涨 SPY +0.10%，科技股 QQQ +0.18%，VIX 0.0。市场震荡，选股要精准。"
+  },
+  "stocks": [
+    {
+      "t": "BZAI",
+      "co": "Blaize Holdings Inc",
+      "p": 2.73,
+      "ch": 34.5,
+      "vr": 1.8,
+      "sd": 0,
+      "sdt": [],
+      "su": false,
+      "m30": 1.9,
+      "m60": 1.53,
+      "mas": "多头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -2.1,
+      "sc": 3,
+      "sp": false,
+      "news": {
+        "h": "Blaize Holdings (BZAI) Is Up 29.7% After New Asia Edge AI Deals - Has The Bull Case Changed?",
+        "d": "2026-05-04",
+        "se": "中性"
+      }
+    },
+    {
+      "t": "QUIK",
+      "co": "Quicklogic Corp",
+      "p": 18.66,
+      "ch": 14.34,
+      "vr": 1.0,
+      "sd": 2,
+      "sdt": [
+        "04-24",
+        "04-27"
+      ],
+      "su": false,
+      "m30": 11.78,
+      "m60": 10.02,
+      "mas": "多头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -1.2,
+      "sc": 3,
+      "sp": false,
+      "news": {
+        "h": "QuickLogic (QUIK) Outperforms Broader Market: What You Need to Know",
+        "d": "2026-05-04",
+        "se": "中性"
+      }
+    },
+    {
+      "t": "RDZN",
+      "co": "Roadzen Inc",
+      "p": 2.41,
+      "ch": 8.67,
+      "vr": 1.1,
+      "sd": 3,
+      "sdt": [
+        "04-29",
+        "04-30",
+        "05-01"
+      ],
+      "su": true,
+      "m30": 1.31,
+      "m60": 1.31,
+      "mas": "多头",
+      "cr": "金叉",
+      "cd": "05-04",
+      "fh": -5.8,
+      "sc": 3,
+      "sp": false,
+      "news": {
+        "h": "Loss-Making Roadzen, Inc. (NASDAQ:RDZN) Expected To Breakeven In The Medium-Term",
+        "d": "2026-05-04",
+        "se": "利空"
+      }
+    },
+    {
+      "t": "INSG",
+      "co": "Inseego Corp",
+      "p": 21.38,
+      "ch": 5.37,
+      "vr": 1.5,
+      "sd": 2,
+      "sdt": [
+        "04-30",
+        "05-01"
+      ],
+      "su": true,
+      "m30": 13.97,
+      "m60": 12.75,
+      "mas": "多头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -2.4,
+      "sc": 3,
+      "sp": false,
+      "news": {
+        "h": "Nokia’s FWA Sale To Inseego Tests Valuation And Future 6G Potential",
+        "d": "2026-05-04",
+        "se": "中性"
+      }
+    },
+    {
+      "t": "SILC",
+      "co": "Silicom Ltd",
+      "p": 44.86,
+      "ch": 6.28,
+      "vr": 1.0,
+      "sd": 2,
+      "sdt": [
+        "04-30",
+        "05-01"
+      ],
+      "su": true,
+      "m30": 26.16,
+      "m60": 22.88,
+      "mas": "多头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -2.6,
+      "sc": 3,
+      "sp": false,
+      "news": {
+        "h": "Silicom Q1 Earnings Call Highlights",
+        "d": "2026-05-04",
+        "se": "利好"
+      }
+    },
+    {
+      "t": "CTLP",
+      "co": "Cantaloupe Inc",
+      "p": 11.19,
+      "ch": 1.68,
+      "vr": 1.6,
+      "sd": 0,
+      "sdt": [],
+      "su": false,
+      "m30": 10.8,
+      "m60": 10.6,
+      "mas": "多头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -0.1,
+      "sc": 3,
+      "sp": false,
+      "news": {
+        "h": "Cantaloupe: Fiscal Q2 Earnings Snapshot",
+        "d": "2026-05-04",
+        "se": "利好"
+      }
+    },
+    {
+      "t": "SMTK",
+      "co": "SmartKem Inc",
+      "p": 0.26,
+      "ch": 10.13,
+      "vr": 3.6,
+      "sd": 2,
+      "sdt": [
+        "04-29",
+        "05-04"
+      ],
+      "su": true,
+      "m30": 0.27,
+      "m60": 0.27,
+      "mas": "空头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -84.5,
+      "sc": 1,
+      "sp": true,
+      "news": {
+        "h": "SmartKem (SMTK) Partners to Develop Next-Gen Smart Wearables",
+        "d": "2026-05-04",
+        "se": "中性"
+      }
+    },
+    {
+      "t": "JG",
+      "co": "Aurora Mobile Ltd ADR",
+      "p": 7.1,
+      "ch": 2.9,
+      "vr": 1.4,
+      "sd": 2,
+      "sdt": [
+        "04-24",
+        "04-27"
+      ],
+      "su": false,
+      "m30": 6.92,
+      "m60": 7.27,
+      "mas": "空头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -16.5,
+      "sc": 1,
+      "sp": true,
+      "news": {
+        "h": "Asian Equities Traded in the US as American Depositary Receipts Open Week Lower in Monday Trading",
+        "d": "2026-05-04",
+        "se": "中性"
+      }
+    }
+  ]
+}
