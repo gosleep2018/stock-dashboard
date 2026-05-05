@@ -1,0 +1,243 @@
+{
+  "date": "2026-05-05",
+  "upd": "22:30 SGT",
+  "ms": {
+    "SPY": {
+      "p": 723.35,
+      "c": 0.74
+    },
+    "QQQ": {
+      "p": 681.29,
+      "c": 1.25
+    },
+    "VIX": {
+      "p": 0,
+      "c": 0
+    },
+    "sum": "大盘上涨 SPY +0.74%，科技股 QQQ +1.25%，VIX 0.0。市场震荡，选股要精准。"
+  },
+  "stocks": [
+    {
+      "t": "BLZE",
+      "co": "Backblaze Inc",
+      "p": 7.61,
+      "ch": 63.92,
+      "vr": 13.3,
+      "sd": 2,
+      "sdt": [
+        "05-04",
+        "05-05"
+      ],
+      "su": true,
+      "m30": 3.98,
+      "m60": 3.94,
+      "mas": "多头",
+      "cr": "金叉",
+      "cd": "05-05",
+      "fh": -9.7,
+      "sc": 4,
+      "sp": false,
+      "news": {
+        "h": "【技术面】单日暴涨64%，量比13倍极度放量，近2日突然放量信号，MA30/60金叉形成，均线多头排列",
+        "d": "2026-05-05",
+        "se": "利好"
+      }
+    },
+    {
+      "t": "DOCN",
+      "co": "DigitalOcean Holdings Inc",
+      "p": 145.06,
+      "ch": 33.31,
+      "vr": 1.1,
+      "sd": 0,
+      "sdt": [],
+      "su": false,
+      "m30": 90.86,
+      "m60": 78.2,
+      "mas": "多头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -4.4,
+      "sc": 3,
+      "sp": false,
+      "news": {
+        "h": "DigitalOcean Holdings, Inc. (DOCN) Surpasses Q1 Earnings and Revenue Estimates",
+        "d": "2026-05-05",
+        "se": "利好"
+      }
+    },
+    {
+      "t": "BLSH",
+      "co": "Bullish",
+      "p": 48.74,
+      "ch": 19.75,
+      "vr": 1.6,
+      "sd": 0,
+      "sdt": [],
+      "su": false,
+      "m30": 39.02,
+      "m60": 36.8,
+      "mas": "多头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -0.4,
+      "sc": 3,
+      "sp": false,
+      "news": {
+        "h": "Bullish to Acquire Equiniti From Siris in $4.2 Billion Deal",
+        "d": "2026-05-05",
+        "se": "中性"
+      }
+    },
+    {
+      "t": "CURR",
+      "co": "Currenc Group Inc",
+      "p": 3.52,
+      "ch": 6.99,
+      "vr": 1.3,
+      "sd": 0,
+      "sdt": [],
+      "su": false,
+      "m30": 3.07,
+      "m60": 2.63,
+      "mas": "多头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -3.5,
+      "sc": 3,
+      "sp": false,
+      "news": {
+        "h": "Sector Update: Financial Stocks Rise Late Afternoon",
+        "d": "2026-05-05",
+        "se": "中性"
+      }
+    },
+    {
+      "t": "WETH",
+      "co": "Wetouch Technology Inc",
+      "p": 1.9,
+      "ch": 4.97,
+      "vr": 1.0,
+      "sd": 1,
+      "sdt": [
+        "04-27"
+      ],
+      "su": false,
+      "m30": 1.59,
+      "m60": 1.59,
+      "mas": "多头",
+      "cr": "金叉",
+      "cd": "05-05",
+      "fh": -9.5,
+      "sc": 3,
+      "sp": true,
+      "news": {
+        "h": "Returns On Capital At Wetouch Technology (NASDAQ:WETH) Paint A Concerning Picture",
+        "d": "2026-05-05",
+        "se": "中性"
+      }
+    },
+    {
+      "t": "POET",
+      "co": "POET Technologies Inc",
+      "p": 9.11,
+      "ch": 28.13,
+      "vr": 0.6,
+      "sd": 1,
+      "sdt": [
+        "04-27"
+      ],
+      "su": false,
+      "m30": 7.46,
+      "m60": 6.88,
+      "mas": "多头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -41.2,
+      "sc": 2,
+      "sp": false,
+      "news": {
+        "h": "Is Poet Technologies a Millionaire-Maker Stock?",
+        "d": "2026-05-05",
+        "se": "中性"
+      }
+    },
+    {
+      "t": "SOBR",
+      "co": "Sobr Safe Inc",
+      "p": 1.32,
+      "ch": 54.71,
+      "vr": 2.0,
+      "sd": 2,
+      "sdt": [
+        "05-01",
+        "05-05"
+      ],
+      "su": true,
+      "m30": 0.64,
+      "m60": 0.72,
+      "mas": "空头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -55.4,
+      "sc": 1,
+      "sp": true,
+      "news": {
+        "h": "US Equity Futures Mixed Amid Signs of Year-End Optimism",
+        "d": "2026-05-05",
+        "se": "中性"
+      }
+    },
+    {
+      "t": "TONX",
+      "co": "TON Strategy Co",
+      "p": 2.49,
+      "ch": 19.14,
+      "vr": 2.1,
+      "sd": 1,
+      "sdt": [
+        "05-05"
+      ],
+      "su": true,
+      "m30": 2.36,
+      "m60": 2.39,
+      "mas": "空头",
+      "cr": "死叉",
+      "cd": "05-04",
+      "fh": -29.9,
+      "sc": 1,
+      "sp": false,
+      "news": {
+        "h": "Digital Sovereignty: Fireside Chat with Alpha Compute CEO Brittany Kaiser",
+        "d": "2026-05-05",
+        "se": "中性"
+      }
+    },
+    {
+      "t": "NA",
+      "co": "Nano Labs Ltd",
+      "p": 2.24,
+      "ch": 9.54,
+      "vr": 0.7,
+      "sd": 2,
+      "sdt": [
+        "04-24",
+        "04-28"
+      ],
+      "su": false,
+      "m30": 2.61,
+      "m60": 2.81,
+      "mas": "空头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -43.7,
+      "sc": 0,
+      "sp": true,
+      "news": {
+        "h": "Nano Labs and ALT5 Sigma Sign MOU to Explore AI Data Centers and Agent Payments",
+        "d": "2026-05-05",
+        "se": "中性"
+      }
+    }
+  ]
+}
