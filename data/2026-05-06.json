@@ -1,0 +1,362 @@
+{
+  "date": "2026-05-06",
+  "upd": "22:30 SGT",
+  "ms": {
+    "SPY": {
+      "p": 730.2,
+      "c": 0.88
+    },
+    "QQQ": {
+      "p": 688.6,
+      "c": 1.03
+    },
+    "VIX": {
+      "p": 0,
+      "c": 0
+    },
+    "sum": "大盘上涨 SPY +0.88%，科技股 QQQ +1.03%，VIX 0.0。市场震荡，选股要精准。"
+  },
+  "stocks": [
+    {
+      "t": "OSS",
+      "co": "One Stop Systems Inc",
+      "p": 14.63,
+      "ch": 49.74,
+      "vr": 3.7,
+      "sd": 1,
+      "sdt": [
+        "05-06"
+      ],
+      "su": true,
+      "m30": 9.09,
+      "m60": 9.18,
+      "mas": "空头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -1.6,
+      "sc": 3,
+      "sp": false,
+      "news": {
+        "h": "Nvidia Stock Falls Behind as Big Tech Rivals Enter Its Territory",
+        "d": "2026-05-06",
+        "se": "利空"
+      }
+    },
+    {
+      "t": "FLEX",
+      "co": "Flex Ltd",
+      "p": 122.26,
+      "ch": 26.76,
+      "vr": 1.4,
+      "sd": 1,
+      "sdt": [
+        "05-05"
+      ],
+      "su": true,
+      "m30": 80.56,
+      "m60": 72.28,
+      "mas": "多头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -5.8,
+      "sc": 3,
+      "sp": false,
+      "news": {
+        "h": "Flex Fiscal Q4 Adjusted Earnings, Sales Rise; Power, Cloud Portfolio Spin-Off Planned -- Shares Up P",
+        "d": "2026-05-06",
+        "se": "利好"
+      }
+    },
+    {
+      "t": "QMCO",
+      "co": "Quantum Corp",
+      "p": 9.93,
+      "ch": 20.07,
+      "vr": 2.5,
+      "sd": 1,
+      "sdt": [
+        "05-06"
+      ],
+      "su": true,
+      "m30": 6.56,
+      "m60": 5.99,
+      "mas": "多头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -6.7,
+      "sc": 3,
+      "sp": false,
+      "news": {
+        "h": "QMCO & Pink Elephant Partner for Sovereign Cold Storage in Europe",
+        "d": "2026-05-06",
+        "se": "中性"
+      }
+    },
+    {
+      "t": "AMD",
+      "co": "Advanced Micro Devices Inc",
+      "p": 406.32,
+      "ch": 14.37,
+      "vr": 1.0,
+      "sd": 0,
+      "sdt": [],
+      "su": false,
+      "m30": 275.14,
+      "m60": 238.65,
+      "mas": "多头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -5.6,
+      "sc": 3,
+      "sp": false,
+      "news": {
+        "h": "Micron stock hovers near all-time highs amid booming memory demand for AI",
+        "d": "2026-05-06",
+        "se": "中性"
+      }
+    },
+    {
+      "t": "FLYW",
+      "co": "Flywire Corp",
+      "p": 16.84,
+      "ch": 15.9,
+      "vr": 1.1,
+      "sd": 0,
+      "sdt": [],
+      "su": false,
+      "m30": 12.92,
+      "m60": 12.51,
+      "mas": "多头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -0.5,
+      "sc": 3,
+      "sp": false,
+      "news": {
+        "h": "Flywire Q1 Earnings Call Highlights",
+        "d": "2026-05-06",
+        "se": "利好"
+      }
+    },
+    {
+      "t": "NTWK",
+      "co": "Netsol Technologies Inc",
+      "p": 3.8,
+      "ch": 8.88,
+      "vr": 3.2,
+      "sd": 2,
+      "sdt": [
+        "04-23",
+        "05-06"
+      ],
+      "su": true,
+      "m30": 3.46,
+      "m60": 3.46,
+      "mas": "空头",
+      "cr": "死叉",
+      "cd": "05-05",
+      "fh": -7.3,
+      "sc": 3,
+      "sp": true,
+      "news": {
+        "h": "NTWK Expands UK Bank Partnership With Multi-Million-Dollar Extension",
+        "d": "2026-05-06",
+        "se": "中性"
+      }
+    },
+    {
+      "t": "CORZ",
+      "co": "Core Scientific Inc",
+      "p": 24.44,
+      "ch": 10.14,
+      "vr": 0.9,
+      "sd": 0,
+      "sdt": [],
+      "su": false,
+      "m30": 18.78,
+      "m60": 17.77,
+      "mas": "多头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -0.2,
+      "sc": 3,
+      "sp": false,
+      "news": {
+        "h": "Core Scientific jumps 7% in morning markets as data center firm announces 440 MW expansion at Oklaho",
+        "d": "2026-05-06",
+        "se": "利好"
+      }
+    },
+    {
+      "t": "CURR",
+      "co": "Currenc Group Inc",
+      "p": 3.81,
+      "ch": 9.48,
+      "vr": 1.6,
+      "sd": 0,
+      "sdt": [],
+      "su": false,
+      "m30": 3.11,
+      "m60": 2.67,
+      "mas": "多头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -1.4,
+      "sc": 3,
+      "sp": false,
+      "news": {
+        "h": "Sector Update: Financial Stocks Rise Late Afternoon",
+        "d": "2026-05-06",
+        "se": "中性"
+      }
+    },
+    {
+      "t": "WOLF",
+      "co": "Wolfspeed Inc",
+      "p": 38.51,
+      "ch": 5.13,
+      "vr": 1.1,
+      "sd": 1,
+      "sdt": [
+        "05-05"
+      ],
+      "su": true,
+      "m30": 24.67,
+      "m60": 21.45,
+      "mas": "多头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -7.0,
+      "sc": 3,
+      "sp": false,
+      "news": {
+        "h": "Wolfspeed (WOLF) Q3 2026 Earnings Transcript",
+        "d": "2026-05-06",
+        "se": "利好"
+      }
+    },
+    {
+      "t": "BGIN",
+      "co": "Bgin Blockchain Ltd",
+      "p": 3.85,
+      "ch": 2.12,
+      "vr": 0.5,
+      "sd": 1,
+      "sdt": [
+        "05-01"
+      ],
+      "su": false,
+      "m30": 3.17,
+      "m60": 2.99,
+      "mas": "多头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -6.1,
+      "sc": 3,
+      "sp": false,
+      "news": {
+        "h": "BGIN Blockchain Ltd (BGIN) (Full Year 2025) Earnings Call Highlights: Strategic Shifts and ...",
+        "d": "2026-05-06",
+        "se": "利好"
+      }
+    },
+    {
+      "t": "SMCI",
+      "co": "Super Micro Computer Inc",
+      "p": 32.25,
+      "ch": 15.88,
+      "vr": 1.5,
+      "sd": 0,
+      "sdt": [],
+      "su": false,
+      "m30": 25.93,
+      "m60": 28.23,
+      "mas": "空头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -7.7,
+      "sc": 2,
+      "sp": false,
+      "news": {
+        "h": "Supermicro stock soars on strong margin, revenue forecast",
+        "d": "2026-05-06",
+        "se": "利好"
+      }
+    },
+    {
+      "t": "KTCC",
+      "co": "Key Tronic Corp",
+      "p": 3.16,
+      "ch": 8.97,
+      "vr": 1.8,
+      "sd": 1,
+      "sdt": [
+        "04-23"
+      ],
+      "su": false,
+      "m30": 2.8,
+      "m60": 2.86,
+      "mas": "空头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -2.8,
+      "sc": 2,
+      "sp": true,
+      "news": {
+        "h": "KTCC Nears 52-Week High: Can Operational Reset Drive Upside?",
+        "d": "2026-05-06",
+        "se": "中性"
+      }
+    },
+    {
+      "t": "GDYN",
+      "co": "Grid Dynamics Holdings Inc",
+      "p": 6.57,
+      "ch": 7.7,
+      "vr": 2.0,
+      "sd": 0,
+      "sdt": [],
+      "su": false,
+      "m30": 5.73,
+      "m60": 6.13,
+      "mas": "空头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -35.5,
+      "sc": 1,
+      "sp": false,
+      "news": {
+        "h": "Grid Dynamics (GDYN) Stock Trades Down, Here Is Why",
+        "d": "2026-05-06",
+        "se": "中性"
+      }
+    },
+    {
+      "t": "LEDS",
+      "co": "Semileds Corp",
+      "p": 1.8,
+      "ch": -1.1,
+      "vr": 0.6,
+      "sd": 3,
+      "sdt": [
+        "04-24",
+        "05-04",
+        "05-05"
+      ],
+      "su": true,
+      "m30": 1.4,
+      "m60": 1.43,
+      "mas": "空头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -17.1,
+      "sc": 1,
+      "sp": true,
+      "news": {
+        "h": "Is SemiLEDs the Fastest-Growing Semiconductor Stock?",
+        "d": "2026-05-06",
+        "se": "中性"
+      }
+    }
+  ]
+}
