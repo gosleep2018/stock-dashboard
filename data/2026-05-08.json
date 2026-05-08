@@ -1,0 +1,325 @@
+{
+  "date": "2026-05-08",
+  "upd": "22:30 SGT",
+  "ms": {
+    "SPY": {
+      "p": 736.63,
+      "c": 0.69
+    },
+    "QQQ": {
+      "p": 705.3,
+      "c": 1.49
+    },
+    "VIX": {
+      "p": 0,
+      "c": 0
+    },
+    "sum": "大盘上涨 SPY +0.69%，科技股 QQQ +1.49%，VIX 0.0。市场震荡，选股要精准。"
+  },
+  "stocks": [
+    {
+      "t": "INOD",
+      "co": "Innodata Inc",
+      "p": 84.71,
+      "ch": 85.62,
+      "vr": 6.5,
+      "sd": 1,
+      "sdt": [
+        "05-08"
+      ],
+      "su": true,
+      "m30": 43.22,
+      "m60": 43.77,
+      "mas": "空头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -6.7,
+      "sc": 3,
+      "sp": false,
+      "news": {
+        "h": "Innodata Q1 Earnings Call Highlights",
+        "d": "2026-05-08",
+        "se": "利好"
+      }
+    },
+    {
+      "t": "ASYS",
+      "co": "Amtech Systems Inc",
+      "p": 21.59,
+      "ch": 18.56,
+      "vr": 1.6,
+      "sd": 0,
+      "sdt": [],
+      "su": false,
+      "m30": 15.7,
+      "m60": 14.0,
+      "mas": "多头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -9.7,
+      "sc": 3,
+      "sp": false,
+      "news": {
+        "h": "Amtech Systems Q2 Earnings Call Highlights",
+        "d": "2026-05-08",
+        "se": "利好"
+      }
+    },
+    {
+      "t": "GCTS",
+      "co": "GCT Semiconductor Holding Inc",
+      "p": 1.84,
+      "ch": 22.63,
+      "vr": 1.9,
+      "sd": 2,
+      "sdt": [
+        "05-01",
+        "05-04"
+      ],
+      "su": false,
+      "m30": 1.34,
+      "m60": 1.27,
+      "mas": "多头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -2.2,
+      "sc": 3,
+      "sp": false,
+      "news": {
+        "h": "As SOX Crosses 10,000 for the First Time, Atomera and GCT Semiconductor Are the 2 Top-Rated Chip Sto",
+        "d": "2026-05-08",
+        "se": "中性"
+      }
+    },
+    {
+      "t": "HIMX",
+      "co": "Himax Technologies ADR",
+      "p": 18.59,
+      "ch": 15.97,
+      "vr": 1.5,
+      "sd": 1,
+      "sdt": [
+        "05-07"
+      ],
+      "su": true,
+      "m30": 10.73,
+      "m60": 9.47,
+      "mas": "多头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -3.7,
+      "sc": 3,
+      "sp": false,
+      "news": {
+        "h": "Himax Technologies Q1 Earnings Call Highlights",
+        "d": "2026-05-08",
+        "se": "利好"
+      }
+    },
+    {
+      "t": "LEDS",
+      "co": "Semileds Corp",
+      "p": 2.1,
+      "ch": 3.45,
+      "vr": 0.4,
+      "sd": 4,
+      "sdt": [
+        "05-04",
+        "05-05",
+        "05-06",
+        "05-07"
+      ],
+      "su": true,
+      "m30": 1.46,
+      "m60": 1.45,
+      "mas": "多头",
+      "cr": "金叉",
+      "cd": "05-08",
+      "fh": -11.4,
+      "sc": 3,
+      "sp": true,
+      "news": {
+        "h": "Is SemiLEDs the Fastest-Growing Semiconductor Stock?",
+        "d": "2026-05-08",
+        "se": "中性"
+      }
+    },
+    {
+      "t": "FORTY",
+      "co": "Formula Systems (1985) Ltd ADR",
+      "p": 146.0,
+      "ch": -1.48,
+      "vr": 1.7,
+      "sd": 1,
+      "sdt": [
+        "04-27"
+      ],
+      "su": false,
+      "m30": 130.21,
+      "m60": 126.76,
+      "mas": "多头",
+      "cr": "金叉",
+      "cd": "04-28",
+      "fh": -14.1,
+      "sc": 3,
+      "sp": false,
+      "news": {
+        "h": "Formula Systems Posted Record Q2 in 2025",
+        "d": "2026-05-08",
+        "se": "利好"
+      }
+    },
+    {
+      "t": "MASK",
+      "co": "3 E Network Technology Group Ltd",
+      "p": 3.18,
+      "ch": 28.23,
+      "vr": 3.2,
+      "sd": 4,
+      "sdt": [
+        "05-04",
+        "05-05",
+        "05-06",
+        "05-08"
+      ],
+      "su": true,
+      "m30": 1.83,
+      "m60": 2.63,
+      "mas": "空头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -75.3,
+      "sc": 2,
+      "sp": true,
+      "news": {
+        "h": "Cloud AI Update - Nordic Expansion Fuels AI Infrastructure Growth in Finland",
+        "d": "2026-05-08",
+        "se": "利好"
+      }
+    },
+    {
+      "t": "RXT",
+      "co": "Rackspace Technology Inc",
+      "p": 4.79,
+      "ch": 36.08,
+      "vr": 2.6,
+      "sd": 2,
+      "sdt": [
+        "05-07",
+        "05-08"
+      ],
+      "su": true,
+      "m30": 1.57,
+      "m60": 1.61,
+      "mas": "空头",
+      "cr": "死叉",
+      "cd": "04-28",
+      "fh": -1.2,
+      "sc": 2,
+      "sp": false,
+      "news": {
+        "h": "A Look At Rackspace Technology (RXT) Valuation As AI Pivot And Q1 2026 Profit Draw Market Attention",
+        "d": "2026-05-08",
+        "se": "利好"
+      }
+    },
+    {
+      "t": "POET",
+      "co": "POET Technologies Inc",
+      "p": 11.11,
+      "ch": 15.97,
+      "vr": 0.5,
+      "sd": 1,
+      "sdt": [
+        "04-27"
+      ],
+      "su": false,
+      "m30": 7.9,
+      "m60": 7.09,
+      "mas": "多头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -28.3,
+      "sc": 2,
+      "sp": false,
+      "news": {
+        "h": "POET Technologies (POET) Is Up 34.6% After Marvell Cancels Orders And Lawsuits Mount - What's Change",
+        "d": "2026-05-08",
+        "se": "中性"
+      }
+    },
+    {
+      "t": "CLFD",
+      "co": "Clearfield Inc",
+      "p": 39.98,
+      "ch": 6.64,
+      "vr": 0.9,
+      "sd": 1,
+      "sdt": [
+        "05-07"
+      ],
+      "su": true,
+      "m30": 29.14,
+      "m60": 29.82,
+      "mas": "空头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -2.1,
+      "sc": 2,
+      "sp": false,
+      "news": {
+        "h": "Clearfield (CLFD) Q2 2026 Earnings Transcript",
+        "d": "2026-05-08",
+        "se": "利好"
+      }
+    },
+    {
+      "t": "AVPT",
+      "co": "AvePoint Inc",
+      "p": 11.11,
+      "ch": 7.7,
+      "vr": 1.2,
+      "sd": 1,
+      "sdt": [
+        "05-07"
+      ],
+      "su": true,
+      "m30": 9.9,
+      "m60": 10.18,
+      "mas": "空头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -21.4,
+      "sc": 1,
+      "sp": false,
+      "news": {
+        "h": "AvePoint (AVPT) Q1 2026 Earnings Transcript",
+        "d": "2026-05-08",
+        "se": "利好"
+      }
+    },
+    {
+      "t": "CLPS",
+      "co": "CLPS Inc",
+      "p": 0.89,
+      "ch": -1.55,
+      "vr": 0.7,
+      "sd": 0,
+      "sdt": [],
+      "su": false,
+      "m30": 0.92,
+      "m60": 0.98,
+      "mas": "空头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -28.1,
+      "sc": 0,
+      "sp": true,
+      "news": {
+        "h": "【技术面】均线空头排列",
+        "d": "2026-05-08",
+        "se": "中性"
+      }
+    }
+  ]
+}
