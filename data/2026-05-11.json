@@ -1,0 +1,399 @@
+{
+  "date": "2026-05-11",
+  "upd": "22:30 SGT",
+  "ms": {
+    "SPY": {
+      "p": 738.59,
+      "c": 0.13
+    },
+    "QQQ": {
+      "p": 710.22,
+      "c": -0.14
+    },
+    "VIX": {
+      "p": 0,
+      "c": 0
+    },
+    "sum": "大盘上涨 SPY +0.13%，科技股 QQQ -0.14%，VIX 0.0。市场震荡，选股要精准。"
+  },
+  "stocks": [
+    {
+      "t": "MRAM",
+      "co": "Everspin Technologies Inc",
+      "p": 37.18,
+      "ch": 37.75,
+      "vr": 3.3,
+      "sd": 3,
+      "sdt": [
+        "04-30",
+        "05-08",
+        "05-11"
+      ],
+      "su": true,
+      "m30": 14.43,
+      "m60": 12.18,
+      "mas": "多头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -4.6,
+      "sc": 4,
+      "sp": false,
+      "news": {
+        "h": "Why Everspin Technologies (MRAM) Is Expanding Its U.S. MRAM Manufacturing Base",
+        "d": "2026-05-11",
+        "se": "中性"
+      }
+    },
+    {
+      "t": "GSIT",
+      "co": "GSI Technology Inc",
+      "p": 11.27,
+      "ch": 33.31,
+      "vr": 4.0,
+      "sd": 1,
+      "sdt": [
+        "05-11"
+      ],
+      "su": true,
+      "m30": 6.8,
+      "m60": 7.06,
+      "mas": "空头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -6.4,
+      "sc": 3,
+      "sp": false,
+      "news": {
+        "h": "GSI Technology, Inc. Q4 2026 Earnings Call Summary",
+        "d": "2026-05-11",
+        "se": "利好"
+      }
+    },
+    {
+      "t": "INOD",
+      "co": "Innodata Inc",
+      "p": 108.5,
+      "ch": 27.81,
+      "vr": 2.5,
+      "sd": 2,
+      "sdt": [
+        "05-08",
+        "05-11"
+      ],
+      "su": true,
+      "m30": 45.61,
+      "m60": 44.86,
+      "mas": "多头",
+      "cr": "金叉",
+      "cd": "05-11",
+      "fh": -4.4,
+      "sc": 3,
+      "sp": false,
+      "news": {
+        "h": "Our Innodata Stock Pick Smashed Earnings Expectations. Stay Long.",
+        "d": "2026-05-11",
+        "se": "利好"
+      }
+    },
+    {
+      "t": "NVTS",
+      "co": "Navitas Semiconductor Corp",
+      "p": 22.41,
+      "ch": 23.13,
+      "vr": 0.7,
+      "sd": 0,
+      "sdt": [],
+      "su": false,
+      "m30": 13.56,
+      "m60": 11.29,
+      "mas": "多头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -2.7,
+      "sc": 3,
+      "sp": false,
+      "news": {
+        "h": "Here's Why Navitas Shares Soared 88% in April",
+        "d": "2026-05-11",
+        "se": "利好"
+      }
+    },
+    {
+      "t": "VICR",
+      "co": "Vicor Corp",
+      "p": 307.76,
+      "ch": 20.0,
+      "vr": 0.9,
+      "sd": 0,
+      "sdt": [],
+      "su": false,
+      "m30": 222.63,
+      "m60": 200.66,
+      "mas": "多头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -0.6,
+      "sc": 3,
+      "sp": false,
+      "news": {
+        "h": "Vicor (VICR) Valuation Check After Strong Recent Share Price Rally",
+        "d": "2026-05-11",
+        "se": "利好"
+      }
+    },
+    {
+      "t": "HIMX",
+      "co": "Himax Technologies ADR",
+      "p": 20.92,
+      "ch": 17.59,
+      "vr": 1.4,
+      "sd": 2,
+      "sdt": [
+        "05-07",
+        "05-08"
+      ],
+      "su": true,
+      "m30": 11.13,
+      "m60": 9.67,
+      "mas": "多头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -3.6,
+      "sc": 3,
+      "sp": false,
+      "news": {
+        "h": "May 2026's Leading Growth Stocks With Insider Influence",
+        "d": "2026-05-11",
+        "se": "利好"
+      }
+    },
+    {
+      "t": "P",
+      "co": "Everpure Inc",
+      "p": 89.14,
+      "ch": 14.05,
+      "vr": 1.7,
+      "sd": 0,
+      "sdt": [],
+      "su": false,
+      "m30": 68.14,
+      "m60": 66.75,
+      "mas": "多头",
+      "cr": "金叉",
+      "cd": "05-07",
+      "fh": -1.5,
+      "sc": 3,
+      "sp": false,
+      "news": {
+        "h": "Kelly Services (KELYA) Q1 Earnings Lag Estimates",
+        "d": "2026-05-11",
+        "se": "利好"
+      }
+    },
+    {
+      "t": "TOYO",
+      "co": "TOYO Co Ltd",
+      "p": 12.95,
+      "ch": 15.14,
+      "vr": 0.7,
+      "sd": 0,
+      "sdt": [],
+      "su": false,
+      "m30": 11.23,
+      "m60": 9.67,
+      "mas": "多头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -9.6,
+      "sc": 3,
+      "sp": false,
+      "news": {
+        "h": "Toyo Co. Ltd. (TOYO) Appoints Rhone Resch as Chief Strategy Officer to Lead Global Growth",
+        "d": "2026-05-11",
+        "se": "利好"
+      }
+    },
+    {
+      "t": "DHX",
+      "co": "DHI Group Inc",
+      "p": 3.81,
+      "ch": 8.4,
+      "vr": 1.5,
+      "sd": 3,
+      "sdt": [
+        "05-05",
+        "05-07",
+        "05-08"
+      ],
+      "su": true,
+      "m30": 2.87,
+      "m60": 2.71,
+      "mas": "多头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -4.2,
+      "sc": 3,
+      "sp": false,
+      "news": {
+        "h": "DHI Group Q1 Earnings Surpass Estimates, Revenues Fall Y/Y",
+        "d": "2026-05-11",
+        "se": "利好"
+      }
+    },
+    {
+      "t": "LEDS",
+      "co": "Semileds Corp",
+      "p": 2.32,
+      "ch": 11.3,
+      "vr": 0.9,
+      "sd": 4,
+      "sdt": [
+        "05-04",
+        "05-05",
+        "05-06",
+        "05-07"
+      ],
+      "su": false,
+      "m30": 1.5,
+      "m60": 1.47,
+      "mas": "多头",
+      "cr": "金叉",
+      "cd": "05-08",
+      "fh": -2.3,
+      "sc": 3,
+      "sp": true,
+      "news": {
+        "h": "Is SemiLEDs the Fastest-Growing Semiconductor Stock?",
+        "d": "2026-05-11",
+        "se": "中性"
+      }
+    },
+    {
+      "t": "WYFI",
+      "co": "Whitefiber Inc",
+      "p": 26.71,
+      "ch": 25.69,
+      "vr": 2.1,
+      "sd": 1,
+      "sdt": [
+        "05-11"
+      ],
+      "su": true,
+      "m30": 16.06,
+      "m60": 16.07,
+      "mas": "空头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -5.5,
+      "sc": 2,
+      "sp": false,
+      "news": {
+        "h": "Bit Digital names Daniel Kennedy as head of investor relations",
+        "d": "2026-05-11",
+        "se": "中性"
+      }
+    },
+    {
+      "t": "PRSO",
+      "co": "Peraso Inc",
+      "p": 1.24,
+      "ch": 24.75,
+      "vr": 8.6,
+      "sd": 1,
+      "sdt": [
+        "05-11"
+      ],
+      "su": true,
+      "m30": 0.99,
+      "m60": 1.06,
+      "mas": "空头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -42.8,
+      "sc": 2,
+      "sp": true,
+      "news": {
+        "h": "GigaCloud Technology Inc. (GCT) Beats Q1 Earnings and Revenue Estimates",
+        "d": "2026-05-11",
+        "se": "利好"
+      }
+    },
+    {
+      "t": "GAUZ",
+      "co": "Gauzy Ltd",
+      "p": 0.44,
+      "ch": -10.53,
+      "vr": 17.1,
+      "sd": 1,
+      "sdt": [
+        "05-11"
+      ],
+      "su": true,
+      "m30": 0.67,
+      "m60": 0.64,
+      "mas": "多头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -76.7,
+      "sc": 2,
+      "sp": true,
+      "news": {
+        "h": "REFR Q1 2026 Earnings Transcript",
+        "d": "2026-05-11",
+        "se": "利好"
+      }
+    },
+    {
+      "t": "HPAI",
+      "co": "Helport AI Ltd",
+      "p": 1.29,
+      "ch": 30.82,
+      "vr": 15.5,
+      "sd": 2,
+      "sdt": [
+        "05-08",
+        "05-11"
+      ],
+      "su": true,
+      "m30": 1.5,
+      "m60": 2.11,
+      "mas": "空头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -71.8,
+      "sc": 1,
+      "sp": true,
+      "news": {
+        "h": "Should You Be Concerned About Helport AI Limited's (NASDAQ:HPAI) ROE?",
+        "d": "2026-05-11",
+        "se": "中性"
+      }
+    },
+    {
+      "t": "BNZI",
+      "co": "Banzai International Inc",
+      "p": 7.12,
+      "ch": 16.91,
+      "vr": 0.8,
+      "sd": 2,
+      "sdt": [
+        "05-07",
+        "05-08"
+      ],
+      "su": true,
+      "m30": 10.93,
+      "m60": 16.5,
+      "mas": "空头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -81.8,
+      "sc": 0,
+      "sp": true,
+      "news": {
+        "h": "Here's Why Banzai International, Inc. (BNZI) Looks Ripe for Bottom Fishing",
+        "d": "2026-05-11",
+        "se": "中性"
+      }
+    }
+  ]
+}
