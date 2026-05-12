@@ -1,0 +1,369 @@
+{
+  "date": "2026-05-12",
+  "upd": "22:30 SGT",
+  "ms": {
+    "SPY": {
+      "p": 734.45,
+      "c": -0.66
+    },
+    "QQQ": {
+      "p": 704.47,
+      "c": -1.24
+    },
+    "VIX": {
+      "p": 0,
+      "c": 0
+    },
+    "sum": "大盘下跌 SPY -0.66%，科技股 QQQ -1.24%，VIX 0.0。市场震荡，选股要精准。"
+  },
+  "stocks": [
+    {
+      "t": "QUBT",
+      "co": "Quantum Computing Inc",
+      "p": 12.61,
+      "ch": 23.87,
+      "vr": 3.9,
+      "sd": 1,
+      "sdt": [
+        "05-12"
+      ],
+      "su": true,
+      "m30": 8.71,
+      "m60": 8.2,
+      "mas": "多头",
+      "cr": "金叉",
+      "cd": "05-04",
+      "fh": -12.7,
+      "sc": 4,
+      "sp": false,
+      "news": {
+        "h": "D-Wave Falls Amid Revenue Miss. Quantum Computing Surges On Earnings.",
+        "d": "2026-05-12",
+        "se": "利好"
+      }
+    },
+    {
+      "t": "AMBQ",
+      "co": "Ambiq Micro Inc",
+      "p": 61.31,
+      "ch": 34.25,
+      "vr": 2.5,
+      "sd": 3,
+      "sdt": [
+        "05-08",
+        "05-11",
+        "05-12"
+      ],
+      "su": true,
+      "m30": 35.03,
+      "m60": 31.55,
+      "mas": "多头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -3.1,
+      "sc": 3,
+      "sp": false,
+      "news": {
+        "h": "Ambiq Micro, Inc. (AMBQ) Reports Q1 Loss, Tops Revenue Estimates",
+        "d": "2026-05-12",
+        "se": "利好"
+      }
+    },
+    {
+      "t": "USBC",
+      "co": "USBC Inc",
+      "p": 0.64,
+      "ch": 26.08,
+      "vr": 10.4,
+      "sd": 1,
+      "sdt": [
+        "05-12"
+      ],
+      "su": true,
+      "m30": 0.38,
+      "m60": 0.38,
+      "mas": "空头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -6.8,
+      "sc": 3,
+      "sp": false,
+      "news": {
+        "h": "【技术面】单日大涨26%，量比10倍极度放量，近2日突然放量信号，均线空头排列",
+        "d": "2026-05-12",
+        "se": "利好"
+      }
+    },
+    {
+      "t": "DDD",
+      "co": "3D Systems Corp",
+      "p": 3.05,
+      "ch": 21.31,
+      "vr": 2.4,
+      "sd": 1,
+      "sdt": [
+        "05-12"
+      ],
+      "su": true,
+      "m30": 2.21,
+      "m60": 2.17,
+      "mas": "多头",
+      "cr": "金叉",
+      "cd": "05-08",
+      "fh": -3.9,
+      "sc": 3,
+      "sp": false,
+      "news": {
+        "h": "3D Systems (DDD) Reports Q1 Loss, Beats Revenue Estimates",
+        "d": "2026-05-12",
+        "se": "利好"
+      }
+    },
+    {
+      "t": "KOPN",
+      "co": "Kopin Corp",
+      "p": 5.54,
+      "ch": 11.47,
+      "vr": 1.7,
+      "sd": 0,
+      "sdt": [],
+      "su": false,
+      "m30": 3.54,
+      "m60": 2.85,
+      "mas": "多头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -14.1,
+      "sc": 3,
+      "sp": false,
+      "news": {
+        "h": "Here's What Could Help Kopin (KOPN) Maintain Its Recent Price Strength",
+        "d": "2026-05-12",
+        "se": "中性"
+      }
+    },
+    {
+      "t": "NOVT",
+      "co": "Novanta Inc",
+      "p": 152.85,
+      "ch": 9.19,
+      "vr": 1.0,
+      "sd": 0,
+      "sdt": [],
+      "su": false,
+      "m30": 128.84,
+      "m60": 128.69,
+      "mas": "多头",
+      "cr": "金叉",
+      "cd": "05-12",
+      "fh": -6.2,
+      "sc": 3,
+      "sp": false,
+      "news": {
+        "h": "Novanta (NOVT) Q1 Earnings and Revenues Surpass Estimates",
+        "d": "2026-05-12",
+        "se": "利好"
+      }
+    },
+    {
+      "t": "LEDS",
+      "co": "Semileds Corp",
+      "p": 2.55,
+      "ch": 6.69,
+      "vr": 0.8,
+      "sd": 5,
+      "sdt": [
+        "05-04",
+        "05-05",
+        "05-06",
+        "05-07",
+        "05-11"
+      ],
+      "su": true,
+      "m30": 1.55,
+      "m60": 1.48,
+      "mas": "多头",
+      "cr": "金叉",
+      "cd": "05-08",
+      "fh": -0.8,
+      "sc": 3,
+      "sp": true,
+      "news": {
+        "h": "Is SemiLEDs the Fastest-Growing Semiconductor Stock?",
+        "d": "2026-05-12",
+        "se": "中性"
+      }
+    },
+    {
+      "t": "CEVA",
+      "co": "Ceva Inc",
+      "p": 38.91,
+      "ch": 6.72,
+      "vr": 0.6,
+      "sd": 1,
+      "sdt": [
+        "05-11"
+      ],
+      "su": true,
+      "m30": 26.15,
+      "m60": 22.82,
+      "mas": "多头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -2.6,
+      "sc": 3,
+      "sp": false,
+      "news": {
+        "h": "CEVA Inc (CEVA) Q1 2026 Earnings Call Highlights: Strong Licensing Gains Amidst Mixed Financial ...",
+        "d": "2026-05-12",
+        "se": "利好"
+      }
+    },
+    {
+      "t": "GCTS",
+      "co": "GCT Semiconductor Holding Inc",
+      "p": 1.68,
+      "ch": 5.27,
+      "vr": 0.6,
+      "sd": 2,
+      "sdt": [
+        "05-08",
+        "05-11"
+      ],
+      "su": true,
+      "m30": 1.37,
+      "m60": 1.28,
+      "mas": "多头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -13.6,
+      "sc": 3,
+      "sp": false,
+      "news": {
+        "h": "As SOX Crosses 10,000 for the First Time, Atomera and GCT Semiconductor Are the 2 Top-Rated Chip Sto",
+        "d": "2026-05-12",
+        "se": "中性"
+      }
+    },
+    {
+      "t": "POET",
+      "co": "POET Technologies Inc",
+      "p": 14.17,
+      "ch": 1.94,
+      "vr": 0.5,
+      "sd": 0,
+      "sdt": [],
+      "su": false,
+      "m30": 8.49,
+      "m60": 7.36,
+      "mas": "多头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -8.6,
+      "sc": 3,
+      "sp": false,
+      "news": {
+        "h": "POET Technologies (POET) Soars 27% Ahead of This Week’s Earnings",
+        "d": "2026-05-12",
+        "se": "利好"
+      }
+    },
+    {
+      "t": "ZBRA",
+      "co": "Zebra Technologies Corp",
+      "p": 257.56,
+      "ch": 18.71,
+      "vr": 1.1,
+      "sd": 0,
+      "sdt": [],
+      "su": false,
+      "m30": 224.63,
+      "m60": 222.66,
+      "mas": "多头",
+      "cr": "金叉",
+      "cd": "05-12",
+      "fh": -15.1,
+      "sc": 2,
+      "sp": false,
+      "news": {
+        "h": "Zebra Technologies (ZBRA) Tops Q1 Earnings and Revenue Estimates",
+        "d": "2026-05-12",
+        "se": "利好"
+      }
+    },
+    {
+      "t": "HPAI",
+      "co": "Helport AI Ltd",
+      "p": 1.42,
+      "ch": 11.82,
+      "vr": 0.8,
+      "sd": 2,
+      "sdt": [
+        "05-08",
+        "05-11"
+      ],
+      "su": true,
+      "m30": 1.48,
+      "m60": 2.09,
+      "mas": "空头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -68.9,
+      "sc": 1,
+      "sp": true,
+      "news": {
+        "h": "Should You Be Concerned About Helport AI Limited's (NASDAQ:HPAI) ROE?",
+        "d": "2026-05-12",
+        "se": "中性"
+      }
+    },
+    {
+      "t": "DTST",
+      "co": "Data Storage Corp",
+      "p": 4.2,
+      "ch": 1.08,
+      "vr": 1.6,
+      "sd": 1,
+      "sdt": [
+        "05-06"
+      ],
+      "su": false,
+      "m30": 4.01,
+      "m60": 4.01,
+      "mas": "空头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -18.5,
+      "sc": 1,
+      "sp": true,
+      "news": {
+        "h": "MongoDB, PubMatic, and Sprinklr Shares Skyrocket, What You Need To Know",
+        "d": "2026-05-12",
+        "se": "中性"
+      }
+    },
+    {
+      "t": "ARQQ",
+      "co": "Arqit Quantum Inc",
+      "p": 14.92,
+      "ch": -0.53,
+      "vr": 0.5,
+      "sd": 0,
+      "sdt": [],
+      "su": false,
+      "m30": 14.38,
+      "m60": 14.67,
+      "mas": "空头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -48.9,
+      "sc": 0,
+      "sp": false,
+      "news": {
+        "h": "Nvidia Sparks Quantum Stock Rally Across IONQ, RGTI, QBTS, but Fundamentals Lag Behind",
+        "d": "2026-05-12",
+        "se": "利好"
+      }
+    }
+  ]
+}
