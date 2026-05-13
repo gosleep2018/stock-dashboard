@@ -1,0 +1,394 @@
+{
+  "date": "2026-05-13",
+  "upd": "22:30 SGT",
+  "ms": {
+    "SPY": {
+      "p": 738.43,
+      "c": 0.04
+    },
+    "QQQ": {
+      "p": 708.97,
+      "c": 0.25
+    },
+    "VIX": {
+      "p": 0,
+      "c": 0
+    },
+    "sum": "大盘上涨 SPY +0.04%，科技股 QQQ +0.25%，VIX 0.0。市场震荡，选股要精准。"
+  },
+  "stocks": [
+    {
+      "t": "VELO",
+      "co": "Velo3D Inc",
+      "p": 20.38,
+      "ch": 44.95,
+      "vr": 2.7,
+      "sd": 1,
+      "sdt": [
+        "05-13"
+      ],
+      "su": true,
+      "m30": 12.94,
+      "m60": 12.29,
+      "mas": "多头",
+      "cr": "金叉",
+      "cd": "05-04",
+      "fh": -14.5,
+      "sc": 3,
+      "sp": false,
+      "news": {
+        "h": "12 Industrials Stocks Moving In Wednesday's Pre-Market Session",
+        "d": "2026-05-13",
+        "se": "中性"
+      }
+    },
+    {
+      "t": "KC",
+      "co": "Kingsoft Cloud Holdings Ltd ADR",
+      "p": 18.32,
+      "ch": 19.63,
+      "vr": 1.6,
+      "sd": 0,
+      "sdt": [],
+      "su": false,
+      "m30": 15.9,
+      "m60": 14.65,
+      "mas": "多头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -0.9,
+      "sc": 3,
+      "sp": false,
+      "news": {
+        "h": "Why Kingsoft Cloud (KC) Is Down 7.5% After Short-Borrow Costs Surge On Bearish Sentiment",
+        "d": "2026-05-13",
+        "se": "利好"
+      }
+    },
+    {
+      "t": "VIVO",
+      "co": "VivoPower Plc",
+      "p": 3.69,
+      "ch": 17.89,
+      "vr": 1.1,
+      "sd": 0,
+      "sdt": [],
+      "su": false,
+      "m30": 2.9,
+      "m60": 2.6,
+      "mas": "多头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -13.6,
+      "sc": 3,
+      "sp": true,
+      "news": {
+        "h": "VivoPower secures $1.9M EBITDA boost From Norway grid flexibility markets",
+        "d": "2026-05-13",
+        "se": "中性"
+      }
+    },
+    {
+      "t": "VPG",
+      "co": "Vishay Precision Group Inc",
+      "p": 97.29,
+      "ch": 13.7,
+      "vr": 1.0,
+      "sd": 1,
+      "sdt": [
+        "05-12"
+      ],
+      "su": true,
+      "m30": 57.72,
+      "m60": 51.0,
+      "mas": "多头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -2.8,
+      "sc": 3,
+      "sp": false,
+      "news": {
+        "h": "Vishay Precision Group Inc (VPG) Q1 2026 Earnings Call Highlights: Strong Revenue Growth Amidst ...",
+        "d": "2026-05-13",
+        "se": "利好"
+      }
+    },
+    {
+      "t": "QUIK",
+      "co": "Quicklogic Corp",
+      "p": 21.28,
+      "ch": 11.73,
+      "vr": 0.9,
+      "sd": 0,
+      "sdt": [],
+      "su": false,
+      "m30": 14.07,
+      "m60": 11.44,
+      "mas": "多头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -3.7,
+      "sc": 3,
+      "sp": false,
+      "news": {
+        "h": "QuickLogic Posts Downbeat Q1 Results, Joins Resideo Technologies And Other Big Stocks Moving Lower I",
+        "d": "2026-05-13",
+        "se": "利好"
+      }
+    },
+    {
+      "t": "VLN",
+      "co": "Valens Semiconductor Ltd",
+      "p": 3.03,
+      "ch": 12.04,
+      "vr": 0.7,
+      "sd": 1,
+      "sdt": [
+        "04-30"
+      ],
+      "su": false,
+      "m30": 1.8,
+      "m60": 1.58,
+      "mas": "多头",
+      "cr": "金叉",
+      "cd": "05-04",
+      "fh": -1.5,
+      "sc": 3,
+      "sp": false,
+      "news": {
+        "h": "Valens Semiconductor tops earnings forecasts but revenue comes in light (VLN)",
+        "d": "2026-05-13",
+        "se": "利好"
+      }
+    },
+    {
+      "t": "GDS",
+      "co": "GDS Holdings Limited ADR",
+      "p": 45.88,
+      "ch": 7.32,
+      "vr": 1.5,
+      "sd": 1,
+      "sdt": [
+        "05-06"
+      ],
+      "su": false,
+      "m30": 42.88,
+      "m60": 42.66,
+      "mas": "多头",
+      "cr": "金叉",
+      "cd": "05-12",
+      "fh": -5.6,
+      "sc": 3,
+      "sp": false,
+      "news": {
+        "h": "A Look At GDS Holdings (NasdaqGM:GDS) Valuation After Analyst Upgrades And Strong Buy Rating",
+        "d": "2026-05-13",
+        "se": "利好"
+      }
+    },
+    {
+      "t": "NVEC",
+      "co": "NVE Corp",
+      "p": 97.99,
+      "ch": 6.64,
+      "vr": 0.8,
+      "sd": 1,
+      "sdt": [
+        "05-11"
+      ],
+      "su": false,
+      "m30": 81.17,
+      "m60": 74.39,
+      "mas": "多头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -10.9,
+      "sc": 3,
+      "sp": false,
+      "news": {
+        "h": "NVE Corporation Q4 2026 Earnings Call Summary",
+        "d": "2026-05-13",
+        "se": "利好"
+      }
+    },
+    {
+      "t": "VNET",
+      "co": "VNET Group Inc ADR",
+      "p": 11.39,
+      "ch": 26.27,
+      "vr": 5.0,
+      "sd": 1,
+      "sdt": [
+        "05-13"
+      ],
+      "su": true,
+      "m30": 8.78,
+      "m60": 9.46,
+      "mas": "空头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -21.3,
+      "sc": 2,
+      "sp": false,
+      "news": {
+        "h": "Three Growth Companies With Strong Insider Ownership To Consider",
+        "d": "2026-05-13",
+        "se": "利好"
+      }
+    },
+    {
+      "t": "FEBO",
+      "co": "Fenbo Holdings Ltd",
+      "p": 1.15,
+      "ch": 6.44,
+      "vr": 1.8,
+      "sd": 2,
+      "sdt": [
+        "05-01",
+        "05-11"
+      ],
+      "su": false,
+      "m30": 1.15,
+      "m60": 1.14,
+      "mas": "多头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -16.7,
+      "sc": 2,
+      "sp": true,
+      "news": {
+        "h": "【技术面】均线多头排列",
+        "d": "2026-05-13",
+        "se": "中性"
+      }
+    },
+    {
+      "t": "HKIT",
+      "co": "Hitek Global Inc",
+      "p": 0.63,
+      "ch": -6.58,
+      "vr": 12.4,
+      "sd": 1,
+      "sdt": [
+        "05-13"
+      ],
+      "su": true,
+      "m30": 1.04,
+      "m60": 27.72,
+      "mas": "空头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -99.5,
+      "sc": 1,
+      "sp": true,
+      "news": {
+        "h": "Hitek Global Inc.'s (NASDAQ:HKIT) market cap up US$63m last week, benefiting both private companies ",
+        "d": "2026-05-13",
+        "se": "中性"
+      }
+    },
+    {
+      "t": "CLPS",
+      "co": "CLPS Inc",
+      "p": 1.0,
+      "ch": 9.36,
+      "vr": 2.5,
+      "sd": 1,
+      "sdt": [
+        "05-13"
+      ],
+      "su": true,
+      "m30": 0.92,
+      "m60": 0.97,
+      "mas": "空头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -19.7,
+      "sc": 1,
+      "sp": true,
+      "news": {
+        "h": "【技术面】近2日突然放量信号，均线空头排列",
+        "d": "2026-05-13",
+        "se": "中性"
+      }
+    },
+    {
+      "t": "KULR",
+      "co": "KULR Technology Group Inc",
+      "p": 3.46,
+      "ch": 8.47,
+      "vr": 0.9,
+      "sd": 1,
+      "sdt": [
+        "05-11"
+      ],
+      "su": false,
+      "m30": 2.56,
+      "m60": 2.64,
+      "mas": "空头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -24.5,
+      "sc": 1,
+      "sp": false,
+      "news": {
+        "h": "KULR Technology Group, Inc. Q4 2025 Earnings Call Summary",
+        "d": "2026-05-13",
+        "se": "利好"
+      }
+    },
+    {
+      "t": "ZEPP",
+      "co": "Zepp Health Corp ADR",
+      "p": 11.17,
+      "ch": 16.96,
+      "vr": 1.2,
+      "sd": 3,
+      "sdt": [
+        "05-08",
+        "05-11",
+        "05-12"
+      ],
+      "su": true,
+      "m30": 14.54,
+      "m60": 16.18,
+      "mas": "空头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -66.0,
+      "sc": 0,
+      "sp": true,
+      "news": {
+        "h": "Loss-Making Zepp Health Corporation (NYSE:ZEPP) Set To Breakeven",
+        "d": "2026-05-13",
+        "se": "利空"
+      }
+    },
+    {
+      "t": "NNDM",
+      "co": "Nano Dimension Ltd ADR",
+      "p": 1.75,
+      "ch": 8.39,
+      "vr": 1.0,
+      "sd": 2,
+      "sdt": [
+        "05-01",
+        "05-08"
+      ],
+      "su": false,
+      "m30": 1.75,
+      "m60": 1.78,
+      "mas": "空头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -24.8,
+      "sc": 0,
+      "sp": false,
+      "news": {
+        "h": "Nano Dimension (NNDM) Q1 2026 Earnings Transcript",
+        "d": "2026-05-13",
+        "se": "利好"
+      }
+    }
+  ]
+}
