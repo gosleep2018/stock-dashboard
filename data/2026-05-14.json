@@ -1,0 +1,394 @@
+{
+  "date": "2026-05-14",
+  "upd": "22:30 SGT",
+  "ms": {
+    "SPY": {
+      "p": 746.02,
+      "c": 0.5
+    },
+    "QQQ": {
+      "p": 718.23,
+      "c": 0.49
+    },
+    "VIX": {
+      "p": 0,
+      "c": 0
+    },
+    "sum": "大盘上涨 SPY +0.50%，科技股 QQQ +0.49%，VIX 0.0。市场震荡，选股要精准。"
+  },
+  "stocks": [
+    {
+      "t": "POET",
+      "co": "POET Technologies Inc",
+      "p": 18.08,
+      "ch": 25.85,
+      "vr": 0.9,
+      "sd": 0,
+      "sdt": [],
+      "su": false,
+      "m30": 9.17,
+      "m60": 7.71,
+      "mas": "多头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -12.4,
+      "sc": 3,
+      "sp": false,
+      "news": {
+        "h": "POET Technologies Shares Jump on Lumilens Supply Partnership (POET)",
+        "d": "2026-05-14",
+        "se": "利好"
+      }
+    },
+    {
+      "t": "IPWR",
+      "co": "Ideal Power Inc",
+      "p": 7.03,
+      "ch": 30.76,
+      "vr": 1.2,
+      "sd": 0,
+      "sdt": [],
+      "su": false,
+      "m30": 3.93,
+      "m60": 3.58,
+      "mas": "多头",
+      "cr": "金叉",
+      "cd": "05-05",
+      "fh": -2.2,
+      "sc": 3,
+      "sp": true,
+      "news": {
+        "h": "Ideal Power eyes high-voltage AI data center market with B-TRAN technology gaining traction",
+        "d": "2026-05-14",
+        "se": "中性"
+      }
+    },
+    {
+      "t": "USIO",
+      "co": "Usio Inc",
+      "p": 1.57,
+      "ch": 19.47,
+      "vr": 5.0,
+      "sd": 3,
+      "sdt": [
+        "05-05",
+        "05-13",
+        "05-14"
+      ],
+      "su": true,
+      "m30": 1.23,
+      "m60": 1.24,
+      "mas": "空头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -5.1,
+      "sc": 3,
+      "sp": true,
+      "news": {
+        "h": "Usio Inc (USIO) Reports Break-Even Earnings for Q1",
+        "d": "2026-05-14",
+        "se": "利好"
+      }
+    },
+    {
+      "t": "BRUN",
+      "co": "Boost Run Inc",
+      "p": 23.86,
+      "ch": 13.64,
+      "vr": 1.2,
+      "sd": 0,
+      "sdt": [],
+      "su": false,
+      "m30": 15.67,
+      "m60": 13.23,
+      "mas": "多头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -2.6,
+      "sc": 3,
+      "sp": false,
+      "news": {
+        "h": "Boost Run, Inc. (NASDAQ:BRUN) On The Verge Of Breaking Even",
+        "d": "2026-05-14",
+        "se": "中性"
+      }
+    },
+    {
+      "t": "CHRN",
+      "co": "ChronoScale Corp",
+      "p": 19.0,
+      "ch": 14.25,
+      "vr": 1.1,
+      "sd": 5,
+      "sdt": [
+        "05-05",
+        "05-06",
+        "05-07",
+        "05-11",
+        "05-13"
+      ],
+      "su": true,
+      "m30": 11.74,
+      "m60": 11.3,
+      "mas": "多头",
+      "cr": "金叉",
+      "cd": "05-08",
+      "fh": -1.9,
+      "sc": 3,
+      "sp": true,
+      "news": {
+        "h": "【技术面】近2日突然放量信号，MA30/60金叉形成，均线多头排列",
+        "d": "2026-05-14",
+        "se": "中性"
+      }
+    },
+    {
+      "t": "VIVO",
+      "co": "VivoPower Plc",
+      "p": 4.63,
+      "ch": 9.46,
+      "vr": 0.7,
+      "sd": 1,
+      "sdt": [
+        "05-13"
+      ],
+      "su": true,
+      "m30": 3.01,
+      "m60": 2.64,
+      "mas": "多头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -2.0,
+      "sc": 3,
+      "sp": true,
+      "news": {
+        "h": "VivoPower to join KBRA panel on AI infrastructure and data center capital markets",
+        "d": "2026-05-14",
+        "se": "中性"
+      }
+    },
+    {
+      "t": "WOLF",
+      "co": "Wolfspeed Inc",
+      "p": 68.46,
+      "ch": 9.36,
+      "vr": 0.7,
+      "sd": 1,
+      "sdt": [
+        "05-13"
+      ],
+      "su": true,
+      "m30": 32.44,
+      "m60": 25.21,
+      "mas": "多头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -7.2,
+      "sc": 3,
+      "sp": false,
+      "news": {
+        "h": "Wolfspeed stock soars after Citrini research highlights the chipmaker's potential",
+        "d": "2026-05-14",
+        "se": "利好"
+      }
+    },
+    {
+      "t": "WYFI",
+      "co": "Whitefiber Inc",
+      "p": 28.23,
+      "ch": 4.42,
+      "vr": 1.9,
+      "sd": 2,
+      "sdt": [
+        "05-11",
+        "05-13"
+      ],
+      "su": true,
+      "m30": 17.62,
+      "m60": 16.5,
+      "mas": "多头",
+      "cr": "金叉",
+      "cd": "05-12",
+      "fh": -4.0,
+      "sc": 3,
+      "sp": false,
+      "news": {
+        "h": "WhiteFiber Q1 revenue rises 31% to $21.9 million as colocation sales jump, net loss reaches $12 mill",
+        "d": "2026-05-14",
+        "se": "利好"
+      }
+    },
+    {
+      "t": "MOBX",
+      "co": "Mobix Labs Inc",
+      "p": 3.17,
+      "ch": 82.42,
+      "vr": 17.4,
+      "sd": 1,
+      "sdt": [
+        "05-14"
+      ],
+      "su": true,
+      "m30": 2.64,
+      "m60": 3.73,
+      "mas": "空头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -76.1,
+      "sc": 2,
+      "sp": true,
+      "news": {
+        "h": "Mobix Labs, Inc. (MOBX) Wins Defense Contract for Tomahawk Missile Components",
+        "d": "2026-05-14",
+        "se": "利空"
+      }
+    },
+    {
+      "t": "TRT",
+      "co": "Trio-Tech International",
+      "p": 13.25,
+      "ch": 23.37,
+      "vr": 0.4,
+      "sd": 0,
+      "sdt": [],
+      "su": false,
+      "m30": 10.02,
+      "m60": 7.77,
+      "mas": "多头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -30.6,
+      "sc": 2,
+      "sp": false,
+      "news": {
+        "h": "Hantavirus Outbreak Shows Need for Broad-Spectrum Antiviral Drugs",
+        "d": "2026-05-14",
+        "se": "中性"
+      }
+    },
+    {
+      "t": "KLAR",
+      "co": "Klarna Group plc",
+      "p": 15.85,
+      "ch": 15.78,
+      "vr": 2.7,
+      "sd": 2,
+      "sdt": [
+        "05-13",
+        "05-14"
+      ],
+      "su": true,
+      "m30": 14.14,
+      "m60": 13.96,
+      "mas": "多头",
+      "cr": "金叉",
+      "cd": "05-13",
+      "fh": -52.1,
+      "sc": 2,
+      "sp": false,
+      "news": {
+        "h": "Earnings live updates: Klarna stock surges, Cisco announces thousands of layoffs",
+        "d": "2026-05-14",
+        "se": "利好"
+      }
+    },
+    {
+      "t": "ALAR",
+      "co": "Alarum Technologies Ltd ADR",
+      "p": 7.18,
+      "ch": 1.84,
+      "vr": 1.0,
+      "sd": 1,
+      "sdt": [
+        "05-08"
+      ],
+      "su": false,
+      "m30": 6.89,
+      "m60": 6.78,
+      "mas": "多头",
+      "cr": "金叉",
+      "cd": "05-12",
+      "fh": -30.2,
+      "sc": 2,
+      "sp": true,
+      "news": {
+        "h": "Middle Eastern Opportunities: Dubai Islamic Insurance & Reinsurance (Aman) (P.J.S.C) And 2 Other Pro",
+        "d": "2026-05-14",
+        "se": "中性"
+      }
+    },
+    {
+      "t": "WRAP",
+      "co": "Wrap Technologies Inc",
+      "p": 1.56,
+      "ch": 8.33,
+      "vr": 2.2,
+      "sd": 1,
+      "sdt": [
+        "05-14"
+      ],
+      "su": true,
+      "m30": 1.51,
+      "m60": 1.54,
+      "mas": "空头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -51.7,
+      "sc": 1,
+      "sp": true,
+      "news": {
+        "h": "Wrap Technologies Inc (WRAP) Q1 2026 Earnings Call Highlights: Revenue Surge and Strategic ...",
+        "d": "2026-05-14",
+        "se": "利好"
+      }
+    },
+    {
+      "t": "IDN",
+      "co": "Intellicheck Inc",
+      "p": 4.71,
+      "ch": 5.89,
+      "vr": 0.8,
+      "sd": 1,
+      "sdt": [
+        "05-13"
+      ],
+      "su": true,
+      "m30": 7.8,
+      "m60": 6.5,
+      "mas": "多头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -48.1,
+      "sc": 1,
+      "sp": true,
+      "news": {
+        "h": "12 Information Technology Stocks Moving In Wednesday's Intraday Session",
+        "d": "2026-05-14",
+        "se": "中性"
+      }
+    },
+    {
+      "t": "EBON",
+      "co": "Ebang International Holdings Inc",
+      "p": 2.12,
+      "ch": 4.68,
+      "vr": 0.7,
+      "sd": 0,
+      "sdt": [],
+      "su": false,
+      "m30": 2.26,
+      "m60": 2.3,
+      "mas": "空头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -41.8,
+      "sc": 0,
+      "sp": true,
+      "news": {
+        "h": "Here’s What Analysts Are Saying About UnitedHealth Group (UNH)",
+        "d": "2026-05-14",
+        "se": "中性"
+      }
+    }
+  ]
+}
