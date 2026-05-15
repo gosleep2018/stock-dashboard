@@ -1,0 +1,248 @@
+{
+  "date": "2026-05-15",
+  "upd": "22:30 SGT",
+  "ms": {
+    "SPY": {
+      "p": 741.48,
+      "c": -0.9
+    },
+    "QQQ": {
+      "p": 710.83,
+      "c": -1.24
+    },
+    "VIX": {
+      "p": 0,
+      "c": 0
+    },
+    "sum": "大盘下跌 SPY -0.90%，科技股 QQQ -1.24%，VIX 0.0。市场震荡，选股要精准。"
+  },
+  "stocks": [
+    {
+      "t": "TRT",
+      "co": "Trio-Tech International",
+      "p": 17.1,
+      "ch": 21.97,
+      "vr": 0.4,
+      "sd": 0,
+      "sdt": [],
+      "su": false,
+      "m30": 10.42,
+      "m60": 7.99,
+      "mas": "多头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -10.5,
+      "sc": 3,
+      "sp": false,
+      "news": {
+        "h": "Hantavirus Outbreak Shows Need for Broad-Spectrum Antiviral Drugs",
+        "d": "2026-05-15",
+        "se": "中性"
+      }
+    },
+    {
+      "t": "BRUN",
+      "co": "Boost Run Inc",
+      "p": 28.63,
+      "ch": 9.95,
+      "vr": 1.6,
+      "sd": 1,
+      "sdt": [
+        "05-14"
+      ],
+      "su": true,
+      "m30": 16.34,
+      "m60": 13.56,
+      "mas": "多头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -4.1,
+      "sc": 3,
+      "sp": false,
+      "news": {
+        "h": "Boost Run, Inc. (NASDAQ:BRUN) On The Verge Of Breaking Even",
+        "d": "2026-05-15",
+        "se": "中性"
+      }
+    },
+    {
+      "t": "CHRN",
+      "co": "ChronoScale Corp",
+      "p": 19.2,
+      "ch": 7.14,
+      "vr": 0.5,
+      "sd": 6,
+      "sdt": [
+        "05-05",
+        "05-06",
+        "05-07",
+        "05-11",
+        "05-13",
+        "05-14"
+      ],
+      "su": true,
+      "m30": 12.03,
+      "m60": 11.39,
+      "mas": "多头",
+      "cr": "金叉",
+      "cd": "05-08",
+      "fh": -5.6,
+      "sc": 3,
+      "sp": true,
+      "news": {
+        "h": "【技术面】近2日突然放量信号，MA30/60金叉形成，均线多头排列",
+        "d": "2026-05-15",
+        "se": "中性"
+      }
+    },
+    {
+      "t": "DAIO",
+      "co": "Data io Corp",
+      "p": 3.13,
+      "ch": 7.73,
+      "vr": 2.6,
+      "sd": 2,
+      "sdt": [
+        "05-14",
+        "05-15"
+      ],
+      "su": true,
+      "m30": 2.61,
+      "m60": 2.63,
+      "mas": "空头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -5.0,
+      "sc": 2,
+      "sp": true,
+      "news": {
+        "h": "Data I/O Corp (DAIO) Q1 2026 Earnings Call Highlights: Transformational Acquisition and ...",
+        "d": "2026-05-15",
+        "se": "利好"
+      }
+    },
+    {
+      "t": "BIYA",
+      "co": "Baiya International Group Inc",
+      "p": 1.24,
+      "ch": 60.41,
+      "vr": 1.2,
+      "sd": 0,
+      "sdt": [],
+      "su": false,
+      "m30": 1.18,
+      "m60": 1.37,
+      "mas": "空头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -85.9,
+      "sc": 1,
+      "sp": true,
+      "news": {
+        "h": "BIYA Bets on BNB With $1M Crypto Strategy — Buybacks Could Tie Gains Directly to Shareholders",
+        "d": "2026-05-15",
+        "se": "利好"
+      }
+    },
+    {
+      "t": "HUBC",
+      "co": "Hub Cyber Security Ltd",
+      "p": 0.17,
+      "ch": 15.53,
+      "vr": 5.6,
+      "sd": 3,
+      "sdt": [
+        "05-11",
+        "05-13",
+        "05-15"
+      ],
+      "su": true,
+      "m30": 3.09,
+      "m60": 20.19,
+      "mas": "空头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -100.0,
+      "sc": 1,
+      "sp": true,
+      "news": {
+        "h": "HUB Security signs perpetual KYC, compliance services agreement with Kyrrex",
+        "d": "2026-05-15",
+        "se": "中性"
+      }
+    },
+    {
+      "t": "FIG",
+      "co": "Figma Inc",
+      "p": 23.64,
+      "ch": 16.8,
+      "vr": 2.0,
+      "sd": 1,
+      "sdt": [
+        "05-14"
+      ],
+      "su": true,
+      "m30": 19.29,
+      "m60": 22.59,
+      "mas": "空头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -37.9,
+      "sc": 1,
+      "sp": false,
+      "news": {
+        "h": "Earnings live updates: Applied Materials stock rises on strong AI de, Figma stock surges",
+        "d": "2026-05-15",
+        "se": "利好"
+      }
+    },
+    {
+      "t": "JFU",
+      "co": "9F Inc ADR",
+      "p": 4.19,
+      "ch": 5.81,
+      "vr": 1.6,
+      "sd": 1,
+      "sdt": [
+        "05-13"
+      ],
+      "su": false,
+      "m30": 3.21,
+      "m60": 3.66,
+      "mas": "空头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -44.0,
+      "sc": 1,
+      "sp": true,
+      "news": {
+        "h": "With EPS Growth And More, 9F (NASDAQ:JFU) Makes An Interesting Case",
+        "d": "2026-05-15",
+        "se": "利好"
+      }
+    },
+    {
+      "t": "GLOB",
+      "co": "Globant SA",
+      "p": 38.53,
+      "ch": 13.04,
+      "vr": 1.8,
+      "sd": 0,
+      "sdt": [],
+      "su": false,
+      "m30": 42.94,
+      "m60": 44.7,
+      "mas": "空头",
+      "cr": "无穿越",
+      "cd": "",
+      "fh": -46.1,
+      "sc": 0,
+      "sp": false,
+      "news": {
+        "h": "Globant Q1 Earnings Call Highlights",
+        "d": "2026-05-15",
+        "se": "利好"
+      }
+    }
+  ]
+}
